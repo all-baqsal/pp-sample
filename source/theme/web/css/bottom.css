@@ -1,0 +1,20 @@
+@charset "utf-8";
+
+/*bottom_wrap*/
+#bottom_wrap{width:1000px; overflow:hidden; margin:0 auto;}
+#bot1{width:1000px; overflow:hidden; margin-top:30px;}
+#bot1 h4{margin-bottom:10px;}
+#bot1 address{font-style:normal;}
+#bot_left, #bot_center, #bot_right{width:325px; height:100px;}
+#bot_left, #bot_center{background:url(../images/login/bar_long.png) no-repeat right center;}
+#bot_left{float:left;}
+#bot_center{float:left; margin-left:10px;}
+#bot1 strong.info_check:hover{text-decoration:underline; cursor:pointer;}
+#bot_right{float:right;}
+
+#bot2{clear:both; width:1000px; overflow:hidden; margin-top:30px; border-top:1px solid #ccc; border-bottom:1px solid #ccc; text-align:center; padding:15px 0;}
+#bot2 figure{float:left; width:190px; cursor:pointer;}
+#bot2 figcaption{display:inline-block; text-align:left; vertical-align:top; margin-left:5px; letter-spacing:-0.5px;}
+
+#bot3{clear:both; margin-top:30px; margin-bottom:50px;}
+#bot3 strong{display:inline-block; color:#A5B2BD; padding-bottom:10px;}

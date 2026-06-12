@@ -1,0 +1,53 @@
+@charset "utf-8";
+
+@font-face {
+  font-family:'am';
+  src: url('../fonts/ENGARM.eot');
+  src: local(※), url('../fonts/ENGARM.woff') format('woff')
+}
+
+@font-face {
+  font-family:'amb';
+  src: url('../fonts/ENGARMB.eot');
+  src: local(※), url('../fonts/ENGARMB.woff') format('woff')
+}
+
+@font-face {
+  font-family:'nm';
+  src: url('../fonts/NanumMyeongjo.eot');
+  src: local(※), url('../fonts/NanumMyeongjo.woff') format('woff')
+}
+
+
+@font-face {
+  font-family:'nmb';
+  src: url('../fonts/NanumMyeongjoBold.eot');
+  src: local(※), url('../fonts/NanumMyeongjoBold.woff') format('woff')
+}
+
+
+@font-face {
+  font-family: 'ng';
+  src: url('../fonts/NanumGothic.eot');
+  src: local(※), url('../fonts/NanumGothic.woff') format('woff')
+}
+
+
+@font-face {
+  font-family: 'ngb';
+  src: url('../fonts/NanumGothicBold.eot');
+  src: local(※), url('../fonts/NanumGothicBold.woff') format('woff')
+}
+
+@font-face {
+  font-family: 'cb';
+  src: url('../fonts/corbelb.eot');
+  src: local(※), url('../fonts/corbelb.woff') format('woff')
+}
+
+
+@font-face {
+  font-family: 'c';
+  src: url('../fonts/corbel.eot');
+  src: local(※), url('../fontscorbel.woff') format('woff')
+}

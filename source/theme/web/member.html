@@ -1,0 +1,169 @@
+<!DOCTYPE HTML>
+<html lang="ko">
+<head>
+<meta charset="UTF-8">
+<title>Gmarket Member</title>
+<!--[if lt IE 9]>
+<script src="js/html5shiv.js"></script>
+<![endif]-->
+<script src="js/jquery-1.12.0.min.js"></script>
+<script src="js/jquery-1.8.3.min.js"></script>
+<script src="js/jq_login.js"></script>
+<link rel="stylesheet" type="text/css" href="css/reset.css" media="all" />
+<link rel="stylesheet" type="text/css" href="css/member_layout.css" media="all" />
+</head>
+<body>
+<header id="top_wrap">
+	<div id="top">
+		<div id="top_left">
+			<p class="top_p"><a href="index.html"><img src="images/login/s_logo.png" alt="Gmarket_small_logo" width="114" height="27"></a></p>
+			<div class="select_wrap">
+				<p class="select1">홈메뉴</p>
+				<ul class="homemenu">
+					<li><a href="best.html">베스트</a></li>
+					<li><a href="coupon.html">쿠폰존</a></li>
+					<li><a href="superdeal.html">슈퍼딜</a></li>
+					<li><a href="smartdeil.html">스마트배송</a></li>
+					<li><a href="homeplus.html">홈플러스</a></li>
+				</ul><!--homemenu-->
+			</div><!--select_wrap-->
+		</div><!--top_left-->
+		<ul id="quick_menu">
+			<li class="li1"><a href="login.html">로그인</a></li>
+			<li><a href="member.html">회원가입</a></li>
+			<li><a href="login.html">나의쇼핑</a></li>
+			<li><a href="bag.html">장바구니</a></li>
+		</ul><!--quick_menu-->
+	</div><!--top-->
+</header><!--top-wrap-->
+
+<div id="content_wrap">
+	<h1><a href="index.html"><img src="images/index/logo.jpg" alt="G마켓" width="180" height="52"/></a></h1>
+	<form action="member.asp" method="post" id="memform">
+		<h2><img src="images/member/h2_tit_join.png" alt="회원가입" /></h2>
+		<h3><img src="images/member/h3_tit_info_enter02.jpg" alt="1정보입력" /></h3>
+		<div id="info1">
+			<p><input type="text" placeholder="이름" class="box1" autofocus="autofocus"/></p>
+			<p><input type="text" placeholder="아이디" class="box2"/> <input type="button" value="중복확인" class="box3" /></p>
+			<p><input type="password" placeholder="비밀번호" class="box1"/></p>
+			<p id="line4">
+			<select id="tel" class="box4">
+				<option value="tel_number">휴대폰 번호 선택</option>
+				<option value="010">010</option>
+				<option value="011">011</option>
+				<option value="0130">0130</option>
+				<option value="016">016</option>
+				<option value="017">017</option>
+				<option value="018">018</option>
+				<option value="019">019</option>
+			</select>
+			 - <input type="tel" class="box5"/> - <input type="tel" class="box5"/>
+			</p>
+			<p>
+				<input type="email" placeholder="이메일" class="box6">@<select id="email" class="box7">
+					<option value="mail_add">선택</option>
+					<option value="naver">naver.com</option>
+					<option value="hanmail">hanmail.net</option>
+					<option value="daum">daum.net</option>
+					<option value="nate">nate.com</option>
+					<option value="gmail">gmail.com</option>
+					<option value="hotmail">hotmail.com</option>
+					<option value="write">직접입력</option>
+				</select>
+			</p>
+		</div><!--info1-->
+		<h3><img src="images/member/h3_tit_terms_agree02.jpg" alt="2약관동의" /></h3>
+	<div id="agree1">
+		<p class="btxt">G마켓 이용약관</p>
+		<textarea cols="120" rows="4" readonly="readonly">1. 회원의 주소 또는 e-mail주소에 도달함으로써 회사의 통지는 유효하고, 회원 정보의 변경/미 변경에 대한 책임은 회원에게 있음. (제8조)
+		2. 약관이 정하는 부정거래 행위를 한 회원에 대하여 제재 조치 가능 예: 직거래, 경매 부정행위, 시스템 부정행위, 결제 부정행위, 재판매 목적의 거래행위 등. (제36조)
+		3. G마켓은 통신판매중개자로서 판매자와 구매자와의 거래에 관한 분쟁에 개입하지 않으며 어떠한 보증 및 책임도 부담하지 않음. (제6조, 제38조)</textarea>
+		<p class="btxt">전자금융거래 이용약관</p>
+		<textarea cols="120" rows="5" readonly="readonly">1. 접근매체의 양도∙양수, 대여∙사용위임, 질권설정 기타 담보 제공 및 이의 알선과 접근매체를 제3자에게 누설∙노출,방치하는 것은 금지됨. (제17조, 제21조, 제23조)
+		2. 소비자가 재화 등을 공급받은 날부터 3 영업일이 지나도록 정당한 사유의 제시 없이 그 공급받은 사실을 통보하지 않는 경우 소비자의 동의 없이 판매자에게 결제대금을 지급할 수 있으며, 회사가 결제대금을 지급하기 전에 소비자가 그 결제대금을 환급 받을 사유가 발생한 경우 이를 소비자에게 환급함. (제19조)
+		3. 이용자의 선불전자지급수단 잔액이 구매 취소 등의 사유 발생으로 회사가 이용자로부터 환수해야 하는 환수 대상액보다 작을 경우 회사는 당해 이용자의 선불전자지급수단을 마이너스로 처리할 수 있음. (제27조)</textarea>
+		<p class="btxt">개인정보 수집 및 이용</p>
+		<textarea cols="120" rows="10" readonly="readonly">
+		수집하는 개인정보 항목은 다음과 같다.
+		회사는 회원가입, 상담, 서비스 이용 등을 위해 아래와 같은 개인정보를 수집하고 있으며, 이용자가 회사의 개인정보 취급방침 또는 이용약관의 내용에 대해 ‘동의함’ 또는 ‘동의 안 함’을 선택할 수 있는 절차를 마련하여, '동의함'을 선택하면 개인정보 수집에 대해 동의한 것으로 봅니다.
+
+		수집 항목은 다음과 같다.
+		필수항목: 이름, 생년월일, 성별, 로그인 ID, 비밀번호, 이메일 주소, 이동전화번호, 서비스 이용기록, 접속 로그, 쿠키, 접속 IP 정보
+		모바일기기 설치 시 필수항목: 이름, 생년월일, 성별, 로그인 ID, 비밀번호, 이메일 주소, 이동전화번호, 단말기 기종, 단말기 OS 정보, AdID/IDFA
+		선택항목: 은행계좌 정보, 포인트 교환 관련 타사서비스 ID
+		서비스 이용과정에서 아래와 같은 정보들이 자동으로 생성되어 수집될 수 있습니다.
+		불량 이용 기록
+		수집 방법 : 서비스(회원가입, 고객센터 게시판) 및 고객센터를 통한 전화 및 온라인 상담
+		개인정보의 수집 및 이용목적
+		회사는 수집한 개인정보를 다음의 목적을 위해 활용합니다.
+		</textarea>
+		<ul>
+			<li>만14세 미만은 법정대리인 동의 후 회원서비스 이용이 가능합니다.</li>
+			<li>선택약관에 동의하지 않아도 회원가입은 가능합니다.</li>
+		</ul>
+		<p class="agreep">G마켓 약관과 개인정보 수집 및 이용을 확인하였으며 이에 동의하십니까?</p>
+		<div>
+			<input type="checkbox" value="yes" id="yes"/><label for="yes">예 </label><input type="checkbox" value="no" id="no"/><label for="no">아니오</label>
+		</div>
+		<p class="bt">
+			<input type="image" src="images/member/btn_ok.jpg" alt="동의" width="144" height="43"/>
+			<input type="image" src="images/member/btn_cancel.jpg" alt="취소" width="144" height="43"/>
+		</p>
+		</div><!--agree1-->
+	</form><!--memform-->
+</div><!--content_wrap-->
+
+<footer id="bottom_wrap">
+	<div id="bot1">
+		<div id="bot_left">
+			<h4>고객센터</h4>
+			<p>상담가능시간 : 오전 9시~오후 6시 (토요일 및 공휴일은 휴무)</p> 
+			<address>경기도 부천시 원미구 부일로 223 (상동) 투나빌딩 6층</address>
+			<p>Tel : 1566-5701 전화전 Click Fax : 02-589-8842</p> 
+			<p>Mail : gmarket@corp.gmarket.co.kr</p>
+		</div>
+		<div id="bot_center">
+			<h4>(주)이베이코리아</h4>
+			<address>서울시 강남구 테헤란로 152 (역삼동 강남파이낸스센터)</address>
+			<p>대표이사 : 변광윤</p>
+			<p>사업자등록번호 : 220-81-83676 <strong class="info_check">사업자정보확인</strong></p>
+			<p>통신판매업신고 : 강남 10630호 Fax : 02-589-8842</p>
+		</div><!--bot_center-->
+		<div id="bot_right">
+			<h4>전자금융분쟁처리</h4>
+			<p>Tel : 1566-5701 Fax : 02-589-8844</p>
+			<p>Mail : gmk_cs@corp.gmarket.co.kr</p>
+			<p><strong class="info_check">저작권침해 신고</strong></p>
+		</div><!--bot_right-->
+	</div><!--bot1-->
+	<div id="bot2">
+		<figure class="rank1">
+			<img src="images/bottom/rank_img1.jpg" alt="국가고객만족지수" width="35" height="33"/>
+			<figcaption>국가고객만족지수<br>1위 (2011, 2014)</figcaption>
+		</figure><!--rank1-->
+		<figure class="rank2">
+			<img src="images/bottom/rank_img2.jpg" alt="한국산업의 브랜드파워" width="35" height="33"/>
+			<figcaption>한국산업의 브랜드파워<br>5년 연속 1위 (2011~2015)</figcaption>
+		</figure><!--rank2-->
+		<figure class="rank3">
+			<img src="images/bottom/rank_img3.jpg" alt="최고의 브랜드대상" width="35" height="33"/>
+			<figcaption>최고의 브랜드대상<br>4년 연속 1위 (2012~2015)</figcaption>
+		</figure><!--rank3-->
+		<figure class="rank4">
+			<img src="images/bottom/rank_img4.jpg" alt="국가고객만족지수" width="35" height="33"/>
+			<figcaption>국가고객만족지수<br>1위 (2011, 2014)</figcaption>
+		</figure><!--rank4-->
+		<figure class="rank5">
+			<img src="images/bottom/rank_img5.jpg" alt="Smart Brand" width="35" height="33"/>
+			<figcaption>Smart Brand<br>온라인유통 부문 1위(2014)</figcaption>
+		</figure><!--rank5-->
+	</div><!--bot2-->
+	<div id="bot3">
+		<p>(주) 이베이코리아의 사전 서면 동의 없이 G마켓사이트의 일체의 정보, 콘텐츠 및 UI등을 상업적 목적으로 전재, 전송, 스크래핑 등 무단 사용할 수 없습니다.<br>
+		<strong>G마켓은 통신판매중개자이며 통신판매의 당사자가 아닙니다. 따라서 G마켓은 상품·거래정보 및 거래에 대하여 책임을 지지 않습니다.</strong><br>
+		Copyright &copy; eBay Korea Co., Ltd. All rights reserved.
+		</p>
+	</div><!--bot3-->
+</footer><!--bottom_wrap-->
+</body>
+</html>

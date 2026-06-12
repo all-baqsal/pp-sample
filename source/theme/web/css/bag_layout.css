@@ -1,0 +1,41 @@
+@charset "utf-8";
+@import url('top.css');
+@import url('bottom.css');
+
+a{text-decoration:none; color:#666;}
+body{font:normal 12px/1.5em "nanum",sans-serif; color:#666;}
+input{border:1px solid #999;}
+
+@font-face{
+	font-family:nanum;
+	src:url('../font/NanumGothic.eot');
+	src:url('../font/NanumGothic.eot?#iefix')format('embedded-opentype'),
+	    url('../font/NanumGothic.ttf')format('truetype'),
+		url('../font/NanumGothic.woff')format('woff');
+}
+
+/*content_wrap*/
+#content_wrap{width:100%; height:700px; border-bottom: 1px solid #ccc;}
+#content{width:1000px; height:700px; margin:0 auto;}
+h2#content_title{margin-top: 35px; background: url(../images/bag/bg_title.png) no-repeat left center; height: 30px; padding-left: 40px; font-size: 16px; font-weight: bold; line-height: 30px;}
+ul.current_path{margin-top: 15px; padding: 5px 30px; border-bottom: 1px solid #ccc; border-top: 1px solid #ccc; height: 30px;}
+ul.current_path li{float:left; background: url(../images/bag/bg_arrow.png) no-repeat left center; padding-left: 15px;margin-right: 10px;}
+ul.current_path li:first-child{background: none;}
+ul.current_path li a{font-weight: bold; line-height: 30px;}
+ul.current_path li:first-child a{color:#3b78ce;}
+
+#content1{margin-top: 40px;}
+.txt_wrap{width:990px; height:30px;}
+.txt_wrap p{float:left;}
+.bag_txt1{margin: 0 10px;}
+.bag_txt2{cursor: pointer;}
+.bag_txt3{margin: 0 10px; width:50px; height:18px; line-height: 18px; border:1px solid #999; background-color: #ddd; color:#666; text-align: center; cursor: pointer;}
+
+
+.txt_box{clear: both; width:990px; height:315px; border:1px solid #999; margin: 0 5px; text-align: center; line-height: 315px; font-size: 16px; font-weight: bold; color: #333;}
+
+.btn_wrap{position:relative; margin-top: 60px; margin-left: 400px; }
+.txt_btn1,.txt_btn2{position:absolute; left:0; top:0;}
+.txt_btn1{text-align: center; width:180px; height:50px; color:#fff; background-color: #035ace; line-height: 50px; font-size: 20px; font-weight: bold; letter-spacing: 2px; cursor: pointer; z-index:2;}
+.txt_btn2{text-align: center; width:178px; height:48px; color:#035ace; background-color: #fff; border:1px solid #035ace; line-height: 50px; font-size: 20px; font-weight: bold; letter-spacing: 2px; cursor: pointer;}
+

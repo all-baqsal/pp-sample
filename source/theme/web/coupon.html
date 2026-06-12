@@ -1,0 +1,254 @@
+<!DOCTYPE HTML>
+<html lang="ko">
+<head>
+<meta charset="UTF-8">
+<title>Gmarket Coupon</title>
+<!--[if lt IE 9]>
+<script src="js/html5shiv.js"></script>
+<![endif]-->
+<script src="js/jquery-1.12.0.min.js"></script>
+<script src="js/jquery-1.7.2.min.js"></script><!--totop-->
+<script src="js/jquery.ui.totop.min.js"></script><!--totop-->
+<script src="js/jq_coupon.js"></script>
+<script src="js/jq_top.js"></script>
+<script src="js/jq_quick.js"></script>
+<script src="js/easing.js"></script><!--totop-->
+<script>//totop
+	$(document).ready(function() {
+		$().UItoTop({ easingType: 'easeOutQuart' });
+	});
+</script>
+
+<link rel="stylesheet" type="text/css" href="css/ui.totop.css" /><!--totop-->
+<link rel="shortcut icon" type="image/x-icon" href="images/favicon.ico">
+<link rel="stylesheet" type="text/css" href="css/reset.css" media="all" />
+<link rel="stylesheet" type="text/css" href="css/coupon_layout.css" media="all" />
+
+</head>
+<body>
+
+<div id="top_wrap">
+	<header id="top">
+		<h1 class="title1"><a href="index.html"><img src="images/index/logo.jpg" alt="Gmarget" width="180" height="52"></a></h1>
+		<p class="search"><input type="text" class="search_txt"></p>
+		<a href="#" class="search_img"><img src="images/index/search_img.png" alt="search_img" width="39" height="38"/></a>
+		<div class="quick">
+			<p class="quick_img">
+			     <img src="images/index/quick_banner1.jpg" alt="quick_img" width="190" height="88" data-num="1"/><img src="images/index/quick_banner2.jpg" alt="quick_img" width="190" height="88" data-num="2"/><img src="images/index/quick_banner3.jpg" alt="quick_img" width="190" height="88" data-num="3"/><img src="images/index/quick_banner4.jpg" alt="quick_img" width="190" height="88" data-num="4"/>
+            </p><!--quick_img-->
+			<div class="quick_txt_wrap">
+                <p class="quick_txt1"><span class="q_val">1</span> / 4</p>
+                <p class="quick_txt2"><a href="#"><img src="images/index/t_arrow_left.png" alt="q_arrow_left" width="12" height="12" class="q_arrow_left"></a></p>
+                <p class="quick_txt3"><a href="#"><img src="images/index/t_arrow_right.png" alt="q_arrow_right" width="12" height="12" class="q_arrow_right"></a></p>
+			</div><!--quick_txt_wrap-->
+		</div><!--quick-->
+		<nav id="main_menu">
+			<ul>
+				<li><a href="best.html">베스트</a></li>
+				<li><a href="coupon.html">쿠폰존</a></li>
+				<li><a href="superdeal.html">슈퍼딜</a></li>
+				<li><a href="smartdeli.html">스마트배송</a></li>
+				<li><a href="homeplus.html">홈플러스</a></li>
+			</ul>
+		</nav><!--main_menu-->
+		<div id="quick_menu">
+			<ul>
+				<li class="quick_menu1"><a href="login.html">로그인</a></li>
+				<li class="quick_menu2"><a href="member.html">회원가입</a></li>
+				<li class="quick_menu3"><a href="login.html">나의쇼핑</a></li>
+				<li class="quick_menu4"><a href="bag.html">장바구니</a></li>
+			</ul>
+		</div><!--quick_menu-->
+	</header><!--top-->
+</div><!--top_wrap-->
+
+<section id="content_wrap">
+	<div id="content_title">
+		<h2>G마켓<span>쿠폰존</span></h2>
+	</div><!--content_title-->
+	<p class="title_p">고객님이 보유하신 혜택을 확인하시려면 <a href="login.html">로그인</a>하세요.</p>
+	<div id="banner_wrap">
+		<a href="#"><img src="images/coupon/top_banner.jpg" alt="2월의 쿠폰" width="978" height="153"/></a>
+		<div class="slide_banner">
+			<a href="#"><img src="images/coupon/slide_ban1.jpg" alt="slide_banner1" width="978" height="183" class="banner1"/><img src="images/coupon/slide_ban2.jpg" alt="slide_banner2" width="978" height="183" class="banner2"/><img src="images/coupon/slide_ban3.jpg" alt="slide_banner3" width="978" height="183" class="banner3"/><img src="images/coupon/slide_ban4.jpg" alt="slide_banner4" width="978" height="183" class="banner4"/></a>
+			<p><img src="images/coupon/left_arrow.png" alt="coupon_left_arrow" width="22" height="47" class="coupon_left_arrow"/><img src="images/coupon/right_arrow.png" alt="coupon_right_arrow" width="22" height="47" class="coupon_right_arrow"/></p>
+			<p class="dot"><img src="images/coupon/dot_on.png" alt="dot" width="10" height="10" data-num="1"/><img src="images/coupon/dot_off.png" alt="dot" width="10" height="10" data-num="2"/><img src="images/coupon/dot_off.png" alt="dot" width="10" height="10" data-num="3"/><img src="images/coupon/dot_off.png" alt="dot" width="10" height="10" data-num="4"/></p>
+		</div><!--slide_banner-->
+	</div><!--banner_wrap-->
+		
+	<div id="content">
+		<div id="content_inner">
+			<div class="content1">
+				<h3 class="cont_txt1"><strong>등급전용혜택</strong><span class="info">쿠폰사용 안내</span></h3>
+                <div class="coupon_notice">
+                    <p class="coupon_txt1">NOTICE <span class="c_notice_close">[닫기]</span></p>
+                    <p class="coupon_txt2">등급 기준 및 등급 전용 혜택 안내</p>
+                    <p class="coupon_txt3">[G마켓 멤버십]</p>
+                    <ul class="coupon_txt4">
+                       <li>- 최근 1년간 구매건수에 따라 매월 1일 등급이 조정되며, 등급이 높아질수록 혜택은 더블이 됩니다.</li>
+                       <li>- 한번 상향된 등급은 1년간 유지되어 한번 SVIP 고객은 일 년 내내 SVIP 혜택이 유지됩니다.</li>
+                       <li>- SVIP 고객님은 고객센터 연결 시 빠른 문제해결을 위해 SVIP 전용 고객센터로 자동 연결됩니다.</li>
+                        <li>- 구매건수는 결제완료시 +1, 취소 및 반품 시 -1로 계산됩니다.</li>           
+                    </ul>
+                    <p class="coupon_txt3">[등급 전용 혜택 안내]</p>
+                    <ul class="coupon_txt4">
+                       <li>- ID당 1회 발급 가능하며, 당월 1일 9시 부터 말일 자정까지 발급/사용 가능</li>
+                       <li>- 양곡, 상품권, 순금, 중고상품, e쿠폰, 실시간항공권 등 일부 상품 제외</li>
+                       <li>- 등급 전용 혜택은 당사 사정에 따라 변경될 수 있음</li>
+                    </ul>
+                </div><!--coupon_notice-->
+				<p class="cont_txt2">G마켓 등급혜택이 새로워졌습니다.</p>
+				<p class="cont_txt3">등급은 심플하게, 혜택은 강력하게! 더블할인 멤버십</p>
+			</div><!--cont_txt-->
+
+			<div id="content_inner2">
+				<div class="content2">
+					<p class="tit">SVIP 등급</p>
+					<figure>
+						<img src="images/coupon/coupon1_1.jpg" alt="할인쿠폰" width="176" height="81"/>
+						<figcaption>쿠폰 받기</figcaption>
+					</figure>
+					<figure>
+						<img src="images/coupon/coupon1_2.jpg" alt="할인쿠폰" width="176" height="81"/>
+						<figcaption>쿠폰 받기</figcaption>
+					</figure>
+					<figure>
+						<img src="images/coupon/coupon1_3.jpg" alt="할인쿠폰" width="176" height="81"/>
+						<figcaption>쿠폰 받기</figcaption>
+					</figure>
+					<figure>
+						<img src="images/coupon/coupon1_4.jpg" alt="할인쿠폰" width="176" height="81"/>
+						<figcaption>쿠폰 받기</figcaption>
+					</figure>
+				</div><!--content2-->
+
+				<div class="content3">
+					<p class="tit">이달의 스페셜 혜택</p>
+					<figure>
+						<img src="images/coupon/coupon2_1.jpg" alt="할인쿠폰" width="215" height="80"/>
+						<figcaption>쿠폰 받기</figcaption>
+					</figure>
+					<figure>
+						<img src="images/coupon/coupon2_2.jpg" alt="할인쿠폰" width="215" height="80"/>
+						<figcaption>쿠폰 받기</figcaption>
+					</figure>
+					<figure>
+						<img src="images/coupon/coupon2_3.jpg" alt="할인쿠폰" width="215" height="80"/>
+						<figcaption>쿠폰 받기</figcaption>
+					</figure>
+				</div><!--content3-->
+
+				<div class="content4">
+					<p class="tit">웰컴&컴백 혜택</p>
+					<figure>
+						<img src="images/coupon/coupon3_1.jpg" alt="할인쿠폰" width="215" height="80"/>
+						<figcaption>쿠폰 받기</figcaption>
+					</figure>
+					<figure>
+						<img src="images/coupon/coupon3_2.jpg" alt="할인쿠폰" width="215" height="80"/>
+						<figcaption>쿠폰 받기</figcaption>
+					</figure>
+				</div><!--content4-->
+			</div><!--content_inner2-->
+		</div><!--content_inner-->
+	</div><!--content-->
+	<div id="benefit_wrap">
+		<p class="benefit_txt">더 많은 혜택을 확인해 보세요</p>
+		<div class="benefit">
+			<div class="benefit1">
+				<p><img src="images/coupon/benefit1.jpg" alt="benefit1" width="223" height="223"/></p>
+				<p class="benefit_txt1">G배달 이벤트&혜택</p>
+				<p class="benefit_txt2">음식배달 할인&적립혜택을 한눈에!</p>
+				<p class="benefit_txt3">이벤트 보기</p>
+			</div><!--benefit1-->
+			<div class="benefit2">
+				<p><img src="images/coupon/benefit2.jpg" alt="benefit2" width="223" height="223"/></p>
+				<p class="benefit_txt1">여행 쿠폰북</p>
+				<p class="benefit_txt2">여행을 사랑하는 사람들을 위한 특별혜택!</p>
+				<p class="benefit_txt3">이벤트 보기</p>
+			</div><!--benefit2-->
+			<div class="benefit3">
+				<p><img src="images/coupon/benefit3.jpg" alt="benefit3" width="225" height="225"/></p>
+				<p class="benefit_txt1">G마켓 사업자 전용혜택</p>
+				<p class="benefit_txt2">사업자 회원 전용 반값 상품 & 쿠폰 혜택!</p>
+				<p class="benefit_txt3">이벤트 보기</p>
+			</div><!--benefit3-->
+		</div><!--benefit-->
+	</div><!--benefit_wrap-->
+</section><!--content_wrap-->
+
+<section id="partner_warp">
+	<h2 class="txt1">G마켓 파트너스</h2>
+	<ul class="partner1">
+		<li><a href="http://lotte.gmarket.co.kr/"><img src="images/bottom/partner1.jpg" alt="롯데백화점" width="120" height="40"/></a></li>
+		<li><a href="http://minishop.gmarket.co.kr/shinsegae9"><img src="images/bottom/partner2.jpg" alt="신세계백화점" width="120" height="40"/></a></li>
+		<li><a href="http://minishop.gmarket.co.kr/hdepart01"><img src="images/bottom/partner3.jpg" alt="현대백화점" width="120" height="40"/></a></li>
+		<li><a href="http://minishop.gmarket.co.kr/galleriamall"><img src="images/bottom/partner4.jpg" alt="갤러리아백화점" width="120" height="40"/></a></li>
+		<li><a href="http://shop.gmarket.co.kr/Homeplus/Homeplus.aspx"><img src="images/bottom/partner5.jpg" alt="홈플러스" width="120" height="40"/></a></li>
+		<li><a href="http://minishop.gmarket.co.kr/debec"><img src="images/bottom/partner6.jpg" alt="대구백화점" width="120" height="40"/></a></li>
+	</ul><!--partner1-->
+
+	<ul class="partner2">
+		<li><a href="http://promotion.gmarket.co.kr/planview/plan.asp?sid=145279"><img src="images/bottom/partner7.jpg" alt="코카콜라" width="120" height="40"/></a></li>
+		<li><a href="http://promotion.gmarket.co.kr/planview/plan.asp?sid=139089"><img src="images/bottom/partner8.jpg" alt="마이크로소프트" width="120" height="40"/></a></li>
+		<li><a href="http://minishop.gmarket.co.kr/amorepacificmall"><img src="images/bottom/partner9.jpg" alt="아모레퍼시픽" width="120" height="40"/></a></li>
+		<li><a href="http://promotion.gmarket.co.kr/planview/plan.asp?sid=141855"><img src="images/bottom/partner10.jpg" alt="우리카드" width="120" height="40"/></a></li>
+		<li><a href="http://promotion.gmarket.co.kr/planview/plan.asp?sid=140258"><img src="images/bottom/partner11.jpg" alt="신한카드" width="120" height="40"/></a></li>
+		<li><a href="http://minishop.gmarket.co.kr/adidaskorea"><img src="images/bottom/partner12.jpg" alt="아디다스" width="120" height="40"/></a></li>
+	</ul><!--partner2-->
+</section><!--partner_warp-->
+
+<footer id="bottom_wrap">
+	<div id="bot1">
+		<div id="bot_left">
+			<h4>고객센터</h4>
+			<p>상담가능시간 : 오전 9시~오후 6시 (토요일 및 공휴일은 휴무)</p> 
+			<address>경기도 부천시 원미구 부일로 223 (상동) 투나빌딩 6층</address>
+			<p>Tel : 1566-5701 전화전 Click Fax : 02-589-8842</p> 
+			<p>Mail : gmarket@corp.gmarket.co.kr</p>
+		</div>
+		<div id="bot_center">
+			<h4>(주)이베이코리아</h4>
+			<address>서울시 강남구 테헤란로 152 (역삼동 강남파이낸스센터)</address>
+			<p>대표이사 : 변광윤</p>
+			<p>사업자등록번호 : 220-81-83676 <strong class="info_check">사업자정보확인</strong></p>
+			<p>통신판매업신고 : 강남 10630호 Fax : 02-589-8842</p>
+		</div><!--bot_center-->
+		<div id="bot_right">
+			<h4>전자금융분쟁처리</h4>
+			<p>Tel : 1566-5701 Fax : 02-589-8844</p>
+			<p>Mail : gmk_cs@corp.gmarket.co.kr</p>
+			<p><strong class="info_check">저작권침해 신고</strong></p>
+		</div><!--bot_right-->
+	</div><!--bot1-->
+	<div id="bot2">
+		<figure class="rank1">
+			<img src="images/bottom/rank_img1.jpg" alt="국가고객만족지수" width="35" height="33"/>
+			<figcaption>국가고객만족지수<br>1위 (2011, 2014)</figcaption>
+		</figure><!--rank1-->
+		<figure class="rank2">
+			<img src="images/bottom/rank_img2.jpg" alt="한국산업의 브랜드파워" width="35" height="33"/>
+			<figcaption>한국산업의 브랜드파워<br>5년 연속 1위 (2011~2015)</figcaption>
+		</figure><!--rank2-->
+		<figure class="rank3">
+			<img src="images/bottom/rank_img3.jpg" alt="최고의 브랜드대상" width="35" height="33"/>
+			<figcaption>최고의 브랜드대상<br>4년 연속 1위 (2012~2015)</figcaption>
+		</figure><!--rank3-->
+		<figure class="rank4">
+			<img src="images/bottom/rank_img4.jpg" alt="국가고객만족지수" width="35" height="33"/>
+			<figcaption>국가고객만족지수<br>1위 (2011, 2014)</figcaption>
+		</figure><!--rank4-->
+		<figure class="rank5">
+			<img src="images/bottom/rank_img5.jpg" alt="Smart Brand" width="35" height="33"/>
+			<figcaption>Smart Brand<br>온라인유통 부문 1위(2014)</figcaption>
+		</figure><!--rank5-->
+	</div><!--bot2-->
+	<div id="bot3">
+		<p>(주) 이베이코리아의 사전 서면 동의 없이 G마켓사이트의 일체의 정보, 콘텐츠 및 UI등을 상업적 목적으로 전재, 전송, 스크래핑 등 무단 사용할 수 없습니다.<br>
+		<strong>G마켓은 통신판매중개자이며 통신판매의 당사자가 아닙니다. 따라서 G마켓은 상품·거래정보 및 거래에 대하여 책임을 지지 않습니다.</strong><br>
+		Copyright &copy; eBay Korea Co., Ltd. All rights reserved.
+		</p>
+	</div><!--bot3-->
+</footer><!--bottom_wrap-->
+</body>
+</html>

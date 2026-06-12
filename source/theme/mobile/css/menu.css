@@ -1,0 +1,40 @@
+@charset "utf-8";
+
+/*메뉴 공통*/
+/*menu_wrap*/
+#menu_wrap{position:absolute; top:65px; left:-100%; width:100%; height:78%; z-index: 3;}
+.search_wrap{height: 35px; background-color: #666; position: relative;}
+.search1,.search2{position: absolute; left: 0; top:0; background-color: #666;}
+.search1{width:100%; height:35px; }
+.search_left{float:left; width:85%; position: relative;}
+.search_txt1 input{width: 100%; line-height:20px; margin:5px; background-color: #eaeaea; border:1px solid #ccc; text-indent: 0.5em;}
+.search_img{position: absolute; left:96%; top:8px;}
+.search_right{float:right; margin:5px; width:15px; height:15px; padding: 5px; cursor: pointer; background-color: #ddd; border-radius: 3px;}
+
+.search2{clear:both; width: 100%; height:25px; padding-top: 10px; }
+.search2 ul{float: left;}
+.search2 ul li{display:inline; background: url(../images/index/bg_bar1.png) no-repeat left center; padding:0 5px 0 10px; }
+.search2 ul li:first-child{background: none;}
+.search2 ul li a{color:#fff;}
+.search2 ul li a:hover{color:#ccc;}
+.search2_img{float:right; width:25px; height:18px; background-color: #ddd; padding:5px 2px; margin:-7px 5px 0 0; border-radius: 5px; text-align: center; cursor: pointer;}
+
+/*all_menu_wrap*/
+.all_menu_wrap{height:100%; }
+.menu_list{width:100%; height:60px; }
+.menu_list li{float: left; width:50%; height:100%; background: #e4e4e4 url(../images/index/bg_m_arrow2.png) no-repeat 95% center; }
+.menu_list li a{width:100%; height:100%;display: block; text-align: center; font-size: 14px; letter-spacing: 1px; line-height: 60px; border-bottom:1px solid #666;}
+.menu_list li a.selectd_m{width:99%; height:100%;background:#879fa6 url(../images/index/bg_m_arrow1.png) no-repeat 95% center; color:#eee; font-weight: bold; border:1px solid #666; border-bottom:none;}
+
+#all_menu1{height:500%; background-color: #879fa6; padding-top:20px;}
+#all_menu1 li{margin:0 20px; border-bottom: 1px solid #ddd;}
+#all_menu1 li a{color:#eee; font-size: 14px; letter-spacing: 1px; font-weight: bold; display: block; line-height: 3.5em; background: url(../images/index/btn_arrow2.png) no-repeat 95% center;  padding-top: 3%; text-indent: 0.5em;}
+#all_menu1 li a:hover{color:#ccc; background-image: url(../images/index/btn_arrow2_over.png);}
+
+#all_menu2{height:500%; background-color: #879fa6; padding-top:20px;}
+#all_menu2 li{margin:0 20px; border-bottom: 1px solid #ddd;}
+#all_menu2 li a{color:#eee; font-size: 14px; letter-spacing: 1px; font-weight: bold; display: block; line-height: 4em; background: url(../images/index/btn_arrow2.png) no-repeat 95% center; padding-top: 3.5%; text-indent: 0.5em;}
+#all_menu2 li a:hover{color:#ccc; background-image: url(../images/index/btn_arrow2_over.png);}
+
+/* wrap */
+#top h2{color:#666; font-size:20px; text-align:center; margin:0 auto; width:50%; padding-top: 30px;}

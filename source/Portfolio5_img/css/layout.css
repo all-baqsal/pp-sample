@@ -1,0 +1,378 @@
+@charset "utf-8";
+
+/*common*/
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body,
+html {
+    width: 100%;
+    height: 100%;
+    font-smoothing: antialiased;
+}
+
+ul {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+img {
+    border: 0;
+}
+
+.am {
+    font-family: 'am';
+}
+
+.nm {
+    font-family: 'nm';
+}
+
+.ng {
+    font-family: 'ng';
+}
+
+.amb {
+    font-family: 'amb';
+}
+
+.nmb {
+    font-family: 'nmb';
+}
+
+.ngb {
+    font-family: 'ngb';
+}
+
+h2 {
+    font-family: 'am';
+}
+
+/*메인*/
+#hd,
+#content,
+#ft {
+    width: 100%;
+    clear: both;
+}
+
+#hd {
+    position: fixed;
+    z-index: 20;
+    left: 0;
+    top: 0;
+    color: #000;
+    height: 60px;
+}
+
+.page {
+    clear: both;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    position: relative;
+}
+
+/*메뉴바*/
+#gnb {
+    width: 1000px;
+    margin: 0 auto;
+}
+
+#gnb li {
+    width: 250px;
+    float: left;
+    padding-top: 15px;
+}
+
+#gnb a {
+    display: block;
+    height: 20px;
+    line-height: 20px;
+    padding-top: 10px;
+    width: 250px;
+    color: #adadad;
+    text-align: center;
+    font-size: 1.4em;
+    padding-bottom: 10px;
+    letter-spacing: 3px;
+    cursor: pointer;
+    font-family: 'am';
+}
+
+/**/
+#page1 {
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    background: #d5c7af;
+}
+
+.main img {
+    display: block;
+    margin: 100px auto;
+}
+
+.logo {
+    display: block;
+    width: 412px;
+    height: 100px;
+    margin: 0 auto;
+    margin-top: 80px;
+}
+
+#content2 {
+    width: 60%;
+    height: 100%;
+    margin: 30px auto;
+    overflow: hidden;
+}
+
+.intro_img {
+    background-image: url('../images/intro.png');
+    width: 503px;
+    height: 764px;
+    background-size: 90%;
+    background-repeat: no-repeat;
+    float: left;
+}
+
+.intro_text {
+    height: 100%;
+    display: block;
+}
+
+.intro_text #title {
+    font-size: 1.5em;
+    letter-spacing: 5px;
+    padding-bottom: 16px;
+}
+
+.intro_text #first {
+    padding-top: 25px;
+}
+
+.intro_text p {
+    padding-top: 12px;
+    padding-bottom: 10px;
+}
+
+.intro_text .nmb {
+    font-size: 1em;
+}
+
+.intro_text .amb {
+    letter-spacing: 5px;
+    font-size: 1.2em;
+}
+
+#content4 {
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+}
+
+.skima {
+    width: 1300px;
+    height: 100%;
+    margin: 0 auto;
+}
+
+.skima_lf {
+    float: left;
+    background-image: url('../images/skima1.png');
+    width: 487px;
+    height: 476px;
+    margin-top: 100px;
+}
+
+.skima_ri {
+    float: right;
+    background-image: url('../images/skima2.png');
+    width: 677px;
+    height: 335px;
+    margin-top: 120px;
+}
+
+.sian {
+    margin: 0 auto;
+    background-image: url('../images/clover.jpg');
+    width: 550px;
+    height: 773px;
+}
+
+.proto {
+    margin: 100px auto;
+    background-image: url('../images/proto.png');
+    width: 786px;
+    height: 619px;
+}
+
+#content7 {
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    background: #d5c7af;
+}
+
+.item_wrap {
+    width: 100%;
+    height: 600px;
+    margin: 280px auto;
+    float: left;
+}
+
+.item1 {
+    display: block;
+    background-image: url('../images/notebook.png');
+    width: 500px;
+    height: 516px;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    float: left;
+    margin-left: 23%;
+}
+
+.item2 {
+    background-image: url('../images/tl.png');
+    width: 272px;
+    height: 339px;
+    background-repeat: no-repeat;
+    background-size: 80%;
+    float: left;
+    margin-top: 149px;
+    margin-left: 40px;
+}
+
+.item3 {
+    background-image: url('../images/paper.png');
+    width: 217px;
+    height: 285px;
+    background-repeat: no-repeat;
+    background-size: 80%;
+    float: left;
+    margin-top: 180px;
+}
+
+/*퀵버튼*/
+#quick {
+    position: fixed;
+    top: 30%;
+    right: -30px;
+    width: 50px;
+    z-index: 30;
+    height: auto;
+}
+
+#quick a {
+    display: block;
+    border-radius: 10px;
+    width: 15px;
+    height: 15px;
+    margin: 5px auto;
+    background: #c0c0c0;
+    cursor: pointer;
+}
+
+#quick a.active {
+    background: #142155;
+}
+
+.line {
+    height: 2px;
+    width: 0px;
+    background: #142155;
+    margin: 0 auto;
+}
+
+
+/*그리드1*/
+#page_wrap {
+    width: 100%;
+    height: 100%;
+}
+
+.row {
+    clear: both;
+    width: 1200px;
+    margin: 20px auto;
+}
+
+[class*="effect"] {
+    float: left;
+    height: 246px;
+    padding: 1px;
+}
+
+.box {
+    border: 2px solid #000;
+}
+
+figure.effect-selena {
+    background: #fff;
+    width: 396px;
+    position: relative;
+}
+
+.row figure figcaption {
+    text-align: center;
+    padding-top: 90px;
+    color: #fff;
+    letter-spacing: 4px;
+}
+
+figure.effect-selena a {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+}
+
+figure.effect-selena img {
+    opacity: 0.95;
+    text-align: center;
+    position: absolute;
+    -webkit-transition: -webkit-transform 0.35s;
+    transition: transform 0.35s;
+    -webkit-transform-origin: 50% 50%;
+    transform-origin: 50% 50%;
+}
+
+figure.effect-selena:hover img {
+    -webkit-transform: scale3d(0.95, 0.95, 1);
+    transform: scale3d(0.95, 0.95, 1);
+}
+
+figure.effect-selena h2 {
+    -webkit-transition: -webkit-transform 0.35s;
+    transition: transform 0.35s;
+    -webkit-transform: translate3d(0, 20px, 0);
+    transform: translate3d(0, 20px, 0);
+}
+
+figure.effect-selena p {
+    opacity: 0;
+    -webkit-transition: opacity 0.35s, -webkit-transform 0.35s;
+    transition: opacity 0.35s, transform 0.35s;
+    -webkit-transform: perspective(1000px) rotate3d(1, 0, 0, 90deg);
+    transform: perspective(1000px) rotate3d(1, 0, 0, 90deg);
+    -webkit-transform-origin: 50% 0%;
+    transform-origin: 50% 0%;
+}
+
+figure.effect-selena:hover h2 {
+    -webkit-transform: translate3d(0, 0, 0);
+    transform: translate3d(0, 0, 0);
+}
+
+figure.effect-selena:hover p {
+    opacity: 1;
+    -webkit-transform: perspective(1000px) rotate3d(1, 0, 0, 0);
+    transform: perspective(1000px) rotate3d(1, 0, 0, 0);
+}

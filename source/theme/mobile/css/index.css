@@ -1,0 +1,52 @@
+@charset "utf-8";
+@import url('bottom.css');
+@import url('menu.css');
+
+/*reset*/
+a{text-decoration:none; color:#666;}
+body{font:normal 12px "nanum",sans-serif; color:#666;}
+html,body{height:100%;}
+
+/*font*/
+@font-face{
+	font-family:nanum;
+	src:url('../font/NanumGothic.eot');
+	src:url('../font/NanumGothic.eot?#iefix')format('embedded-opentype'),
+	    url('../font/NanumGothic.ttf')format('truetype'),
+		url('../font/NanumGothic.woff')format('woff');
+}
+
+/*wrap*/
+#wrap{width: 100%; height: 100%; min-width: 320px;}
+
+#top{background-color: #ddd; height: 65px;}
+.all_menu{float:left; margin:20px 0 0 10px;}
+
+#top h1{text-align: center; padding-top:15px; width: 80%; margin: 0 auto;}
+#top h1 img{min-width: 101px;}
+.store_search{float:right; margin:-20px 5px 0 0; border: 1px solid #999; height:22px;background-color: #fff; position:relative;}
+.store_search:hover{background-color:#999;}
+.store_search:hover .search_txt{color:#fff;}
+.search_txt{width:40px; text-align: center; float: left; font-size: 14px; font-weight: bold; padding: 2px; line-height: 18px; color:#333; border-right:1px solid #999;}
+.btn_arrow1{padding:2px 0; background-color: #fff; cursor: pointer;}
+ul.store_sub{width:62px; height:100px; background:#fff; position:absolute; top:23px; right:-1px; border:1px solid #999; border-top:none; z-index: 10;}
+ul.store_sub li{height:24px; border-top:1px dotted #ccc;}
+ul.store_sub li:first-child{border:none;}
+ul.store_sub li a{text-align:center; display:block; line-height:24px;}
+ul.store_sub li a:hover{background:#999; color:#fff;}
+
+
+/*content_wrap*/
+.dot{clear:both; height:15px; background-color: #666; text-align: center;}
+.dot img{margin:3px;}
+
+.banner_wrap{height:475px; padding-top: 25px; background-color: #eaeaea;}
+.banner{width: 278px; height:419px; margin:0 auto; overflow: hidden; border:1px solid #ccc;}
+.banner_inner{width:1390px; height:419px;}
+.view_btn{width:105px; height: 35px; margin:10px auto; background-color: #fff; text-align: center; line-height: 35px; font-weight: bold; border: 1px solid #999; cursor: pointer;}
+.view_btn:hover{border-color:#333; color:#000;}
+
+#main_menu ul li{height:27px; line-height: 27px; text-align: center; }
+.main_menu1{background-color: #6497BE;}
+.main_menu2{background-color: #E06584;}
+#main_menu ul li a{color:#fff; font-size: 14px; letter-spacing: 1px; font-weight: bold; display: block;}

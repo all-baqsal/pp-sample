@@ -1,0 +1,23 @@
+@font-face {
+  font-family: 'y_godic';
+  src: url('../font/HANYGO230.eot');
+  src: local(※), url('../font/HANYGO230.woff') format('woff')
+}
+
+@font-face {
+  font-family: 'codrops';
+  src: url('../font/codropsicons.eot');
+  src: local(※), url('../font/codropsicons.woff') format('woff')
+}
+
+@font-face {
+  font-family: 'feather';
+  src: url('../font/feathericons.eot');
+  src: local(※), url('../font/feathericons.woff') format('woff')
+}
+
+@font-face {
+  font-family: 'awesome';
+  src: url('../font/fontawesome-webfont.eot');
+  src: local(※), url('../font/fontawesome-webfont.woff') format('woff')
+}

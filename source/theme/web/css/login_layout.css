@@ -1,0 +1,37 @@
+@charset "utf-8";
+@import url('top2.css');
+@import url('bottom.css');
+
+a{text-decoration:none; color:#333;}
+body{font:normal 12px/1.5em "nanum",sans-serif; color:#333;}
+input{border:1px solid #999;}
+
+@font-face{
+	font-family:nanum;
+	src:url('../../font/NanumGothic.eot');
+	src:url('../../font/NanumGothic.eot?#iefix')format('embedded-opentype'),
+	    url('../../font/NanumGothic.ttf')format('truetype'),
+		url('../../font/NanumGothic.woff')format('woff');
+}
+
+/*top_wrap*/
+.logo_img{clear:both; text-align:center; margin:50px 0 80px;}
+
+
+/*content_wrap*/
+#content_wrap{width:100%; height:570px; background:#FAF8FB; border-top:3px solid #558EDD; border-bottom:1px solid #ccc;}
+#frm_wrap{width:500px; height:570px; margin:0 auto;}
+.con_tit{margin-top:50px; font-size:24px; line-height:60px; background:url(../images/login/login_img.png) no-repeat left center; padding-left:25px;}
+.txt1, .txt4{line-height:65px;}
+#uid, #upwd{width:490px; height:45px; text-indent:10px;}
+
+.txt2 .id_chk{display:block; width:90px; height:30px; margin-top:50px; margin-bottom:10px; background:url(../images/login/check_img.png) no-repeat left center; padding-left:30px; line-height:30px; cursor:pointer;}
+.txt3{position: relative; width:490px; height:50px; overflow: hidden;}
+#btn1, #btn2{position: absolute; top:0; left:0;}
+#btn1{width:490px; height:50px; background:#035ACE; color:#fff; font-size:16px; font-weight:bold; cursor:pointer; z-index: 2;}
+#btn2{width:490px; height:50px; background:#fff; color:#035ACE; font-size:16px; font-weight:bold; cursor:pointer; border:1px solid #035ACE;}
+
+.txt4{text-align:center;}
+.txt4 a{display:inline-block; width:100px; background:url(../images/login/bar_img.jpg) no-repeat left center; }
+.txt4 a:hover{color:#035ACE;}
+.txt4 .txt4_1{background:none;}

@@ -1,0 +1,904 @@
+<!DOCTYPE HTML>
+<html lang="ko">
+<head>
+<meta charset="UTF-8">
+<title>Gmarket Homeplus</title>
+<!--[if lt IE 9]>
+<script src="js/html5shiv.js"></script>
+<![endif]-->
+<script src="js/jquery-1.12.0.min.js"></script>
+<script src="js/jquery-1.8.3.min.js"></script>
+<script src="js/jquery-1.7.2.min.js"></script><!--totop-->
+<script src="js/jquery.ui.totop.min.js"></script><!--totop-->
+<script src="js/jq_login.js"></script>
+<script src="js/jq_homeplus.js"></script>
+<script src="js/easing.js"></script><!--totop-->
+<script>//totop
+	$(document).ready(function() {
+		$().UItoTop({ easingType: 'easeOutQuart' });
+	});
+</script>
+<link rel="shortcut icon" type="image/x-icon" href="images/favicon.ico">
+<link rel="stylesheet" type="text/css" href="css/reset.css" media="all" />
+<link rel="stylesheet" type="text/css" href="css/homeplus_layout.css" media="all" />
+<link rel="stylesheet" type="text/css" href="css/ui.totop.css" /><!--totop-->
+</head>
+<body>
+<header id="top_wrap">
+	<div id="top">
+		<div id="top_left">
+			<p class="top_p"><a href="index.html"><img src="images/login/s_logo.png" alt="Gmarket_small_logo" width="114" height="27"></a></p>
+			<div class="select_wrap">
+				<p class="select1">홈메뉴</p>
+				<ul class="homemenu">
+					<li><a href="best.html">베스트</a></li>
+					<li><a href="coupon.html">쿠폰존</a></li>
+					<li><a href="superdeal.html">슈퍼딜</a></li>
+					<li><a href="smartdeli.html">스마트배송</a></li>
+					<li><a href="homeplus.html">홈플러스</a></li>
+				</ul><!--homemenu-->
+			</div><!--select_wrap-->
+		</div><!--top_left-->
+		<ul id="quick_menu">
+			<li class="li1"><a href="login.html">로그인</a></li>
+			<li><a href="member.html">회원가입</a></li>
+			<li><a href="login.html">나의쇼핑</a></li>
+			<li><a href="bag.html">장바구니</a></li>
+		</ul><!--quick_menu-->
+	</div><!--top-->
+</header><!--top-wrap-->
+<div id="top_wrap2">
+	<div id="top_logo_wrap">
+	    <h1 class="homeplus_logo"><a href="homeplus.html"><img src="images/homeplus/homeplus_logo.jpg" alt="Homeplus" width="202" height="62"></a></h1>
+	    <p class="homeplus_search"><input type="text" class="homeplus_search_box"></p>
+	    <a href="#" class="Homeplus_search_icon"><img src="images/index/search_img.png" alt="Homeplus_search_icon" width="39" height="38" ></a>
+	</div><!--top_logo_wrap-->
+	<ul id="top_menu">
+		<li><a href="#">마트 카테고리</a></li>
+		<li><a href="#">금주의 전단특가</a></li>
+		<li><a href="#">1+1 골라담기</a></li>
+		<li><a href="#">균일가</a></li>
+		<li><a href="#">쿠폰&이용안내</a></li>
+	</ul><!--top_menu-->
+</div><!--top_wrap2-->
+
+<section id="content_wrap">
+	<div id="homeplus_banner">
+        <p class="banner_left"><img src="images/homeplus/left_arrow.png" alt="left_arrow" width="22" height="47" class="banner_left_arrow"></p>
+        <p class="banner_right"><img src="images/homeplus/right_arrow.png" alt="right_arrow" width="22" height="47" class="banner_right_arrow"></p>
+        <p class="dot_icon"><img src="images/homeplus/dot_over.png" alt="dot" width="15" height="15" class="dot1" data-num="1"><img src="images/homeplus/dot.png" alt="dot" width="15" height="15" class="dot2" data-num="2"><img src="images/homeplus/dot.png" alt="dot" width="15" height="15" class="dot3" data-num="3"><img src="images/homeplus/dot.png" alt="dot" width="15" height="15" class="dot4" data-num="4"></p>
+		<div id="hp_banner_wrap">
+			<figure id="hp_banner1">
+				<img src="images/homeplus/slide_banner1.jpg" alt="homeplus_banner" width="740" height="400" class="banner_img">
+				<figcaption class="hpbanner_txt">
+					<span class="hpbanner_txt1">2월 장보기 혜택!</span>
+					<span class="hpbanner_txt2">첫구매 고객 30% 중복쿠폰<br>+매일 오후2시 야간쿠폰 함께 증정!</span>
+				</figcaption><!--hpbanner_txt-->
+			</figure><!--hp_banner1-->
+			<figure id="hp_banner2">
+				<img src="images/homeplus/slide_banner2.jpg" alt="homeplus_banner" width="740" height="400" class="banner_img">
+				<figcaption class="hpbanner_txt">
+					<span class="hpbanner_txt2">매주 돌아오는 찬스,빼는것이 플러스다</span>
+					<span class="hpbanner_txt1">생생한 신선식품</span>
+					<span class="hpbanner_txt3">2017.1.30(월) ~ 2.8(수)</span>
+				</figcaption><!--hpbanner_txt-->
+			</figure><!--hp_banner2-->
+			<figure id="hp_banner3">
+				<img src="images/homeplus/slide_banner3.jpg" alt="homeplus_banner" width="740" height="400" class="banner_img">
+				<figcaption class="hpbanner_txt">
+					<span class="hpbanner_txt2">매주 돌아오는 찬스,빼는것이 플러스다</span>
+					<span class="hpbanner_txt1">맛 좋은 유제품/가공식품</span>
+					<span class="hpbanner_txt3">2017.1.30(월) ~ 2.8(수)</span>
+				</figcaption><!--hpbanner_txt-->
+			</figure><!--hp_banner3-->
+			<figure id="hp_banner4">
+				<img src="images/homeplus/slide_banner4.jpg" alt="homeplus_banner" width="740" height="400" class="banner_img">
+				<figcaption class="hpbanner_txt">
+					<span class="hpbanner_txt2">매주 돌아오는 혜택 빼는것이 플러스다</span>
+					<span class="hpbanner_txt1">베이비/키즈 최대 60% 할인!</span>
+				</figcaption><!--hpbanner_txt-->
+			</figure><!--hp_banner4-->
+		</div><!--hp_banner_wrap-->
+	</div><!--homeplus_banner-->
+	<div id="hp_quick_menu">
+	    <ul class="hp_quick_m">
+	        <li class="hp_qucik_m1" data-num="1"><a href="#">계란</a></li>
+            <li class="hp_qucik_m2" data-num="2"><a href="#">채소</a></li>
+            <li class="hp_qucik_m3" data-num="3"><a href="#">생선/해산물</a></li>
+            <li class="hp_qucik_m4" data-num="4"><a href="#">쌀/잡곡</a></li>
+            <li class="hp_qucik_m5" data-num="5"><a href="#">제철과일</a></li>
+            <li class="hp_qucik_m6" data-num="6"><a href="#">라면</a></li>
+            <li class="hp_qucik_m7" data-num="7"><a href="#">통조림</a></li>
+            <li class="hp_qucik_m8" data-num="8"><a href="#">우유</a></li>
+            <li class="hp_qucik_m9" data-num="9"><a href="#">간편식/냉동식품</a></li>
+	    </ul>
+	</div><!--hp_quick_menu-->
+	<div class="box_wrap">
+		<div id="choose_wrap">
+			<p class="choose_title"><strong>1+1 골라담기</strong></p>
+			<figure>
+				<p class="choose_pro1"><a href="detailpage.html"><img src="images/homeplus/1+1_pro1.jpg" alt="(1+1)깨끗한나라 3겹데코화이트 25Mx30R" width="210" height="210"></a></p>
+				<figcaption>
+					<span class="choose_txt1">1+1</span>
+					<span class="choose_txt2">(1+1)깨끗한나라<br>3겹데코화이트 25Mx30R</span>
+					<span class="choose_txt3">1개 구매시 1개 더 배송<br>19,310</span>
+					<span class="choose_txt4">바로담기</span>
+				</figcaption>
+			</figure>
+			<figure>
+				<p class="choose_pro2"><a href="detailpage.html"><img src="images/homeplus/1+1_pro2.jpg" alt="(1+1)순살노르웨이고등어 700G 팩" width="210" height="210"></a></p>
+				<figcaption>
+					<span class="choose_txt1">1+1</span>
+					<span class="choose_txt2">(1+1)순살노르웨이<br>고등어 700G 팩</span>
+					<span class="choose_txt3">1개 구매시 1개 더 배송<br>14,460</span>
+					<span class="choose_txt4">바로담기</span>
+				</figcaption>
+			</figure>
+			<figure>
+				<p class="choose_pro3"><a href="detailpage.html"><img src="images/homeplus/1+1_pro3.jpg" alt="(1+1)유한킴벌리 크리넥스더도톰한키친타올 140매x4R" width="210" height="210"></a></p>
+				<figcaption>
+					<span class="choose_txt1">1+1</span>
+					<span class="choose_txt2">(1+1)유한킴벌리 크리넥스<br> 더도톰한키친타올 140매x4R</span>
+					<span class="choose_txt3">1개 구매시 1개 더 배송<br>7,750</span>
+					<span class="choose_txt4">바로담기</span>
+				</figcaption>
+			</figure>
+			<figure>
+				<p class="choose_pro4"><a href="detailpage.html"><img src="images/homeplus/1+1_pro4.jpg" alt="(1+1)깨끗한나라 소프트미용티슈 260매x3입" width="210" height="210"></a></p>
+				<figcaption>
+					<span class="choose_txt1">1+1</span>
+					<span class="choose_txt2">(1+1)깨끗한나라<br>소프트미용티슈 260매x3입</span>
+					<span class="choose_txt3">1개 구매시 1개 더 배송<br>8,900</span>
+					<span class="choose_txt4">바로담기</span>
+				</figcaption>
+			</figure>
+		</div><!--choose_wrap-->
+		<div id="average_wrap">
+			<p class="average_title"><strong>균일가</strong></p>
+			<figure>
+				<p class="average_pro1"><a href="detailpage.html"><img src="images/homeplus/ave_price1.jpg" alt="(균일가)내추럴그린물티슈 100매 모나리자" width="210" height="210"></a></p>
+				<figcaption>
+					<span class="average_txt1">균일가</span>
+					<span class="average_txt2">(균일가)내추럴그린물티슈<br>100매 모나리자</span>
+					<span class="average_txt3">균일가 행사상품<br>1,000</span>
+					<span class="average_txt4">바로담기</span>
+				</figcaption>
+			</figure>
+			<figure>
+				<p class="average_pro2"><a href="detailpage.html"><img src="images/homeplus/ave_price2.jpg" alt="(균일가)오뚜기 옛날사골곰탕 350G" width="210" height="210"></a></p>
+				<figcaption>
+					<span class="average_txt1">균일가</span>
+					<span class="average_txt2">(균일가)오뚜기<br>옛날사골곰탕 350G</span>
+					<span class="average_txt3">균일가 행사상품<br>1,000</span>
+					<span class="average_txt4">바로담기</span>
+				</figcaption>
+			</figure>
+			<figure>
+				<p class="average_pro3"><a href="detailpage.html"><img src="images/homeplus/ave_price3.jpg" alt="(균일가)대상 청정원사과식초 500ML" width="210" height="210"></a></p>
+				<figcaption>
+					<span class="average_txt1">균일가</span>
+					<span class="average_txt2">(균일가)대상<br>청정원사과식초 500ML</span>
+					<span class="average_txt3">균일가 행사상품<br>1,000</span>
+					<span class="average_txt4">바로담기</span>
+				</figcaption>
+			</figure>
+			<figure>
+				<p class="average_pro4"><a href="detailpage.html"><img src="images/homeplus/ave_price4.jpg" alt="(균일가)오뚜기 옛날구수한누룽지 60G" width="210" height="210"></a></p>
+				<figcaption>
+					<span class="average_txt1">균일가</span>
+					<span class="average_txt2">(균일가)오뚜기<br>옛날구수한누룽지 60G</span>
+					<span class="average_txt3">균일가 행사상품<br>1,000</span>
+					<span class="average_txt4">바로담기</span>
+				</figcaption>
+			</figure>
+		</div><!--average_wrap-->
+	</div><!--box_wrap-->
+	<div class="box_wrap"><!--계란-->
+		<div class="line1">
+			<figure>
+				<p class="quick_pro1"><a href="detailpage.html"><img src="images/homeplus/quick1/quick_pro1.jpg" alt="친환경대란 30입 홈플러스좋은상품" width="210" height="210"></a></p>
+				<figcaption>
+					<span class="quick_txt1">친환경대란 30입<br>홈플러스좋은상품</span>
+					<span class="quick_txt2">7,990</span>
+					<span class="quick_txt3">바로담기</span>
+				</figcaption>
+			</figure>
+			<figure>
+				<p class="quick_pro1"><a href="detailpage.html"><img src="images/homeplus/quick1/quick_pro2.jpg" alt="신선특란 30입 홈플러스친환경" width="210" height="210"></a></p>
+				<figcaption>
+					<span class="quick_txt1">신선특란 30입<br>홈플러스친환경</span>
+					<span class="quick_txt2">7,990</span>
+					<span class="quick_txt3">바로담기</span>
+				</figcaption>
+			</figure>
+			<figure>
+				<p class="quick_pro1"><a href="detailpage.html"><img src="images/homeplus/quick1/quick_pro2.jpg" alt="신선란 10입 홈플러스" width="210" height="210"></a></p>
+				<figcaption>
+					<span class="quick_txt1">신선란 10입<br>홈플러스</span>
+					<span class="quick_txt2">2,990</span>
+					<span class="quick_txt3">바로담기</span>
+				</figcaption>
+			</figure>
+			<figure>
+				<p class="quick_pro1"><a href="detailpage.html"><img src="images/homeplus/quick1/quick_pro4.jpg" alt="신선대란 15입 홈플러스" width="210" height="210"></a></p>
+				<figcaption>
+					<span class="quick_txt1">신선대란 15입<br>홈플러스</span>
+					<span class="quick_txt2">4,490</span>
+					<span class="quick_txt3">바로담기</span>
+				</figcaption>
+			</figure>
+		</div><!--line1-->
+		<div class="line2">
+			<figure>
+				<p class="quick_pro1"><a href="detailpage.html"><img src="images/homeplus/quick1/quick_pro5.jpg" alt="신선특란 15입  홈플러" width="210" height="210"></a></p>
+				<figcaption>
+					<span class="quick_txt1">신선특란 15입<br>홈플러스</span>
+					<span class="quick_txt2">4,590</span>
+					<span class="quick_txt3">바로담기</span>
+				</figcaption>
+			</figure>
+			<figure>
+				<p class="quick_pro1"><a href="detailpage.html"><img src="images/homeplus/quick1/quick_pro6.jpg" alt="신선왕란 15입 홈플러스" width="210" height="210"></a></p>
+				<figcaption>
+					<span class="quick_txt1">신선왕란 15입<br>홈플러스</span>
+					<span class="quick_txt2">4,890</span>
+					<span class="quick_txt3">바로담기</span>
+				</figcaption>
+			</figure>
+			<figure>
+				<p class="quick_pro1"><a href="detailpage.html"><img src="images/homeplus/quick1/quick_pro7.jpg" alt="메추리알 35x2입 홈플러스좋은상품" width="210" height="210"></a></p>
+				<figcaption>
+					<span class="quick_txt1">메추리알 35x2입<br>홈플러스좋은상품</span>
+					<span class="quick_txt2">5,490</span>
+					<span class="quick_txt3">바로담기</span>
+				</figcaption>
+			</figure>
+			<figure>
+				<p class="quick_pro1"><a href="detailpage.html"><img src="images/homeplus/quick1/quick_pro8.jpg" alt="신선유정란 10입 홈플러스" width="210" height="210"></a></p>
+				<figcaption>
+					<span class="quick_txt1">신선유정란 10입<br>홈플러스</span>
+					<span class="quick_txt2">4,290</span>
+					<span class="quick_txt3">바로담기</span>
+				</figcaption>
+			</figure>
+		</div><!--line2-->
+	</div><!--box_wrap-->
+	<div class="box_wrap"><!--채소-->
+		<div class="line1">
+			<figure>
+				<p class="quick_pro1"><a href="detailpage.html"><img src="images/homeplus/quick2/quick_pro1.jpg" alt="(전단상품)애호박 개" width="210" height="210"></a></p>
+				<figcaption>
+					<span class="quick_txt1">(전단상품)애호박<br>개</span>
+					<span class="quick_txt2">990</span>
+					<span class="quick_txt3">바로담기</span>
+				</figcaption>
+			</figure>
+			<figure>
+				<p class="quick_pro1"><a href="detailpage.html"><img src="images/homeplus/quick2/quick_pro2.jpg" alt="(전단상품)꿀고구마 3KG 봉 " width="210" height="210"></a></p>
+				<figcaption>
+					<span class="quick_txt1">(전단상품)꿀고구마<br>3KG 봉 </span>
+					<span class="quick_txt2">7,750</span>
+					<span class="quick_txt3">바로담기</span>
+				</figcaption>
+			</figure>
+			<figure>
+				<p class="quick_pro1"><a href="detailpage.html"><img src="images/homeplus/quick2/quick_pro3.jpg" alt="(전단상품)파프리카 개" width="210" height="210"></a></p>
+				<figcaption>
+					<span class="quick_txt1">(전단상품)파프리카<br>개</span>
+					<span class="quick_txt2">990</span>
+					<span class="quick_txt3">바로담기</span>
+				</figcaption>
+			</figure>
+			<figure>
+				<p class="quick_pro1"><a href="detailpage.html"><img src="images/homeplus/quick2/quick_pro4.jpg" alt="(전단상품)햇감자 900G 봉" width="210" height="210"></a></p>
+				<figcaption>
+					<span class="quick_txt1">(전단상품)햇감자 900G<br>봉</span>
+					<span class="quick_txt2">3,990</span>
+					<span class="quick_txt3">바로담기</span>
+				</figcaption>
+			</figure>
+		</div><!--line1-->
+		<div class="line2">
+			<figure>
+				<p class="quick_pro1"><a href="detailpage.html"><img src="images/homeplus/quick2/quick_pro5.jpg" alt="(행사상품)양파 망 친환경" width="210" height="210"></a></p>
+				<figcaption>
+					<span class="quick_txt1">(행사상품)양파<br>망 친환경</span>
+					<span class="quick_txt2">2,800</span>
+					<span class="quick_txt3">바로담기</span>
+				</figcaption>
+			</figure>
+			<figure>
+				<p class="quick_pro1"><a href="detailpage.html"><img src="images/homeplus/quick2/quick_pro6.jpg" alt="(행사상품)깐마늘 소" width="210" height="210"></a></p>
+				<figcaption>
+					<span class="quick_txt1">(행사상품)깐마늘<br>소</span>
+					<span class="quick_txt2">1,000</span>
+					<span class="quick_txt3">바로담기</span>
+				</figcaption>
+			</figure>
+			<figure>
+				<p class="quick_pro1"><a href="detailpage.html"><img src="images/homeplus/quick2/quick_pro7.jpg" alt="(행사상품)청양고추 소 봉 " width="210" height="210"></a></p>
+				<figcaption>
+					<span class="quick_txt1">(행사상품)청양고추<br>소 봉 </span>
+					<span class="quick_txt2">1,000</span>
+					<span class="quick_txt3">바로담기</span>
+				</figcaption>
+			</figure>
+			<figure>
+				<p class="quick_pro1"><a href="detailpage.html"><img src="images/homeplus/quick2/quick_pro8.jpg" alt="다다기오이 3입 봉" width="210" height="210"></a></p>
+				<figcaption>
+					<span class="quick_txt1">다다기오이 3입<br>봉</span>
+					<span class="quick_txt2">1,990</span>
+					<span class="quick_txt3">바로담기</span>
+				</figcaption>
+			</figure>
+		</div><!--line2-->
+	</div><!--box_wrap-->
+	<div class="box_wrap"><!--생선-->
+		<div class="line1">
+			<figure>
+				<p class="quick_pro1"><a href="detailpage.html"><img src="images/homeplus/quick3/quick_pro1.jpg" alt="(전단상품)생칵테일새우 800g 팩" width="210" height="210"></a></p>
+				<figcaption>
+					<span class="quick_txt1">(전단상품)생칵테일새우<br>800g 팩</span>
+					<span class="quick_txt2">16,900</span>
+					<span class="quick_txt3">바로담기</span>
+				</figcaption>
+			</figure>
+			<figure>
+				<p class="quick_pro1"><a href="detailpage.html"><img src="images/homeplus/quick3/quick_pro2.jpg" alt="(1+1)순살노르웨이고등어 700G 팩" width="210" height="210"></a></p>
+				<figcaption>
+					<span class="quick_txt1">(1+1)순살노르웨이고등어<br>700G 팩</span>
+					<span class="quick_txt2">14,900</span>
+					<span class="quick_txt3">바로담기</span>
+				</figcaption>
+			</figure>
+			<figure>
+				<p class="quick_pro1"><a href="detailpage.html"><img src="images/homeplus/quick3/quick_pro3.jpg" alt="(행사상품)성모 조미오징어채250gx2봉" width="210" height="210"></a></p>
+				<figcaption>
+					<span class="quick_txt1">(행사상품)성모 조미오징어채<br>250gx2봉</span>
+					<span class="quick_txt2">12,900</span>
+					<span class="quick_txt3">바로담기</span>
+				</figcaption>
+			</figure>
+			<figure>
+				<p class="quick_pro1"><a href="detailpage.html"><img src="images/homeplus/quick3/quick_pro4.jpg" alt="(행사상품)점보자숙새우살 300G 봉" width="210" height="210"></a></p>
+				<figcaption>
+					<span class="quick_txt1">(행사상품)점보자숙새우살<br>300G 봉</span>
+					<span class="quick_txt2">10,900</span>
+					<span class="quick_txt3">바로담기</span>
+				</figcaption>
+			</figure>
+		</div><!--line1-->
+		<div class="line2">
+			<figure>
+				<p class="quick_pro1"><a href="detailpage.html"><img src="images/homeplus/quick3/quick_pro5.jpg" alt="해동고등어 노르웨이산 2마리 중" width="210" height="210"></a></p>
+				<figcaption>
+					<span class="quick_txt1">해동고등어 노르웨이산<br>2마리 중</span>
+					<span class="quick_txt2">2,490</span>
+					<span class="quick_txt3">바로담기</span>
+				</figcaption>
+			</figure>
+			<figure>
+				<p class="quick_pro1"><a href="detailpage.html"><img src="images/homeplus/quick3/quick_pro6.jpg" alt="(행사상품)황태채 400g 봉 금양" width="210" height="210"></a></p>
+				<figcaption>
+					<span class="quick_txt1">(행사상품)황태채 400g<br>봉 금양</span>
+					<span class="quick_txt2">12,900</span>
+					<span class="quick_txt3">바로담기</span>
+				</figcaption>
+			</figure>
+			<figure>
+				<p class="quick_pro1"><a href="detailpage.html"><img src="images/homeplus/quick3/quick_pro7.jpg" alt="볶음용 멸치 600g" width="210" height="210"></a></p>
+				<figcaption>
+					<span class="quick_txt1">볶음용 멸치<br>600g</span>
+					<span class="quick_txt2">12,900</span>
+					<span class="quick_txt3">바로담기</span>
+				</figcaption>
+			</figure>
+			<figure>
+				<p class="quick_pro1"><a href="detailpage.html"><img src="images/homeplus/quick3/quick_pro8.jpg" alt="바로볶아먹는손질낙지 300g 팩 간편식" width="210" height="210"></a></p>
+				<figcaption>
+					<span class="quick_txt1">바로볶아먹는손질낙지<br>300g 팩 간편식</span>
+					<span class="quick_txt2">5,990</span>
+					<span class="quick_txt3">바로담기</span>
+				</figcaption>
+			</figure>
+		</div><!--line2-->
+	</div><!--box_wrap-->
+	<div class="box_wrap"><!--쌀-->
+		<div class="line1">
+			<figure>
+				<p class="quick_pro1"><a href="detailpage.html"><img src="images/homeplus/quick4/quick_pro1.jpg" alt="(전단상품)동진협동 갯마을천년의솜씨 20KG 포" width="210" height="210"></a></p>
+				<figcaption>
+					<span class="quick_txt1">(전단상품)동진협동 갯마을<br>천년의솜씨 20KG 포</span>
+					<span class="quick_txt2">29,010</span>
+					<span class="quick_txt3">바로담기</span>
+				</figcaption>
+			</figure>
+			<figure>
+				<p class="quick_pro1"><a href="detailpage.html"><img src="images/homeplus/quick4/quick_pro2.jpg" alt="(행사상품)송탄농협 밥맛좋은경기추청미 20KG 포" width="210" height="210"></a></p>
+				<figcaption>
+					<span class="quick_txt1">(행사상품)송탄농협 밥맛좋은<br>경기추청미 20KG 포</span>
+					<span class="quick_txt2">39,900</span>
+					<span class="quick_txt3">바로담기</span>
+				</figcaption>
+			</figure>
+			<figure>
+				<p class="quick_pro1"><a href="detailpage.html"><img src="images/homeplus/quick4/quick_pro3.jpg" alt="프리미엄고시히까리 20KG 포" width="210" height="210"></a></p>
+				<figcaption>
+					<span class="quick_txt1">프리미엄고시히까리<br>20KG 포</span>
+					<span class="quick_txt2">49,900</span>
+					<span class="quick_txt3">바로담기</span>
+				</figcaption>
+			</figure>
+			<figure>
+				<p class="quick_pro1"><a href="detailpage.html"><img src="images/homeplus/quick4/quick_pro4.jpg" alt="(전단상품)국내산 현미 7KG 봉" width="210" height="210"></a></p>
+				<figcaption>
+					<span class="quick_txt1">(전단상품)국내산 현미<br>7KG 봉</span>
+					<span class="quick_txt2">9,990</span>
+					<span class="quick_txt3">바로담기</span>
+				</figcaption>
+			</figure>
+		</div><!--line1-->
+		<div class="line2">
+			<figure>
+				<p class="quick_pro1"><a href="detailpage.html"><img src="images/homeplus/quick4/quick_pro5.jpg" alt="(전단상품)찹쌀 5KG 봉" width="210" height="210"></a></p>
+				<figcaption>
+					<span class="quick_txt1">(전단상품)찹쌀<br>5KG 봉</span>
+					<span class="quick_txt2">9,990</span>
+					<span class="quick_txt3">바로담기</span>
+				</figcaption>
+			</figure>
+			<figure>
+				<p class="quick_pro1"><a href="detailpage.html"><img src="images/homeplus/quick4/quick_pro6.jpg" alt="(전단상품)흰강낭콩 3.8KG 통" width="210" height="210"></a></p>
+				<figcaption>
+					<span class="quick_txt1">(전단상품)흰강낭콩<br>3.8KG 통</span>
+					<span class="quick_txt2">9,990</span>
+					<span class="quick_txt3">바로담기</span>
+				</figcaption>
+			</figure>
+			<figure>
+				<p class="quick_pro1"><a href="detailpage.html"><img src="images/homeplus/quick4/quick_pro7.jpg" alt="여주농협 여주고시히카리 20KG 포" width="210" height="210"></a></p>
+				<figcaption>
+					<span class="quick_txt1">여주농협 여주 고시히카리<br>20KG 포</span>
+					<span class="quick_txt2">49,900</span>
+					<span class="quick_txt3">바로담기</span>
+				</figcaption>
+			</figure>
+			<figure>
+				<p class="quick_pro1"><a href="detailpage.html"><img src="images/homeplus/quick4/quick_pro8.jpg" alt="(행사상품)안성농협 안성쌀 20KG 포" width="210" height="210"></a></p>
+				<figcaption>
+					<span class="quick_txt1">(행사상품)안성농협 안성쌀<br>20KG 포</span>
+					<span class="quick_txt2">39,900</span>
+					<span class="quick_txt3">바로담기</span>
+				</figcaption>
+			</figure>
+		</div><!--line2-->
+	</div><!--box_wrap-->
+	<div class="box_wrap"><!--제철과일-->
+		<div class="line1">
+			<figure>
+				<p class="quick_pro1"><a href="detailpage.html"><img src="images/homeplus/quick5/quick_pro1.jpg" alt="(전단상품)마운틴바나나 송이" width="210" height="210"></a></p>
+				<figcaption>
+					<span class="quick_txt1">(전단상품)마운틴바나나<br>송이</span>
+					<span class="quick_txt2">3,990</span>
+					<span class="quick_txt3">바로담기</span>
+				</figcaption>
+			</figure>
+			<figure>
+				<p class="quick_pro1"><a href="detailpage.html"><img src="images/homeplus/quick5/quick_pro2.jpg" alt="(전단상품)레인보우방울토마토 박스" width="210" height="210"></a></p>
+				<figcaption>
+					<span class="quick_txt1">(전단상품)레인보우 방울토마토<br>박스</span>
+					<span class="quick_txt2">9,990</span>
+					<span class="quick_txt3">바로담기</span>
+				</figcaption>
+			</figure>
+			<figure>
+				<p class="quick_pro1"><a href="detailpage.html"><img src="images/homeplus/quick5/quick_pro3.jpg" alt="(전단상품)씨없는청포도 칠레 1.5KG 팩" width="210" height="210"></a></p>
+				<figcaption>
+					<span class="quick_txt1">(전단상품)씨없는청포도 칠레<br>1.5KG 팩</span>
+					<span class="quick_txt2">8,720</span>
+					<span class="quick_txt3">바로담기</span>
+				</figcaption>
+			</figure>
+			<figure>
+				<p class="quick_pro1"><a href="detailpage.html"><img src="images/homeplus/quick5/quick_pro4.jpg" alt="성주꿀참외 2KG 봉" width="210" height="210"></a></p>
+				<figcaption>
+					<span class="quick_txt1">성주꿀참외 2KG<br>봉</span>
+					<span class="quick_txt2">9,690</span>
+					<span class="quick_txt3">바로담기</span>
+				</figcaption>
+			</figure>
+		</div><!--line1-->
+		<div class="line2">
+			<figure>
+				<p class="quick_pro1"><a href="detailpage.html"><img src="images/homeplus/quick5/quick_pro5.jpg" alt="바나나 필리핀 송이" width="210" height="210"></a></p>
+				<figcaption>
+					<span class="quick_txt1">바나나 필리핀<br>송이</span>
+					<span class="quick_txt2">5,490</span>
+					<span class="quick_txt3">바로담기</span>
+				</figcaption>
+			</figure>
+			<figure>
+				<p class="quick_pro1"><a href="detailpage.html"><img src="images/homeplus/quick5/quick_pro6.jpg" alt="(전단상품)고당도오렌지 미국산 11-21입 봉" width="210" height="210"></a></p>
+				<figcaption>
+					<span class="quick_txt1">(전단상품)고당도오렌지 미국산<br>11-21입 봉</span>
+					<span class="quick_txt2">9,990</span>
+					<span class="quick_txt3">바로담기</span>
+				</figcaption>
+			</figure>
+			<figure>
+				<p class="quick_pro1"><a href="detailpage.html"><img src="images/homeplus/quick5/quick_pro7.jpg" alt="(전단상품)씨없는적포도 칠레 1.2KG 팩" width="210" height="210"></a></p>
+				<figcaption>
+					<span class="quick_txt1">(전단상품)씨없는적포도 칠레<br>1.2KG 팩</span>
+					<span class="quick_txt2">7,990</span>
+					<span class="quick_txt3">바로담기</span>
+				</figcaption>
+			</figure>
+			<figure>
+				<p class="quick_pro1"><a href="detailpage.html"><img src="images/homeplus/quick5/quick_pro8.jpg" alt="(전단상품)카라카라오렌지 7-21입 봉" width="210" height="210"></a></p>
+				<figcaption>
+					<span class="quick_txt1">(전단상품)카라카라오렌지<br>7-21입 봉</span>
+					<span class="quick_txt2">9,990</span>
+					<span class="quick_txt3">바로담기</span>
+				</figcaption>
+			</figure>
+		</div><!--line2-->
+	</div><!--box_wrap-->
+	<div class="box_wrap"><!--라면-->
+		<div class="line1">
+			<figure>
+				<p class="quick_pro1"><a href="detailpage.html"><img src="images/homeplus/quick6/quick_pro1.jpg" alt="농심 x 신라면 120Gx5입" width="210" height="210"></a></p>
+				<figcaption>
+					<span class="quick_txt1">농심 x 신라면<br>120G x 5입</span>
+					<span class="quick_txt2">3,380</span>
+					<span class="quick_txt3">바로담기</span>
+				</figcaption>
+			</figure>
+			<figure>
+				<p class="quick_pro1"><a href="detailpage.html"><img src="images/homeplus/quick6/quick_pro2.jpg" alt="(10+1)농심 사리면 110Gx5입" width="210" height="210"></a></p>
+				<figcaption>
+					<span class="quick_txt1">(10+1)농심 사리면<br>110Gx5입</span>
+					<span class="quick_txt2">1,000</span>
+					<span class="quick_txt3">바로담기</span>
+				</figcaption>
+			</figure>
+			<figure>
+				<p class="quick_pro1"><a href="detailpage.html"><img src="images/homeplus/quick6/quick_pro3.jpg" alt="(추가증정)팔도 비빔면 130Gx5입" width="210" height="210"></a></p>
+				<figcaption>
+					<span class="quick_txt1">(추가증정)팔도 비빔면<br>130G x 5입</span>
+					<span class="quick_txt2">3,600</span>
+					<span class="quick_txt3">바로담기</span>
+				</figcaption>
+			</figure>
+			<figure>
+				<p class="quick_pro1"><a href="detailpage.html"><img src="images/homeplus/quick6/quick_pro4.jpg" alt="농심 x올리브짜파게티 140Gx5입" width="210" height="210"></a></p>
+				<figcaption>
+					<span class="quick_txt1">농심 x올리브짜파게티<br>140G x 5입</span>
+					<span class="quick_txt2">3,850</span>
+					<span class="quick_txt3">바로담기</span>
+				</figcaption>
+			</figure>
+		</div><!--line1-->
+		<div class="line2">
+			<figure>
+				<p class="quick_pro1"><a href="detailpage.html"><img src="images/homeplus/quick6/quick_pro5.jpg" alt="농심 x 얼큰한너구리 120G x 5입" width="210" height="210"></a></p>
+				<figcaption>
+					<span class="quick_txt1">농심 x 얼큰한너구리<br>120G x 5입</span>
+					<span class="quick_txt2">3,650</span>
+					<span class="quick_txt3">바로담기</span>
+				</figcaption>
+			</figure>
+			<figure>
+				<p class="quick_pro1"><a href="detailpage.html"><img src="images/homeplus/quick6/quick_pro6.jpg" alt="농심 x안성탕면 125Gx5입" width="210" height="210"></a></p>
+				<figcaption>
+					<span class="quick_txt1">농심 x 안성탕면<br>125G x 5입</span>
+					<span class="quick_txt2">3,080</span>
+					<span class="quick_txt3">바로담기</span>
+				</figcaption>
+			</figure>
+			<figure>
+				<p class="quick_pro1"><a href="detailpage.html"><img src="images/homeplus/quick6/quick_pro7.jpg" alt="CP 8 농심 x신라면 120Gx40입" width="210" height="210"></a></p>
+				<figcaption>
+					<span class="quick_txt1">CP 8 농심 x 신라면<br>120G x 40입</span>
+					<span class="quick_txt2">27,040</span>
+					<span class="quick_txt3">바로담기</span>
+				</figcaption>
+			</figure>
+			<figure>
+				<p class="quick_pro1"><a href="detailpage.html"><img src="images/homeplus/quick6/quick_pro8.jpg" alt="(묶음할인)오뚜기 진짬뽕 130G x 4입" width="210" height="210"></a></p>
+				<figcaption>
+					<span class="quick_txt1">(묶음할인)오뚜기 진짬뽕<br>130G x 4입</span>
+					<span class="quick_txt2">5,390</span>
+					<span class="quick_txt3">바로담기</span>
+				</figcaption>
+			</figure>
+		</div><!--line2-->
+	</div><!--box_wrap-->
+	<div class="box_wrap"><!--통조림-->
+		<div class="line1">
+			<figure>
+				<p class="quick_pro1"><a href="detailpage.html"><img src="images/homeplus/quick7/quick_pro1.jpg" alt="(전단상품)CJ 스팸튀김기획 스팸+요리유" width="210" height="210"></a></p>
+				<figcaption>
+					<span class="quick_txt1">(전단상품)CJ 스팸튀김기획<br>스팸+요리유</span>
+					<span class="quick_txt2">12,900</span>
+					<span class="quick_txt3">바로담기</span>
+				</figcaption>
+			</figure>
+			<figure>
+				<p class="quick_pro1"><a href="detailpage.html"><img src="images/homeplus/quick7/quick_pro2.jpg" alt="(10+1)P 동원 골든스위트콘 340G" width="210" height="210"></a></p>
+				<figcaption>
+					<span class="quick_txt1">(10+1)P 동원 골든스위트콘<br>340G</span>
+					<span class="quick_txt2">1,000</span>
+					<span class="quick_txt3">바로담기</span>
+				</figcaption>
+			</figure>
+			<figure>
+				<p class="quick_pro1"><a href="detailpage.html"><img src="images/homeplus/quick7/quick_pro3.jpg" alt="(행사상품)사조 살코기참치 100Gx8" width="210" height="210"></a></p>
+				<figcaption>
+					<span class="quick_txt1">(행사상품)사조 살코기참치<br>100G x 8</span>
+					<span class="quick_txt2">7,900</span>
+					<span class="quick_txt3">바로담기</span>
+				</figcaption>
+			</figure>
+			<figure>
+				<p class="quick_pro1"><a href="detailpage.html"><img src="images/homeplus/quick7/quick_pro4.jpg" alt="CJ 스팸클래식+스팸마일드 200Gx5+200G" width="210" height="210"></a></p>
+				<figcaption>
+					<span class="quick_txt1">CJ 스팸클래식+스팸마일드<br>200Gx5+200G</span>
+					<span class="quick_txt2">14,690</span>
+					<span class="quick_txt3">바로담기</span>
+				</figcaption>
+			</figure>
+		</div><!--line1-->
+		<div class="line2">
+			<figure>
+				<p class="quick_pro1"><a href="detailpage.html"><img src="images/homeplus/quick7/quick_pro5.jpg" alt="(행사상품)사조 살코기참치+고추참치 100Gx4+100Gx4" width="210" height="210"></a></p>
+				<figcaption>
+					<span class="quick_txt1">(행사상품)사조 살코기참치+고추참치<br>100Gx4+100Gx4</span>
+					<span class="quick_txt2">7,900</span>
+					<span class="quick_txt3">바로담기</span>
+				</figcaption>
+			</figure>
+			<figure>
+				<p class="quick_pro1"><a href="detailpage.html"><img src="images/homeplus/quick7/quick_pro6.jpg" alt="동원 살코기참치+고추참치 100Gx6+100Gx2" width="210" height="210"></a></p>
+				<figcaption>
+					<span class="quick_txt1">동원 살코기참치+고추참치<br>100Gx6+100Gx2</span>
+					<span class="quick_txt2">10,900</span>
+					<span class="quick_txt3">바로담기</span>
+				</figcaption>
+			</figure>
+			<figure>
+				<p class="quick_pro1"><a href="detailpage.html"><img src="images/homeplus/quick7/quick_pro7.jpg" alt="(행사상품) 그린필스위트콘 420Gx6" width="210" height="210"></a></p>
+				<figcaption>
+					<span class="quick_txt1">(행사상품) 그린필스위트콘<br>420Gx6</span>
+					<span class="quick_txt2">2,990</span>
+					<span class="quick_txt3">바로담기</span>
+				</figcaption>
+			</figure>
+			<figure>
+				<p class="quick_pro1"><a href="detailpage.html"><img src="images/homeplus/quick7/quick_pro8.jpg" alt="(10+1) 유동번데기 280G" width="210" height="210"></a></p>
+				<figcaption>
+					<span class="quick_txt1">(10+1) 유동번데기<br>280G</span>
+					<span class="quick_txt2">1,000</span>
+					<span class="quick_txt3">바로담기</span>
+				</figcaption>
+			</figure>
+		</div><!--line2-->
+	</div><!--box_wrap-->
+	<div class="box_wrap"><!--우유-->
+		<div class="line1">
+			<figure>
+				<p class="quick_pro1"><a href="detailpage.html"><img src="images/homeplus/quick8/quick_pro1.jpg" alt="1A우유 1L 홈플러스좋은상품" width="210" height="210"></a></p>
+				<figcaption>
+					<span class="quick_txt1">1A우유 1L<br>홈플러스좋은상품</span>
+					<span class="quick_txt2">1,790</span>
+					<span class="quick_txt3">바로담기</span>
+				</figcaption>
+			</figure>
+			<figure>
+				<p class="quick_pro1"><a href="detailpage.html"><img src="images/homeplus/quick8/quick_pro2.jpg" alt="(전단상품)서울 후레쉬밀크 900MLx2" width="210" height="210"></a></p>
+				<figcaption>
+					<span class="quick_txt1">(전단상품)서울 후레쉬밀크<br>900MLx2</span>
+					<span class="quick_txt2">3,680</span>
+					<span class="quick_txt3">바로담기</span>
+				</figcaption>
+			</figure>
+			<figure>
+				<p class="quick_pro1"><a href="detailpage.html"><img src="images/homeplus/quick8/quick_pro3.jpg" alt="서울 우유 1L" width="210" height="210"></a></p>
+				<figcaption>
+					<span class="quick_txt1">서울 우유<br>1L</span>
+					<span class="quick_txt2">2,480</span>
+					<span class="quick_txt3">바로담기</span>
+				</figcaption>
+			</figure>
+			<figure>
+				<p class="quick_pro1"><a href="detailpage.html"><img src="images/homeplus/quick8/quick_pro4.jpg" alt="서울 우유 2.3L" width="210" height="210"></a></p>
+				<figcaption>
+					<span class="quick_txt1">서울 우유<br>2.3L</span>
+					<span class="quick_txt2">5,720</span>
+					<span class="quick_txt3">바로담기</span>
+				</figcaption>
+			</figure>
+		</div><!--line1-->
+		<div class="line2">
+			<figure>
+				<p class="quick_pro1"><a href="detailpage.html"><img src="images/homeplus/quick8/quick_pro5.jpg" alt="남양 맛있는우유GT기획 1Lx2" width="210" height="210"></a></p>
+				<figcaption>
+					<span class="quick_txt1">남양 맛있는 우유 GT기획<br>1Lx2</span>
+					<span class="quick_txt2">4,580</span>
+					<span class="quick_txt3">바로담기</span>
+				</figcaption>
+			</figure>
+			<figure>
+				<p class="quick_pro1"><a href="detailpage.html"><img src="images/homeplus/quick8/quick_pro6.jpg" alt="서울 멸균흰우유 200MLx24 박스" width="210" height="210"></a></p>
+				<figcaption>
+					<span class="quick_txt1">서울 멸균흰우유<br>200MLx24 박스</span>
+					<span class="quick_txt2">13,490</span>
+					<span class="quick_txt3">바로담기</span>
+				</figcaption>
+			</figure>
+			<figure>
+				<p class="quick_pro1"><a href="detailpage.html"><img src="images/homeplus/quick8/quick_pro7.jpg" alt="서울 신선함이살아있는우유 1L" width="210" height="210"></a></p>
+				<figcaption>
+					<span class="quick_txt1">서울 신선함이 살아있는 우유<br>1L</span>
+					<span class="quick_txt2">2,950</span>
+					<span class="quick_txt3">바로담기</span>
+				</figcaption>
+			</figure>
+			<figure>
+				<p class="quick_pro1"><a href="detailpage.html"><img src="images/homeplus/quick8/quick_pro8.jpg" alt="빙그레 바나나우유6입기획 바나나 딸기  240MLx6" width="210" height="210"></a></p>
+				<figcaption>
+					<span class="quick_txt1">빙그레 바나나우유 6입 기획<br>바나나 딸기  240MLx6</span>
+					<span class="quick_txt2">5,980</span>
+					<span class="quick_txt3">바로담기</span>
+				</figcaption>
+			</figure>
+		</div><!--line2-->
+	</div><!--box_wrap-->
+	<div class="box_wrap"><!--간편식-->
+		<div class="line1">
+			<figure>
+				<p class="quick_pro1"><a href="detailpage.html"><img src="images/homeplus/quick9/quick_pro1.jpg" alt="(전단상품)CJ 햇반실속 210Gx12" width="210" height="210"></a></p>
+				<figcaption>
+					<span class="quick_txt1">(전단상품)CJ 햇반실속<br>210Gx12</span>
+					<span class="quick_txt2">9,690</span>
+					<span class="quick_txt3">바로담기</span>
+				</figcaption>
+			</figure>
+			<figure>
+				<p class="quick_pro1"><a href="detailpage.html"><img src="images/homeplus/quick9/quick_pro2.jpg" alt="(전단상품)든든한한끼 게살새우볶음밥 300gx4 AAF" width="210" height="210"></a></p>
+				<figcaption>
+					<span class="quick_txt1">(전단상품)든든한한끼 게살새우<br>볶음밥 300gx4 AAF</span>
+					<span class="quick_txt2">7,990</span>
+					<span class="quick_txt3">바로담기</span>
+				</figcaption>
+			</figure>
+			<figure>
+				<p class="quick_pro1"><a href="detailpage.html"><img src="images/homeplus/quick9/quick_pro3.jpg" alt="(1+1)대림 안심치킨 너겟 540g" width="210" height="210"></a></p>
+				<figcaption>
+					<span class="quick_txt1">(1+1)대림 안심치킨 너겟<br>540g</span>
+					<span class="quick_txt2">7,750</span>
+					<span class="quick_txt3">바로담기</span>
+				</figcaption>
+			</figure>
+			<figure>
+				<p class="quick_pro1"><a href="detailpage.html"><img src="images/homeplus/quick9/quick_pro4.jpg" alt="농심 x신라면 120Gx5입" width="210" height="210"></a></p>
+				<figcaption>
+					<span class="quick_txt1">농심 x신라면<br>120Gx5입</span>
+					<span class="quick_txt2">3,380</span>
+					<span class="quick_txt3">바로담기</span>
+				</figcaption>
+			</figure>
+		</div><!--line1-->
+		<div class="line2">
+			<figure>
+				<p class="quick_pro1"><a href="detailpage.html"><img src="images/homeplus/quick9/quick_pro5.jpg" alt="(10+1)농심 사리면 110Gx5입" width="210" height="210"></a></p>
+				<figcaption>
+					<span class="quick_txt1">(10+1)농심 사리면<br>110Gx5입</span>
+					<span class="quick_txt2">1,000</span>
+					<span class="quick_txt3">바로담기</span>
+				</figcaption>
+			</figure>
+			<figure>
+				<p class="quick_pro1"><a href="detailpage.html"><img src="images/homeplus/quick9/quick_pro6.jpg" alt="(전단상품)CJ 스팸튀김기획 스팸+요리유" width="210" height="210"></a></p>
+				<figcaption>
+					<span class="quick_txt1">(전단상품)CJ 스팸튀김기획<br>스팸+요리유</span>
+					<span class="quick_txt2">12,900</span>
+					<span class="quick_txt3">바로담기</span>
+				</figcaption>
+			</figure>
+			<figure>
+				<p class="quick_pro1"><a href="detailpage.html"><img src="images/homeplus/quick9/quick_pro7.jpg" alt="(추가증정)팔도 비빔면 130Gx5입" width="210" height="210"></a></p>
+				<figcaption>
+					<span class="quick_txt1">(추가증정)팔도 비빔면<br>130Gx5입</span>
+					<span class="quick_txt2">3,600</span>
+					<span class="quick_txt3">바로담기</span>
+				</figcaption>
+			</figure>
+			<figure>
+				<p class="quick_pro1"><a href="detailpage.html"><img src="images/homeplus/quick9/quick_pro8.jpg" alt="(10+1)P 동원 골든스위트콘 340G" width="210" height="210"></a></p>
+				<figcaption>
+					<span class="quick_txt1">(10+1)P 동원 골든스위트콘<br>340G</span>
+					<span class="quick_txt2">1,000</span>
+					<span class="quick_txt3">바로담기</span>
+				</figcaption>
+			</figure>
+		</div><!--line2-->
+	</div><!--box_wrap-->
+</section><!--content_wrap-->
+
+<section id="partner_warp">
+	<h2 class="txt1">G마켓 파트너스</h2>
+	<ul class="partner1">
+		<li><a href="http://lotte.gmarket.co.kr/"><img src="images/bottom/partner1.jpg" alt="롯데백화점" width="120" height="40"/></a></li>
+		<li><a href="http://minishop.gmarket.co.kr/shinsegae9"><img src="images/bottom/partner2.jpg" alt="신세계백화점" width="120" height="40"/></a></li>
+		<li><a href="http://minishop.gmarket.co.kr/hdepart01"><img src="images/bottom/partner3.jpg" alt="현대백화점" width="120" height="40"/></a></li>
+		<li><a href="http://minishop.gmarket.co.kr/galleriamall"><img src="images/bottom/partner4.jpg" alt="갤러리아백화점" width="120" height="40"/></a></li>
+		<li><a href="http://shop.gmarket.co.kr/Homeplus/Homeplus.aspx"><img src="images/bottom/partner5.jpg" alt="홈플러스" width="120" height="40"/></a></li>
+		<li><a href="http://minishop.gmarket.co.kr/debec"><img src="images/bottom/partner6.jpg" alt="대구백화점" width="120" height="40"/></a></li>
+	</ul><!--partner1-->
+
+	<ul class="partner2">
+		<li><a href="http://promotion.gmarket.co.kr/planview/plan.asp?sid=145279"><img src="images/bottom/partner7.jpg" alt="코카콜라" width="120" height="40"/></a></li>
+		<li><a href="http://promotion.gmarket.co.kr/planview/plan.asp?sid=139089"><img src="images/bottom/partner8.jpg" alt="마이크로소프트" width="120" height="40"/></a></li>
+		<li><a href="http://minishop.gmarket.co.kr/amorepacificmall"><img src="images/bottom/partner9.jpg" alt="아모레퍼시픽" width="120" height="40"/></a></li>
+		<li><a href="http://promotion.gmarket.co.kr/planview/plan.asp?sid=141855"><img src="images/bottom/partner10.jpg" alt="우리카드" width="120" height="40"/></a></li>
+		<li><a href="http://promotion.gmarket.co.kr/planview/plan.asp?sid=140258"><img src="images/bottom/partner11.jpg" alt="신한카드" width="120" height="40"/></a></li>
+		<li><a href="http://minishop.gmarket.co.kr/adidaskorea"><img src="images/bottom/partner12.jpg" alt="아디다스" width="120" height="40"/></a></li>
+	</ul><!--partner2-->
+</section><!--partner_warp-->
+
+<footer id="bottom_wrap">
+	<div id="bot1">
+		<div id="bot_left">
+			<h4>고객센터</h4>
+			<p>상담가능시간 : 오전 9시~오후 6시 (토요일 및 공휴일은 휴무)</p> 
+			<address>경기도 부천시 원미구 부일로 223 (상동) 투나빌딩 6층</address>
+			<p>Tel : 1566-5701 전화전 Click Fax : 02-589-8842</p> 
+			<p>Mail : gmarket@corp.gmarket.co.kr</p>
+		</div>
+		<div id="bot_center">
+			<h4>(주)이베이코리아</h4>
+			<address>서울시 강남구 테헤란로 152 (역삼동 강남파이낸스센터)</address>
+			<p>대표이사 : 변광윤</p>
+			<p>사업자등록번호 : 220-81-83676 <strong class="info_check">사업자정보확인</strong></p>
+			<p>통신판매업신고 : 강남 10630호 Fax : 02-589-8842</p>
+		</div><!--bot_center-->
+		<div id="bot_right">
+			<h4>전자금융분쟁처리</h4>
+			<p>Tel : 1566-5701 Fax : 02-589-8844</p>
+			<p>Mail : gmk_cs@corp.gmarket.co.kr</p>
+			<p><strong class="info_check">저작권침해 신고</strong></p>
+		</div><!--bot_right-->
+	</div><!--bot1-->
+	<div id="bot2">
+		<figure class="rank1">
+			<img src="images/bottom/rank_img1.jpg" alt="국가고객만족지수" width="35" height="33"/>
+			<figcaption>국가고객만족지수<br>1위 (2011, 2014)</figcaption>
+		</figure><!--rank1-->
+		<figure class="rank2">
+			<img src="images/bottom/rank_img2.jpg" alt="한국산업의 브랜드파워" width="35" height="33"/>
+			<figcaption>한국산업의 브랜드파워<br>5년 연속 1위 (2011~2015)</figcaption>
+		</figure><!--rank2-->
+		<figure class="rank3">
+			<img src="images/bottom/rank_img3.jpg" alt="최고의 브랜드대상" width="35" height="33"/>
+			<figcaption>최고의 브랜드대상<br>4년 연속 1위 (2012~2015)</figcaption>
+		</figure><!--rank3-->
+		<figure class="rank4">
+			<img src="images/bottom/rank_img4.jpg" alt="국가고객만족지수" width="35" height="33"/>
+			<figcaption>국가고객만족지수<br>1위 (2011, 2014)</figcaption>
+		</figure><!--rank4-->
+		<figure class="rank5">
+			<img src="images/bottom/rank_img5.jpg" alt="Smart Brand" width="35" height="33"/>
+			<figcaption>Smart Brand<br>온라인유통 부문 1위(2014)</figcaption>
+		</figure><!--rank5-->
+	</div><!--bot2-->
+	<div id="bot3">
+		<p>(주) 이베이코리아의 사전 서면 동의 없이 G마켓사이트의 일체의 정보, 콘텐츠 및 UI등을 상업적 목적으로 전재, 전송, 스크래핑 등 무단 사용할 수 없습니다.<br>
+		<strong>G마켓은 통신판매중개자이며 통신판매의 당사자가 아닙니다. 따라서 G마켓은 상품·거래정보 및 거래에 대하여 책임을 지지 않습니다.</strong><br>
+		Copyright &copy; eBay Korea Co., Ltd. All rights reserved.
+		</p>
+	</div><!--bot3-->
+</footer><!--bottom_wrap-->
+</body>
+</html>
+
+

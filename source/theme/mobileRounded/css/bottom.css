@@ -1,0 +1,14 @@
+@charset "utf-8";
+
+/*bottom*/
+#bottom{clear: both; height:80px; text-align: center;}
+.bot_menu{height:25px; background-color: #333; min-width: 320px;}
+.bot_menu li{display: inline; height: 25px; margin: 0 5px;}
+.bot_menu li a{color:#fff;line-height: 25px; font-size: 11px;}
+.bot_menu li a:hover{text-decoration: underline;}
+
+.copyright{height:65px; background-color: #eaeaea; padding-top: 10px;}
+.copy_txt1, .copy_txt2, .copy_txt3,.copy_txt4{margin-left: 10px; color: #333;}
+.copy_txt2{font-style: normal;}
+.tel1{margin-right: 10px;}
+.top_btn{position: fixed; bottom:10px; right:5px; z-index: 10;}

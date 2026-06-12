@@ -1,0 +1,357 @@
+<!DOCTYPE HTML>
+<html lang="ko">
+<head>
+<meta charset="UTF-8">
+<title>Gmarket Index</title>
+<!--[if lt IE 9]>
+<script src="js/html5shiv.js"></script>
+<![endif]-->
+
+<script src="js/jquery-1.12.0.min.js"></script><!--1버전이 적용되는 예제로 1버전 연결 / 3버전 적용 안됨-->
+<script src="js/jquery-1.7.2.min.js"></script><!--totop-->
+<script src="js/jquery.ui.totop.min.js"></script><!--totop-->
+
+<script src="js/jq_index.js"></script>
+<script src="js/jq_quick.js"></script>
+<script src="js/jq_top.js"></script>
+<script src="js/easing.js"></script><!--totop-->
+<script>//totop
+	$(document).ready(function() {
+		$().UItoTop({ easingType: 'easeOutQuart' });
+	});
+</script>
+
+
+<link rel="stylesheet" type="text/css" href="css/ui.totop.css" /><!--totop-->
+<link rel="shortcut icon" type="image/x-icon" href="images/favicon.ico">
+<link rel="stylesheet" type="text/css" href="css/reset.css" media="all" />
+<link rel="stylesheet" type="text/css" href="css/index_layout.css" media="all" />
+
+</head>
+<body>
+
+<div id="top_wrap">
+	<header id="top">
+		<h1 class="title1" id="top_point"><a href="index.html"><img src="images/index/logo.jpg" alt="Gmarget" width="180" height="52"></a></h1>
+		<p class="search"><input type="text" class="search_txt"></p>
+		<a href="#" class="search_img"><img src="images/index/search_img.png" alt="search_img" width="39" height="38"/></a>
+		<div class="quick">
+			<p class="quick_img">
+			     <img src="images/index/quick_banner1.jpg" alt="quick_img" width="190" height="88" data-num="1"/><img src="images/index/quick_banner2.jpg" alt="quick_img" width="190" height="88" data-num="2"/><img src="images/index/quick_banner3.jpg" alt="quick_img" width="190" height="88" data-num="3"/><img src="images/index/quick_banner4.jpg" alt="quick_img" width="190" height="88" data-num="4"/>
+            </p><!--quick_img-->
+			<div class="quick_txt_wrap">
+                <p class="quick_txt1"><span class="q_val">1</span> / 4</p>
+                <p class="quick_txt2"><a href="#"><img src="images/index/t_arrow_left.png" alt="q_arrow_left" width="12" height="12" class="q_arrow_left"></a></p>
+                <p class="quick_txt3"><a href="#"><img src="images/index/t_arrow_right.png" alt="q_arrow_right" width="12" height="12" class="q_arrow_right"></a></p>
+			</div><!--quick_txt_wrap-->
+		</div><!--quick-->
+		<nav id="main_menu">
+			<ul>
+				<li><a href="best.html">베스트</a></li>
+				<li><a href="coupon.html">쿠폰존</a></li>
+				<li><a href="superdeal.html">슈퍼딜</a></li>
+				<li><a href="smartdeli.html">스마트배송</a></li>
+				<li><a href="homeplus.html">홈플러스</a></li>
+			</ul>
+		</nav><!--main_menu-->
+		<div id="quick_menu">
+			<ul>
+				<li class="quick_menu1"><a href="login.html">로그인</a></li>
+				<li class="quick_menu2"><a href="member.html">회원가입</a></li>
+				<li class="quick_menu3"><a href="login.html">나의쇼핑</a></li>
+				<li class="quick_menu4"><a href="bag.html">장바구니</a></li>
+			</ul>
+		</div><!--quick_menu-->
+	</header><!--top-->
+</div><!--top_wrap-->
+
+
+<div id="notice_wrap">
+	<div class="notice_content">
+		<p class="notice_txt1">NOTICE</p>
+		<p class="notice_txt2">
+			본 사이트는 상업적 목적이 아닌<br>개인 포트폴리오 용도로 만들어졌습니다.<br>
+			홈페이지의 일부 내용과 이미지 등은<br> 그 출처가 따로 있음을 밝힙니다.<br>
+			본 사이트는 HTML5와 CSS3를 기준으로 하여 <br>크로스브라우징 기술을 기반으로 한 <br>익스플로러11이상, 구글 크롬에 최적화된 홈페이지입니다.
+		</p>
+		<p class="qr_img"><img src="images/index/qr_img.jpg" alt="QR" width="100" height="100"></p>
+	</div><!--notice_content-->
+	<p class="notice_txt3"><a href="#"><img src="images/index/close_img.png" alt="close" width="20" height="20" class="close_btn"></a></p>
+	<p class="notice_txt4"><input type="checkbox" id="check">오늘은 하루동안 이 창을 열지 않음</p>
+</div><!--notice_wrap-->
+
+
+<div id="content_wrap">
+	<section id="content1">
+		<div class="banner_l">
+           <div class="banner_l_wrap">
+                <ul>
+                    <li class="banner_0"><a href="#">banner1</a></li>
+                    <li class="banner_1"><a href="#">banner2</a></li>
+                    <li class="banner_2"><a href="#">banner3</a></li>
+                    <li class="banner_3"><a href="#">banner4</a></li>
+                    <li class="banner_4"><a href="#">banner5</a></li>
+                </ul>
+            </div><!--banner_l_wrap-->
+            
+            <ul id="btn_all">
+                <li class="on"><a href="#">배너1</a></li>
+                <li><a href="#">배너2</a></li>
+                <li><a href="#">배너3</a></li>
+                <li><a href="#">배너4</a></li>
+                <li><a href="#">배너5</a></li>
+            </ul><!--btn_all-->
+            
+		</div><!--banner_l-->
+		<ul class="banner_r">
+			<li class="banner_r1" data-title="브랜드패션"><a href="catebrand.html">브랜드패션</a></li>
+			<li class="banner_r2" data-title="의류/잡화/뷰티"><a href="catefashion.html">의류/잡화/뷰티</a></li>
+			<li class="banner_r3" data-title="유아동"><a href="catekids.html">유아동</a></li>
+			<li class="banner_r4" data-title="식품/생필품"><a href="catefood.html">식품/생필품</a></li>
+			<li class="banner_r5" data-title="홈데코/문구/취미"><a href="catedeco.html">홈데코/문구/취미</a></li>
+			<li class="banner_r6"><span>메뉴 선택</span>	
+				<a href="catebrand.html" title="브랜드패션" data-num="1"><img src="images/index/dot_off.png" alt="dot" width="10" height="10" class="dot1"></a>
+				<a href="catefashion.html" title="의류/잡화/뷰티" data-num="2"><img src="images/index/dot_off.png" alt="dot" width="10" height="10" class="dot2"></a>
+				<a href="catekids.html" title="유아동" data-num="3"><img src="images/index/dot_off.png" alt="dot" width="10" height="10" class="dot3"></a>
+				<a href="catefood.html" title="식품/생필품" data-num="4"><img src="images/index/dot_off.png" alt="dot" width="10" height="10" class="dot4"></a>
+				<a href="catedeco.html" title="홈데코/문구/취미" data-num="5"><img src="images/index/dot_off.png" alt="dot" width="10" height="10" class="dot5"></a></li>
+		</ul><!--banner_r-->
+	</section><!--content1-->
+
+	<section id="content2">
+		<h2 class="txt1">G마켓 BEST</h2>
+		<div class="best_pro">
+			<p class="img1"><a href="#"><img src="images/index/arrow_left.png" alt="arrow_left" width="22" height="47"  class="best_arrow_left"/></a></p>
+			<p class="img2"><a href="#"><img src="images/index/arrow_right.png" alt="arrow_left" width="22" height="47" class="best_arrow_right"/></a></p>
+			<div class="best_pros1">
+				<figure>
+					<a href="detailpage.html" target="_blank"><img src="images/index/best_pro1.jpg" alt="(키즈꼬모) 6시간만 상하복 6900" width="180" height="181"/></a>
+					<figcaption>(키즈꼬모) 6시간만 상하복 6900<br>/겨울신상/아동복<span>6,900</span>
+					</figcaption>
+				</figure><!--best_pro1-->
+				<figure>
+					<a href="detailpage.html" target="_blank"><img src="images/index/best_pro2.jpg" alt="하루특가 정품 디즈니 롱맨투맨" width="180" height="181"/></a>
+					<figcaption>하루특가 정품 디즈니 롱맨투맨<br>전품목 69균일가<span>6,900</span></figcaption>
+				</figure><!--best_pro2-->
+				<figure>
+					<a href="detailpage.html" target="_blank"><img src="images/index/best_pro3.jpg" alt="[배스킨라빈스]" width="180" height="181"/></a>
+					<figcaption>[배스킨라빈스]<br>(배스킨라빈스) 나눠먹는 와츄원<span>25,600</span></figcaption>
+				</figure><!--best_pro3-->
+				<figure>
+					<a href="detailpage.html" target="_blank"><img src="images/index/best_pro4.jpg" alt="[세타필]-1+1+1 선착순특가" width="180" height="181"/></a>
+					<figcaption>[세타필]-1+1+1 선착순특가<br>500세트/세타필 초특가프로모션<span>25,900</span></figcaption>
+				</figure><!--best_pro4-->
+			</div><!--best_pros1-->
+			
+			<div class="best_pros2">
+				<figure>
+					<a href="detailpage.html" target="_blank"><img src="images/index/best_pro5.jpg" alt="알로앤루/포래즈/알퐁소 겨울 이월 상품 최대 78%" width="180" height="181"/></a>
+					<figcaption>알로앤루/포래즈/알퐁소 겨울 이월 상품 최대 78%<span>7,000</span>
+					</figcaption>
+				</figure><!--best_pro1-->
+				<figure>
+					<a href="detailpage.html" target="_blank"><img src="images/index/best_pro6.jpg" alt="겨울신상 니트/터틀넥/폴라/코트/제니트" width="180" height="181"/></a>
+					<figcaption>겨울신상 니트/터틀넥/폴라/코트/제니트<span>8,900</span></figcaption>
+				</figure><!--best_pro2-->
+				<figure>
+					<a href="detailpage.html" target="_blank"><img src="images/index/best_pro7.jpg" alt="요즘에 선착순반값/청바지/스키니/슬랙스/26~36" width="180" height="181"/></a>
+					<figcaption>요즘에 선착순반값/청바지/스키니/슬랙스/26~36<span>9,900</span></figcaption>
+				</figure><!--best_pro3-->
+				<figure>
+					<a href="detailpage.html" target="_blank"><img src="images/index/best_pro8.jpg" alt="힐슈빌 신상 슬립온 단화 스니커즈 키높이 여성 통굽" width="180" height="181"/></a>
+					<figcaption>힐슈빌 신상 슬립온 단화 스니커즈 키높이 여성 통굽<span>9,800</span></figcaption>
+				</figure><!--best_pro4-->
+			</div><!--best_pros2-->
+			
+			<div class="best_pros3">
+				<figure>
+					<a href="detailpage.html" target="_blank"><img src="images/index/best_pro9.jpg" alt="봄신상4900~롱원피스티셔츠/니트/빅사이즈/맨투맨" width="180" height="181"/></a>
+					<figcaption>봄신상4900~롱원피스티셔츠/니트/빅사이즈/맨투맨<span>9,900</span>
+					</figcaption>
+				</figure><!--best_pro1-->
+				<figure>
+					<a href="detailpage.html" target="_blank"><img src="images/index/best_pro10.jpg" alt="구워먹는 로스트 치즈떡1kg/치즈떡볶이" width="180" height="181"/></a>
+					<figcaption>구워먹는 로스트 치즈떡1kg/치즈떡볶이<span>6,500</span></figcaption>
+				</figure><!--best_pro2-->
+				<figure>
+					<a href="detailpage.html" target="_blank"><img src="images/index/best_pro11.jpg" alt="가야 g워터 먹는샘물 2Lx12펫/500mlx40펫/삼다수" width="180" height="181"/></a>
+					<figcaption>가야 g워터 먹는샘물 2Lx12펫/500mlx40펫/삼다수<span>5,900</span></figcaption>
+				</figure><!--best_pro3-->
+				<figure>
+					<a href="detailpage.html" target="_blank"><img src="images/index/best_pro12.jpg" alt="[아가방]봄 타는 아가방 파격할인" width="180" height="181"/></a>
+					<figcaption>[아가방]봄 타는 아가방 파격할인<span>11,900</span></figcaption>
+				</figure><!--best_pro4-->
+			</div><!--best_pros3-->
+			
+			<p class="txt2">더보기<a href="best.html"><img src="images/index/more.png" alt="more" width="16" height="16"></a></p>
+		</div><!--best_pro-->
+	</section><!--content2-->
+	<section id="content3">
+		<h2 class="txt1"><img src="images/superdeal/superdeal_logo.png" alt="arrow_left" width="170" height="54"/></h2>
+		<div id="content3_1">
+			<figure>
+					<a href="detailpage.html" target="_blank"><img src="images/superdeal/super_pro1.jpg" alt="설에는 떡국~ 면기 2P" width="320" height="166"/></a>
+					<figcaption>
+						<span>설에는 떡국~ 면기 2P</span>
+						<span class="txt3">36%<ins>13,900원</ins><del>21,800원</del></span>
+						<span class="txt4"><strong>무료배송</strong><strong>스마일캐시 최대 <span>1.5% 적립</span></strong></span>
+						<span class="txt5"><strong>615</strong>구매</span>
+					</figcaption>
+					
+			</figure>
+			<figure>
+					<a href="detailpage.html" target="_blank"><img src="images/superdeal/super_pro2.jpg" alt="설전배송! 아씨 전통한복 반값세일" width="320" height="166"/></a>
+					<figcaption>
+						<span>설전배송! 아씨 전통한복 반값세일</span>
+						<span class="txt3">68%<ins>15,900원</ins><del>49,900원</del></span>
+						<span class="txt4"><strong>무료배송</strong><strong>스마일캐시 최대 <span>1.5% 적립</span></strong></span>
+						<span class="txt5"><strong>5만+</strong>구매</span>
+					</figcaption>
+			</figure>
+			<figure>
+					<a href="detailpage.html" target="_blank"><img src="images/superdeal/super_pro3.jpg" alt="네이처리퍼블릭 2017 클리어런스 빅세일!" width="320" height="166"/></a>
+					<figcaption>
+						<span>네이처리퍼블릭 2017 클리어런스 빅세일!</span>
+						<span class="txt3">50%<ins>10,000원</ins><del>20,000원</del></span>
+						<span class="txt4"><strong>무료배송</strong><strong>스마일캐시 최대 <span>1.5% 적립</span></strong></span>
+						<span class="txt5"><strong>1만+</strong>구매</span>
+					</figcaption>
+			</figure>
+		</div><!--content3_1-->
+		<div id="content3_2">
+			<figure>
+					<a href="detailpage.html" target="_blank"><img src="images/superdeal/super_pro4.jpg" alt="귀경길 필수품! 유아 안전벨트 로켓 인형" width="320" height="166"/></a>
+					<figcaption>
+						<span>귀경길 필수품! 유아 안전벨트 로켓 인형</span>
+						<span class="txt3">60%<ins>7,800원</ins><del>19,900원</del></span>
+						<span class="txt4"><strong>무료배송</strong><strong>스마일캐시 최대 <span>1.5% 적립</span></strong></span>
+						<span class="txt5"><strong>9,553</strong>구매</span>
+					</figcaption>
+			</figure>
+			<figure>
+					<a href="detailpage.html" target="_blank"><img src="images/superdeal/super_pro5.jpg" alt="無파우더 라텍스 판타스틱 장갑 1Box(100장)" width="320" height="166"/></a>
+					<figcaption>
+						<span>無파우더 라텍스 판타스틱 장갑 1Box(100장)</span>
+						<span class="txt3">46%<ins>6,900원</ins><del>13,000원</del></span>
+						<span class="txt4"><strong>무료배송</strong><strong>스마일캐시 최대 <span>1.5% 적립</span></strong></span>
+						<span class="txt5"><strong>1만</strong>구매</span>
+					</figcaption>
+			</figure>
+			<figure>
+					<a href="detailpage.html" target="_blank"><img src="images/superdeal/super_pro6.jpg" alt="필립스 무선주전자 초특가" width="320" height="166"/></a>
+					<figcaption>
+						<span>필립스 무선주전자 초특가</span>
+						<span class="txt3">46%<ins>23,900원</ins><del>45,000원</del></span>
+						<span class="txt4"><strong>무료배송</strong><strong>스마일캐시 최대 <span>1.5% 적립</span></strong></span>
+						<span class="txt5"><strong>1,059</strong>구매</span>
+					</figcaption>
+			</figure>
+		</div><!--content3_2-->
+		<div id="content3_3">
+			<figure>
+					<a href="detailpage.html" target="_blank"><img src="images/superdeal/super_pro7.jpg" alt="필립스 무선주전자 초특가" width="320" height="166"/></a>
+					<figcaption>
+						<span>필립스 무선주전자 초특가</span>
+						<span class="txt3">46%<ins>23,900원</ins><del>45,000원</del></span>
+						<span class="txt4"><strong>무료배송</strong><strong>스마일캐시 최대 <span>1.5% 적립</span></strong></span>
+						<span class="txt5"><strong>1,059</strong>구매</span>
+					</figcaption>
+			</figure>
+			<figure>
+					<a href="detailpage.html" target="_blank"><img src="images/superdeal/super_pro8.jpg" alt="설빔으로 딱 좋은 쉬즈미스 원피스/코트" width="320" height="166"/></a>
+					<figcaption>
+						<span>설빔으로 딱 좋은 쉬즈미스 원피스/코트</span>
+						<span class="txt3">69%<ins>47,600원</ins><del>158,600원</del></span>
+						<span class="txt4"><strong>무료배송</strong><strong>스마일캐시 최대 <span>1.5% 적립</span></strong></span>
+						<span class="txt5"><strong>197</strong>구매</span>
+					</figcaption>
+			</figure>
+			<figure>
+					<a href="detailpage.html" target="_blank"><img src="images/superdeal/super_pro9.jpg" alt="빈폴 설 특가 선물 아이템 마지막 찬스" width="320" height="166"/></a>
+					<figcaption>
+						<span>빈폴 설 특가 선물 아이템 마지막 찬스</span>
+						<span class="txt3">40%<ins>63,200원</ins><del>105,400원</del></span>
+						<span class="txt4"><strong>무료배송</strong><strong>스마일캐시 최대 <span>1.5% 적립</span></strong></span>
+						<span class="txt5"><strong>103</strong>구매</span>
+					</figcaption>
+			</figure>
+			<p class="txt2">더보기<a href="superdeal.html"><img src="images/index/more.png" alt="more" width="16" height="16"></a></p>
+		</div><!--content3_3-->
+	</section><!--content3-->
+</div><!--content_wrap-->
+
+<section id="partner_warp">
+	<h2 class="txt1">G마켓 파트너스</h2>
+	<ul class="partner1">
+		<li><a href="http://lotte.gmarket.co.kr/"><img src="images/bottom/partner1.jpg" alt="롯데백화점" width="120" height="40"/></a></li>
+		<li><a href="http://minishop.gmarket.co.kr/shinsegae9"><img src="images/bottom/partner2.jpg" alt="신세계백화점" width="120" height="40"/></a></li>
+		<li><a href="http://minishop.gmarket.co.kr/hdepart01"><img src="images/bottom/partner3.jpg" alt="현대백화점" width="120" height="40"/></a></li>
+		<li><a href="http://minishop.gmarket.co.kr/galleriamall"><img src="images/bottom/partner4.jpg" alt="갤러리아백화점" width="120" height="40"/></a></li>
+		<li><a href="http://shop.gmarket.co.kr/Homeplus/Homeplus.aspx"><img src="images/bottom/partner5.jpg" alt="홈플러스" width="120" height="40"/></a></li>
+		<li><a href="http://minishop.gmarket.co.kr/debec"><img src="images/bottom/partner6.jpg" alt="대구백화점" width="120" height="40"/></a></li>
+	</ul><!--partner1-->
+
+	<ul class="partner2">
+		<li><a href="http://promotion.gmarket.co.kr/planview/plan.asp?sid=145279"><img src="images/bottom/partner7.jpg" alt="코카콜라" width="120" height="40"/></a></li>
+		<li><a href="http://promotion.gmarket.co.kr/planview/plan.asp?sid=139089"><img src="images/bottom/partner8.jpg" alt="마이크로소프트" width="120" height="40"/></a></li>
+		<li><a href="http://minishop.gmarket.co.kr/amorepacificmall"><img src="images/bottom/partner9.jpg" alt="아모레퍼시픽" width="120" height="40"/></a></li>
+		<li><a href="http://promotion.gmarket.co.kr/planview/plan.asp?sid=141855"><img src="images/bottom/partner10.jpg" alt="우리카드" width="120" height="40"/></a></li>
+		<li><a href="http://promotion.gmarket.co.kr/planview/plan.asp?sid=140258"><img src="images/bottom/partner11.jpg" alt="신한카드" width="120" height="40"/></a></li>
+		<li><a href="http://minishop.gmarket.co.kr/adidaskorea"><img src="images/bottom/partner12.jpg" alt="아디다스" width="120" height="40"/></a></li>
+	</ul><!--partner2-->
+</section><!--partner_warp-->
+
+<footer id="bottom_wrap">
+	<div id="bot1">
+		<div id="bot_left">
+			<h4>고객센터</h4>
+			<p>상담가능시간 : 오전 9시~오후 6시 (토요일 및 공휴일은 휴무)</p> 
+			<address>경기도 부천시 원미구 부일로 223 (상동) 투나빌딩 6층</address>
+			<p>Tel : 1566-5701 전화전 Click Fax : 02-589-8842</p> 
+			<p>Mail : gmarket@corp.gmarket.co.kr</p>
+		</div>
+		<div id="bot_center">
+			<h4>(주)이베이코리아</h4>
+			<address>서울시 강남구 테헤란로 152 (역삼동 강남파이낸스센터)</address>
+			<p>대표이사 : 변광윤</p>
+			<p>사업자등록번호 : 220-81-83676 <strong class="info_check">사업자정보확인</strong></p>
+			<p>통신판매업신고 : 강남 10630호 Fax : 02-589-8842</p>
+		</div><!--bot_center-->
+		<div id="bot_right">
+			<h4>전자금융분쟁처리</h4>
+			<p>Tel : 1566-5701 Fax : 02-589-8844</p>
+			<p>Mail : gmk_cs@corp.gmarket.co.kr</p>
+			<p><strong class="info_check">저작권침해 신고</strong></p>
+		</div><!--bot_right-->
+	</div><!--bot1-->
+	<div id="bot2">
+		<figure class="rank1">
+			<img src="images/bottom/rank_img1.jpg" alt="국가고객만족지수" width="35" height="33"/>
+			<figcaption>국가고객만족지수<br>1위 (2011, 2014)</figcaption>
+		</figure><!--rank1-->
+		<figure class="rank2">
+			<img src="images/bottom/rank_img2.jpg" alt="한국산업의 브랜드파워" width="35" height="33"/>
+			<figcaption>한국산업의 브랜드파워<br>5년 연속 1위 (2011~2015)</figcaption>
+		</figure><!--rank2-->
+		<figure class="rank3">
+			<img src="images/bottom/rank_img3.jpg" alt="최고의 브랜드대상" width="35" height="33"/>
+			<figcaption>최고의 브랜드대상<br>4년 연속 1위 (2012~2015)</figcaption>
+		</figure><!--rank3-->
+		<figure class="rank4">
+			<img src="images/bottom/rank_img4.jpg" alt="국가고객만족지수" width="35" height="33"/>
+			<figcaption>국가고객만족지수<br>1위 (2011, 2014)</figcaption>
+		</figure><!--rank4-->
+		<figure class="rank5">
+			<img src="images/bottom/rank_img5.jpg" alt="Smart Brand" width="35" height="33"/>
+			<figcaption>Smart Brand<br>온라인유통 부문 1위(2014)</figcaption>
+		</figure><!--rank5-->
+	</div><!--bot2-->
+	<div id="bot3">
+		<p>(주) 이베이코리아의 사전 서면 동의 없이 G마켓사이트의 일체의 정보, 콘텐츠 및 UI등을 상업적 목적으로 전재, 전송, 스크래핑 등 무단 사용할 수 없습니다.<br>
+		<strong>G마켓은 통신판매중개자이며 통신판매의 당사자가 아닙니다. 따라서 G마켓은 상품·거래정보 및 거래에 대하여 책임을 지지 않습니다.</strong><br>
+		Copyright &copy; eBay Korea Co., Ltd. All rights reserved.
+		</p>
+	</div><!--bot3-->
+</footer><!--bottom_wrap-->
+</body>
+</html>

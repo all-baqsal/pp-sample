@@ -1,0 +1,336 @@
+<!DOCTYPE HTML>
+<html lang="ko">
+<head>
+<meta charset="UTF-8">
+<title>Gmarket Catefood</title>
+<!--[if lt IE 9]>
+<script src="js/html5shiv.js"></script>
+<![endif]-->
+<script src="js/jquery-1.12.0.min.js"></script>
+<script src="js/jquery-1.7.2.min.js"></script><!--totop-->
+<script src="js/jquery.ui.totop.min.js"></script><!--totop-->
+<script src="js/jq_catefood.js"></script>
+<script src="js/jq_top.js"></script>
+<script src="js/jq_quick.js"></script>
+<script src="js/easing.js"></script><!--totop-->
+<script>//totop
+	$(document).ready(function() {
+		$().UItoTop({ easingType: 'easeOutQuart' });
+	});
+</script>
+<link rel="shortcut icon" type="image/x-icon" href="images/favicon.ico">
+<link rel="stylesheet" type="text/css" href="css/reset.css" media="all" />
+<link rel="stylesheet" type="text/css" href="css/catefood_layout.css" media="all" />
+<link rel="stylesheet" type="text/css" href="css/ui.totop.css" /><!--totop-->
+</head>
+<body>
+
+<div id="top_wrap">
+    
+	<header id="top">
+		<h1 class="title1" id="top_point"><a href="index.html"><img src="images/index/logo.jpg" alt="Gmarget" width="180" height="52"></a></h1>
+		<p class="search"><input type="text" class="search_txt"></p>
+		<a href="#" class="search_img"><img src="images/index/search_img.png" alt="search_img" width="39" height="38"/></a>
+		<div class="quick">
+			<p class="quick_img">
+			     <img src="images/index/quick_banner1.jpg" alt="quick_img" width="190" height="88" data-num="1"/><img src="images/index/quick_banner2.jpg" alt="quick_img" width="190" height="88" data-num="2"/><img src="images/index/quick_banner3.jpg" alt="quick_img" width="190" height="88" data-num="3"/><img src="images/index/quick_banner4.jpg" alt="quick_img" width="190" height="88" data-num="4"/>
+            </p><!--quick_img-->
+			<div class="quick_txt_wrap">
+                <p class="quick_txt1"><span class="q_val">1</span> / 4</p>
+                <p class="quick_txt2"><a href="#"><img src="images/index/t_arrow_left.png" alt="q_arrow_left" width="12" height="12" class="q_arrow_left"></a></p>
+                <p class="quick_txt3"><a href="#"><img src="images/index/t_arrow_right.png" alt="q_arrow_right" width="12" height="12" class="q_arrow_right"></a></p>
+			</div><!--quick_txt_wrap-->
+		</div><!--quick-->
+		<nav id="main_menu">
+			<ul>
+				<li><a href="best.html">베스트</a></li>
+				<li><a href="coupon.html">쿠폰존</a></li>
+				<li><a href="superdeal.html">슈퍼딜</a></li>
+				<li><a href="smartdeli.html">스마트배송</a></li>
+				<li><a href="homeplus.html">홈플러스</a></li>
+			</ul>
+		</nav><!--main_menu-->
+		<div id="quick_menu">
+			<ul>
+				<li class="quick_menu1"><a href="login.html">로그인</a></li>
+				<li class="quick_menu2"><a href="member.html">회원가입</a></li>
+				<li class="quick_menu3"><a href="login.html">나의쇼핑</a></li>
+				<li class="quick_menu4"><a href="bag.html">장바구니</a></li>
+			</ul>
+		</div><!--quick_menu-->
+	</header><!--top-->
+</div><!--top_wrap-->
+
+<div id="content_wrap">
+	<section id="content1">
+		<ul class="topm_l">
+			<li class="topm_l1" data-title="브랜드패션"><a href="catebrand.html">브랜드패션</a></li>
+			<li class="topm_l2" data-title="의류/잡화/뷰티"><a href="catefashion.html">의류/잡화/뷰티</a></li>
+			<li class="topm_l3" data-title="유아동"><a href="catekids.html">유아동</a></li>
+			<li class="topm_l4" data-title="식품/생필품"><a href="catefood.html">식품/생필품</a></li>
+			<li class="topm_l5" data-title="홈데코/문구/취미"><a href="catedeco.html">홈데코/문구/취미</a></li>
+			<li class="topm_l6"><span>메뉴 선택</span>	
+				<a href="catebrand.html" title="브랜드패션" data-num="1"><img src="images/index/dot_off.png" alt="dot" width="10" height="10" class="dot1"></a>
+				<a href="catefashion.html" title="의류/잡화/뷰티" data-num="2"><img src="images/index/dot_off.png" alt="dot" width="10" height="10" class="dot2"></a>
+				<a href="catekids.html" title="유아동" data-num="3"><img src="images/index/dot_off.png" alt="dot" width="10" height="10" class="dot3"></a>
+				<a href="catefood.html" title="식품/생필품" data-num="4"><img src="images/index/dot_off.png" alt="dot" width="10" height="10" class="dot4"></a>
+				<a href="catedeco.html" title="홈데코/문구/취미" data-num="5"><img src="images/index/dot_off.png" alt="dot" width="10" height="10" class="dot5"></a></li>
+		</ul><!--topm_l-->
+		<div class="topm_r">
+		    <ul class="line1">
+		        <li class="l1">이전페이지</li>
+		        <li class="l2">홈</li>
+		        <li class="l3">
+					<p class="l3_p">선택하세요</p>
+					<div class="l3_select">
+					    <ul>
+					        <li><a href="catebrand.html">브랜드패션</a></li>
+					        <li><a href="catefashion.html">의류/잡화/뷰티</a></li>
+					        <li><a href="catekids.html">유아동</a></li>
+					        <li><a href="catefood.html">식품/생필품</a></li>
+					        <li><a href="catedeco.html">홈데코/문구/취미</a></li>
+					    </ul>
+					</div><!--l3_select-->
+				</li><!--l3-->
+		    </ul><!--line1-->
+		    <div class="line2">
+		        <div class="line2_box1">
+		            <h4 class="line2_title">카테고리</h4>
+		            <p class="line2_p"><input type="radio" id="box1_radio1" name="radio1"><label for="box1_radio1">브랜드 여성의류</label></p>
+		            <p class="line2_p"><input type="radio" id="box1_radio2" name="radio1"><label for="box1_radio2">브랜드 남성의류</label></p>
+		            <p class="line2_p"><input type="radio" id="box1_radio3" name="radio1"><label for="box1_radio3">브랜드 진/캐쥬얼</label></p>
+		            <p class="line2_p"><input type="radio" id="box1_radio4" name="radio1"><label for="box1_radio4">브랜드 아동패션</label></p>
+		            <p class="line2_p"><input type="radio" id="box1_radio5" name="radio1"><label for="box1_radio5">브랜드 쥬얼리/시계</label></p>
+		            <p class="line2_p"><input type="radio" id="box1_radio6" name="radio1"><label for="box1_radio6">여성의류</label></p>
+		            <p class="line2_p"><input type="radio" id="box1_radio7" name="radio1"><label for="box1_radio7">남성의류</label></p>
+		            <p class="line2_p"><input type="radio" id="box1_radio8" name="radio1"><label for="box1_radio8">잡화</label></p>
+		            <p class="line2_p"><input type="radio" id="box1_radio9" name="radio1"><label for="box1_radio9">뷰티</label></p>
+		            <p class="line2_p"><input type="radio" id="box1_radio10" name="radio1"><label for="box1_radio10">유아동</label></p>
+		            <p class="line2_p"><input type="radio" id="box1_radio11" name="radio1"><label for="box1_radio11">식품</label></p>
+		            <p class="line2_p"><input type="radio" id="box1_radio12" name="radio1"><label for="box1_radio12">생필품</label></p>
+		            <p class="line2_p"><input type="radio" id="box1_radio13" name="radio1"><label for="box1_radio13">홈데코</label></p>
+		            <p class="line2_p"><input type="radio" id="box1_radio14" name="radio1"><label for="box1_radio14">문구</label></p>
+		        </div><!--line2_box1-->
+		        <div class="line2_box2">
+		            <h4 class="line2_title">파워미니샵</h4>
+		            <p class="line2_p"><input type="radio" id="box2_radio1" name="radio2"><label for="box2_radio1">바다내음S</label></p>
+		            <p class="line2_p"><input type="radio" id="box2_radio2" name="radio2"><label for="box2_radio2">푸~드 뱅크</label></p>
+		            <p class="line2_p"><input type="radio" id="box2_radio3" name="radio2"><label for="box2_radio3">건어물녀</label></p>
+		            <p class="line2_p"><input type="radio" id="box2_radio4" name="radio2"><label for="box2_radio4">완도총각네건어물</label></p>
+		            <p class="line2_p"><input type="radio" id="box2_radio5" name="radio2"><label for="box2_radio5">찬예찬</label></p>
+		        </div><!--line2_box2-->
+		        <div class="line2_box3">
+		            <h4 class="line2_title">item</h4>
+                    <p class="line2_p"><input type="radio" id="box3_radio1" name="radio3"><label for="box3_radio1">지역명물</label></p>
+		            <p class="line2_p"><input type="radio" id="box3_radio2" name="radio3"><label for="box3_radio2">양곡</label></p>
+		            <p class="line2_p"><input type="radio" id="box3_radio3" name="radio3"><label for="box3_radio3">과실류</label></p>
+		            <p class="line2_p"><input type="radio" id="box3_radio4" name="radio3"><label for="box3_radio4">채소류</label></p>
+		            <p class="line2_p"><input type="radio" id="box3_radio5" name="radio3"><label for="box3_radio5">축산</label></p>
+		            <p class="line2_p"><input type="radio" id="box3_radio6" name="radio3"><label for="box3_radio6">수산</label></p>
+		            <p class="line2_p"><input type="radio" id="box3_radio7" name="radio3"><label for="box3_radio7">김치/반찬</label></p>
+		        </div><!--line2_box3-->
+		        <div class="line2_box4">
+		            <h4 class="line2_title">item list</h4>
+                    <p class="line2_p"><input type="radio" id="box4_radio1" name="radio4"><label for="box4_radio1">지역특산물</label></p>
+		            <p class="line2_p"><input type="radio" id="box4_radio2" name="radio4"><label for="box4_radio2">전통식품</label></p>
+		        </div><!--line2_box4-->
+		    </div><!--line2-->
+		</div><!--banner_r-->
+	</section><!--content1-->
+   <div id="section_wrap">
+       <section id="content2">
+            <div id="banner_l">
+                <img src="images/catebrand/arrow_left.png" alt="arrow_left" width="18" height="39" class="arrow_left">
+                <img src="images/catebrand/arrow_right.png" alt="arrow_right" width="18" height="39" class="arrow_right">
+                <div id="banner_img_wrap">
+                    <p class="banner_img">
+                        <img src="images/catefood/banner1.jpg" alt="banner_img" width="640" height="260"><img src="images/catefood/banner2.jpg" alt="banner_img" width="640" height="260"><img src="images/catefood/banner3.jpg" alt="banner_img" width="640" height="260"><img src="images/catefood/banner4.jpg" alt="banner_img" width="640" height="260">
+                    </p><!--banner_img-->
+                </div><!--banner_img_wrap-->
+            </div><!--banner_l-->
+            <div id="banner_r">
+                <p><img src="images/catebrand/open_btn.png" alt="open_btn" width="43" height="43" class="open_btn"></p>
+                <p class="banner_title1">주목! 이 상품</p>
+                <figure>
+                    <a href="detailpage.html"><img src="images/catefood/attention5.jpg" alt="통영산 활가리비 2KG /신선 요리용 최상급 해만가리비" width="120" height="120"></a>
+                    <figcaption>
+                        <span class="banner_txt1">통영산 활가리비 2KG /신선 요리용 최상급 해만가리비</span>
+                        <span class="banner_txt2"><del>28,000원</del><ins>9,900원</ins></span>
+                    </figcaption>
+                </figure>
+            </div><!--banner_r-->
+        </section><!--content2-->
+
+        <section id="content3">
+            <p><img src="images/catebrand/close_btn.png" alt="close_btn" width="43" height="43" class="close_btn"></p>
+            <p class="banner_title2">주목! 이 상품</p>
+            <figure>
+                <a href="detailpage.html"><img src="images/catefood/attention1.jpg" alt="2016년산 햅쌀 윤쌀 10kg+10kg(박스 포장)" width="120" height="120"></a>
+                <figcaption>
+                    <span class="banner_txt1">2016년산 햅쌀 윤쌀 10kg+10kg(박스 포장)</span>
+                    <span class="banner_txt2"><del>54,900원</del><ins>29,900원</ins></span>
+                </figcaption>
+            </figure>
+            <figure>
+                <a href="detailpage.html"><img src="images/catefood/attention2.jpg" alt="(GFresh) (당일배송)유기농바나나900g 3봉/식사대용" width="120" height="120"></a>
+                <figcaption>
+                    <span class="banner_txt1">(GFresh) (당일배송)유기농바나나900g 3봉/식사대용</span>
+                    <span class="banner_txt2"><del>&nbsp;</del><ins>14,500원</ins></span>
+                </figcaption>
+            </figure>
+            <figure>
+                <a href="detailpage.html"><img src="images/catefood/attention3.jpg" alt="프레샤인 GAP 충주 사과 / 세척 사과 3kg (11-14과)" width="120" height="120"></a>
+                <figcaption>
+                    <span class="banner_txt1">프레샤인 GAP 충주 사과 / 세척 사과 3kg (11-14과)</span>
+                    <span class="banner_txt2"><del>&nbsp;</del><ins>15,900원</ins></span>
+                </figcaption>
+            </figure>
+            <figure>
+                <a href="detailpage.html"><img src="images/catefood/attention4.jpg" alt="(GFresh) GAP인증 산청 햇딸기 2kg (특대)" width="120" height="120"></a>
+                <figcaption>
+                    <span class="banner_txt1">(GFresh) GAP인증 산청 햇딸기 2kg (특대)</span>
+                    <span class="banner_txt2"><del>18,900원</del><ins>15,100원</ins></span>
+                </figcaption>
+            </figure>
+            <figure>
+                <a href="detailpage.html"><img src="images/catefood/attention5.jpg" alt="통영산 활가리비 2KG /신선 요리용 최상급 해만가리비" width="120" height="120"></a>
+                <figcaption>
+                    <span class="banner_txt1">통영산 활가리비 2KG /신선 요리용 최상급 해만가리비</span>
+                    <span class="banner_txt2"><del>28,000원</del><ins>9,900원</ins></span>
+                </figcaption>
+            </figure>
+            <figure>
+                <a href="detailpage.html"><img src="images/catefood/attention6.jpg" alt="(GFresh) 오리신선 슬라이스 500gx2봉" width="120" height="120"></a>
+                <figcaption>
+                    <span class="banner_txt1">(GFresh) 오리신선 슬라이스 500gx2봉</span>
+                    <span class="banner_txt2"><del>16,000원</del><ins>15,900원</ins></span>
+                </figcaption>
+            </figure>
+        </section><!--content3-->
+   </div><!--section_wrap-->
+    
+	
+	<section id="best_wrap">
+	    <p class="best_title">신선식품 베스트</p>
+	    <div class="best_pro_wrap1">
+             <div class="best_pro1">
+                <p class="best_txt1">1</p>
+                <p class="best_img"><a href="detailpage.html"><img src="images/catefood/food_best1.jpg" alt="(깨비농원)고당도 천혜향 3kg(15-25)소과" width="120" height="120"></a></p>
+                <p class="best_txt2">(깨비농원)고당도 천혜향 3kg(15-25)소과</p>
+                <p class="best_txt3"><del>34,000원</del><ins>16,900원</ins></p>
+            </div><!--best_pro1-->
+            <div class="best_pro2">
+                <p class="best_txt1">2</p>
+                <p class="best_img"><a href="detailpage.html"><img src="images/catefood/food_best2.jpg" alt="2016년산 출시 미국 햇호두800g(400gX2팩) / 견과류" width="120" height="120"></a></p>
+                <p class="best_txt2">2016년산 출시 미국 햇호두800g(400gX2팩) / 견과류</p>
+                <p class="best_txt3"><del>15,000원</del><ins>10,500원</ins></p>
+            </div><!--best_pro2-->
+            <div class="best_pro3">
+                <p class="best_txt1">3</p>
+                <p class="best_img"><a href="detailpage.html"><img src="images/catefood/food_best3.jpg" alt="[GFresh]최상급 횟감용 통통생굴 1KG / 무배특가 마감임박" width="120" height="120"></a></p>
+                <p class="best_txt2">[GFresh]최상급 횟감용 통통생굴 1KG / 무배특가 마감임박</p>
+                <p class="best_txt3"><del>28,000원</del><ins>8,900원</ins></p>
+            </div><!--best_pro3-->
+            <div class="best_pro4">
+                <p class="best_txt1">4</p>
+                <p class="best_img"><a href="detailpage.html"><img src="images/catefood/food_best4.jpg" alt="국내산 울금숙성 훈제오리 1.6kg" width="120" height="120"></a></p>
+                <p class="best_txt2">국내산 울금숙성 훈제오리 1.6kg</p>
+                <p class="best_txt3"><del>20,900원</del><ins>18,900원</ins></p>
+            </div><!--best_pro4-->
+            <div class="best_pro5">
+                <p class="best_txt1">5</p>
+                <p class="best_img"><a href="detailpage.html"><img src="images/catefood/food_best5.jpg" alt="(G마켓이간다) 3양 소불고기(한양+광양+언양)+특소스" width="120" height="120"></a></p>
+                <p class="best_txt2">(G마켓이간다) 3양 소불고기(한양+광양+언양)+특소스</p>
+                <p class="best_txt3"><del>23,900원</del><ins>9,900원</ins></p>
+            </div><!--best_pro5-->
+	    </div><!--best_pro_wrap1-->
+	    
+	    <div class="best_pro_wrap2">
+             <div class="best_pro1">
+                <p class="best_txt1">6</p>
+                <p class="best_img"><a href="detailpage.html"><img src="images/catefood/food_best6.jpg" alt="2016년산 햅쌀 황금미가 20kg/10kg" width="120" height="120"></a></p>
+                <p class="best_txt2">2016년산 햅쌀 황금미가 20kg/10kg</p>
+                <p class="best_txt3"><del>42,900원</del><ins>27,500원</ins></p>
+            </div><!--best_pro1-->
+            <div class="best_pro2">
+                <p class="best_txt1">7</p>
+                <p class="best_img"><a href="detailpage.html"><img src="images/catefood/food_best7.jpg" alt="[GFresh]통영산 활가리비 2KG / 신선요리용 최상급 해만가리비" width="120" height="120"></a></p>
+                <p class="best_txt2">[GFresh]통영산 활가리비 2KG / 신선요리용 최상급 해만가리비</p>
+                <p class="best_txt3"><del>28,000원</del><ins>9,900원</ins></p>
+            </div><!--best_pro2-->
+            <div class="best_pro3">
+                <p class="best_txt1">8</p>
+                <p class="best_img"><a href="detailpage.html"><img src="images/catefood/food_best8.jpg" alt="햇부사 세척사과 5kg (24과 내외)" width="120" height="120"></a></p>
+                <p class="best_txt2">햇부사 세척사과 5kg (24과 내외)</p>
+                <p class="best_txt3"><del>14,900원</del><ins>8,900원</ins></p>
+            </div><!--best_pro3-->
+            <div class="best_pro4">
+                <p class="best_txt1">9</p>
+                <p class="best_img"><a href="detailpage.html"><img src="images/catefood/food_best9.jpg" alt="동해홍게나라 / 당일조업 홍게 일반형 3kg" width="120" height="120"></a></p>
+                <p class="best_txt2">동해홍게나라 / 당일조업 홍게 일반형 3kg</p>
+                <p class="best_txt3"><del>43,800원</del><ins>15,000원</ins></p>
+            </div><!--best_pro4-->
+            <div class="best_pro5">
+                <p class="best_txt1">10</p>
+                <p class="best_img"><a href="detailpage.html"><img src="images/catefood/food_best10.jpg" alt="블랙라벨 고당도 오렌지 6kg (33-37과 내외)" width="120" height="120"></a></p>
+                <p class="best_txt2">블랙라벨 고당도 오렌지 6kg (33-37과 내외)</p>
+                <p class="best_txt3"><del>30,000원</del><ins>18,900원</ins></p>
+            </div><!--best_pro5-->
+	    </div><!--best_pro_wrap2-->
+	</section><!--best_wrap-->
+</div><!--content_wrap-->
+
+<footer id="bottom_wrap">
+	<div id="bot1">
+		<div id="bot_left">
+			<h4>고객센터</h4>
+			<p>상담가능시간 : 오전 9시~오후 6시 (토요일 및 공휴일은 휴무)</p> 
+			<address>경기도 부천시 원미구 부일로 223 (상동) 투나빌딩 6층</address>
+			<p>Tel : 1566-5701 전화전 Click Fax : 02-589-8842</p> 
+			<p>Mail : gmarket@corp.gmarket.co.kr</p>
+		</div>
+		<div id="bot_center">
+			<h4>(주)이베이코리아</h4>
+			<address>서울시 강남구 테헤란로 152 (역삼동 강남파이낸스센터)</address>
+			<p>대표이사 : 변광윤</p>
+			<p>사업자등록번호 : 220-81-83676 <strong class="info_check">사업자정보확인</strong></p>
+			<p>통신판매업신고 : 강남 10630호 Fax : 02-589-8842</p>
+		</div><!--bot_center-->
+		<div id="bot_right">
+			<h4>전자금융분쟁처리</h4>
+			<p>Tel : 1566-5701 Fax : 02-589-8844</p>
+			<p>Mail : gmk_cs@corp.gmarket.co.kr</p>
+			<p><strong class="info_check">저작권침해 신고</strong></p>
+		</div><!--bot_right-->
+	</div><!--bot1-->
+	<div id="bot2">
+		<figure class="rank1">
+			<img src="images/bottom/rank_img1.jpg" alt="국가고객만족지수" width="35" height="33"/>
+			<figcaption>국가고객만족지수<br>1위 (2011, 2014)</figcaption>
+		</figure><!--rank1-->
+		<figure class="rank2">
+			<img src="images/bottom/rank_img2.jpg" alt="한국산업의 브랜드파워" width="35" height="33"/>
+			<figcaption>한국산업의 브랜드파워<br>5년 연속 1위 (2011~2015)</figcaption>
+		</figure><!--rank2-->
+		<figure class="rank3">
+			<img src="images/bottom/rank_img3.jpg" alt="최고의 브랜드대상" width="35" height="33"/>
+			<figcaption>최고의 브랜드대상<br>4년 연속 1위 (2012~2015)</figcaption>
+		</figure><!--rank3-->
+		<figure class="rank4">
+			<img src="images/bottom/rank_img4.jpg" alt="국가고객만족지수" width="35" height="33"/>
+			<figcaption>국가고객만족지수<br>1위 (2011, 2014)</figcaption>
+		</figure><!--rank4-->
+		<figure class="rank5">
+			<img src="images/bottom/rank_img5.jpg" alt="Smart Brand" width="35" height="33"/>
+			<figcaption>Smart Brand<br>온라인유통 부문 1위(2014)</figcaption>
+		</figure><!--rank5-->
+	</div><!--bot2-->
+	<div id="bot3">
+		<p>(주) 이베이코리아의 사전 서면 동의 없이 G마켓사이트의 일체의 정보, 콘텐츠 및 UI등을 상업적 목적으로 전재, 전송, 스크래핑 등 무단 사용할 수 없습니다.<br>
+		<strong>G마켓은 통신판매중개자이며 통신판매의 당사자가 아닙니다. 따라서 G마켓은 상품·거래정보 및 거래에 대하여 책임을 지지 않습니다.</strong><br>
+		Copyright &copy; eBay Korea Co., Ltd. All rights reserved.
+		</p>
+	</div><!--bot3-->
+</footer><!--bottom_wrap-->
+</body>
+</html>

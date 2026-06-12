@@ -1,0 +1,98 @@
+@charset "utf-8";
+
+#wrap { width:100%; height:100%; }
+.more1, .more2, .more3, .more4 { display:block; width:60px; height:30px; color:#fff; line-height:30px; 
+        font-size:1em; background:#c1b497; text-align:center; }
+.more1:hover { background:#d2d2d2; color:#ce0e35;}
+.more2:hover { background:#d2d2d2; color:#ce0e35;}
+.more3:hover { background:#d2d2d2; color:#ce0e35;}
+.more4:hover { background:#d2d2d2; color:#ce0e35;}
+
+#page{width: 100%; height: 100%; position: relative; background: #e7e7e7; }
+#page .img_box{position: relative; width: 700px; height: 268px; display: block; margin: 0 auto; top: 30%;}
+#page .box{width: 135px; height: 268px; float: left; padding-right: 40px;}
+#page .more1 { position:absolute; bottom:8px; left:37px; z-index:20; }
+#page .more2 { position:absolute; bottom:8px; left:212px; z-index:20; }
+#page .more3 { position:absolute; bottom:8px; left:387px; z-index:20; }
+#page .more4 { position:absolute; bottom:8px; left:563px; z-index:20; }
+
+#page01{width: 100%; height: 100%; position: relative; background: #83b9d3;}
+#page01 .img_box01{position: relative; width: 1380px; height: 450px; display: block; margin: 0 auto; top: 40%;}
+#page01 .box1{width: 120px; height: 120px; display: block; float: left;}
+#page01 .box2{width: 216px; height: 291px; display: block; float: left; padding-right: 110px; margin-left: -3px; margin-top: 35px;}
+#page01 .box3{width: 428px; height: 401px; display: block; float: left; padding-right: 100px; margin-left: 2px;}
+#page01 .box4{width: 402px; height: 401px; display: block; float: left; }
+
+.pf_title{width: 177px; height: 45px; margin: 0 auto; padding-top: 70px;}
+#page02{width: 100%; height: 100%; position: relative; background: #e7e7e7;}
+
+#page02 .img_box02{position: relative; width: 1400px; height: 650px; display: block; margin: 0 auto; top: 4%;}
+#page02 .box5{width: 300px; height: 300px; display: block; float: left; left: 9%; position: absolute; }
+#page02 .box6{width: 300px; height: 300px; display: block; float: left; position: absolute; left: 39%; }
+#page02 .box7{width: 300px; height: 300px; display: block; float: left; position: absolute; left: 69%; }
+#page02 .box8{width: 300px; height: 300px; display: block; float: left; position: absolute; left: 9%; top: 53%; }
+#page02 .box9{width: 300px; height: 300px; display: block; float: left; position: absolute; left: 39%; top: 53%;}
+#page02 .box10{width: 300px; height: 300px; display: block; float: left; position: absolute; left: 69%; top: 53%;}
+
+
+#page02 .box5:hover{background-image:url("./images/desk01_.png"); z-index: 100;}
+#page02 .box6:hover{background-image: url("./images/desk02_.png");z-index: 100; }
+#page02 .box7:hover{background-image: url("./images/desk03_.png"); z-index: 100;}
+#page02 .box8:hover{background-image: url("./images/desk04_.png");z-index: 100; }
+#page02 .box9:hover{background-image: url("./images/desk05_.png"); z-index: 100;}
+#page02 .box10:hover{background-image: url("./images/desk06_.png"); z-index: 100; }
+
+#page02 .box5:hover img{opacity: 0;}
+#page02 .box6:hover img{opacity: 0;}
+#page02 .box7:hover img{opacity: 0;}
+#page02 .box8:hover img{opacity: 0;}
+#page02 .box9:hover img{opacity: 0;}
+#page02 .box10:hover img{opacity: 0;}
+
+
+#page03{width: 100%; height: 100%; position: relative; background: #83b9d3;}
+#page03 .img_box03{position: relative; width: 1400px; height: 650px; display: block; margin: 0 auto; top: 4%;}
+#page03 .box11{width: 168px; height: 268px; display: block; float: left; left: 14%; position: absolute; }
+#page03 .box12{width: 168px; height: 268px; display: block; float: left; position: absolute; left: 44%; }
+#page03 .box13{width: 168px; height: 268px; display: block; float: left; position: absolute; left: 74%; }
+#page03 .box14{width: 300px; height: 300px; display: block; float: left; position: absolute; left: 9%; top: 53%; }
+#page03 .box15{width: 300px; height: 300px; display: block; float: left; position: absolute; left: 39%; top: 53%; }
+#page03 .box16{width: 300px; height: 300px; display: block; float: left; position: absolute; left: 69%; top: 53%; }
+
+#page03 .box11:hover{background-image:url("./images/phone01_.png"); z-index: 100;}
+#page03 .box12:hover{background-image: url("./images/phone02_.png");z-index: 100; }
+#page03 .box13:hover{background-image: url("./images/phone03_.png"); z-index: 100;}
+#page03 .box14:hover{background-image: url("./images/desk09_.png"); z-index: 100;}
+#page03 .box15:hover{background-image: url("./images/desk07_.png"); z-index: 100;}
+#page03 .box16:hover{background-image: url("./images/desk08_.png"); z-index: 100;}
+
+
+#page03 .box11:hover img{opacity: 0;}
+#page03 .box12:hover img{opacity: 0;}
+#page03 .box13:hover img{opacity: 0;}
+#page03 .box14:hover img{opacity: 0;}
+#page03 .box15:hover img{opacity: 0;}
+#page03 .box16:hover img{opacity: 0;}
+
+
+#page04{width: 100%; height: 100%; position: relative; background: #e7e7e7;}
+#page04 .img_box04{position: relative; width: 700px; height: 391px; display: block; margin: 0 auto; top: 30%; }
+#page04 .title{width: 200px; height: 44px; left: 0;}
+#page04 .col{width: 331px; height: 247px; float: left; display: block; padding-top: 90px;}
+#pr{padding-right: 30px;}
+
+.down{display:block; width:70px;height:70px; background-image:url("./images/down.png"); margin:0 auto; background-repeat:no-repeat; z-index:100;}
+.down img{width:100%;height:100%;}
+.down:hover{background-image:url("./images/down_.png");}
+.down01{display:block; width:70px;height:70px; background-image:url("./images/down01.png"); margin:0 auto; background-repeat:no-repeat; z-index:100;}
+.down01 img{width:100%;height:100%;}
+.down01:hover{background-image:url("./images/down01_.png");}
+#page .down{position:absolute; bottom:5%; left:47.2%; }
+#page01 .down01{position:absolute; bottom:5%; left:47.2%}
+#page02 .down{position:absolute; bottom:5%; left:48%;}
+#page03 .down01{position:absolute; bottom:5%; left:48%;}
+
+.up{display: block; width: 70px; height: 70px; background-image: url("./images/up.png"); margin: 0 auto; background-repeat: no-repeat; z-index: 100;}
+.up img{width:100%;height:100%;}
+.up:hover{background-image:url("./images/up_.png");}
+#page04 .up{position:absolute; bottom:5%; left:47.2%;}

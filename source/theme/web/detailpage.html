@@ -1,0 +1,226 @@
+<!DOCTYPE HTML>
+<html lang="ko">
+<head>
+<meta charset="UTF-8">
+<title>Gmarket Detailpage</title>
+<!--[if lt IE 9]>
+<script src="js/html5shiv.js"></script>
+<![endif]-->
+<script src="js/jquery-1.12.0.min.js"></script>
+<script src="js/jquery-1.7.2.min.js"></script><!--totop-->
+<script src="js/jquery.ui.totop.min.js"></script><!--totop-->
+<script src="js/easing.js"></script><!--totop-->
+<script src="js/jq_detailpage.js"></script>
+<script src="js/jq_top.js"></script>
+<script src="js/jq_quick.js"></script>
+<script>//totop
+	$(document).ready(function() {
+		$().UItoTop({ easingType: 'easeOutQuart' });
+	});
+</script>
+<link rel="shortcut icon" type="image/x-icon" href="images/favicon.ico">
+<link rel="stylesheet" type="text/css" href="css/reset.css" media="all" />
+<link rel="stylesheet" type="text/css" href="css/detailpage_layout.css" media="all" />
+<link rel="stylesheet" type="text/css" href="css/ui.totop.css" /><!--totop-->
+</head>
+<body>
+
+<div id="top_wrap">
+	<header id="top">
+		<h1 class="title1"><a href="index.html"><img src="images/index/logo.jpg" alt="Gmarget" width="180" height="52"></a></h1>
+		<p class="search"><input type="text" class="search_txt"></p>
+		<a href="#" class="search_img"><img src="images/index/search_img.png" alt="search_img" width="39" height="38"/></a>
+		<div class="quick">
+			<p class="quick_img">
+			     <img src="images/index/quick_banner1.jpg" alt="quick_img" width="190" height="88" data-num="1"/><img src="images/index/quick_banner2.jpg" alt="quick_img" width="190" height="88" data-num="2"/><img src="images/index/quick_banner3.jpg" alt="quick_img" width="190" height="88" data-num="3"/><img src="images/index/quick_banner4.jpg" alt="quick_img" width="190" height="88" data-num="4"/>
+            </p><!--quick_img-->
+			<div class="quick_txt_wrap">
+                <p class="quick_txt1"><span class="q_val">1</span> / 4</p>
+                <p class="quick_txt2"><a href="#"><img src="images/index/t_arrow_left.png" alt="q_arrow_left" width="12" height="12" class="q_arrow_left"></a></p>
+                <p class="quick_txt3"><a href="#"><img src="images/index/t_arrow_right.png" alt="q_arrow_right" width="12" height="12" class="q_arrow_right"></a></p>
+			</div><!--quick_txt_wrap-->
+		</div><!--quick-->
+		<nav id="main_menu">
+			<ul>
+				<li><a href="best.html">베스트</a></li>
+				<li><a href="coupon.html">쿠폰존</a></li>
+				<li><a href="superdeal.html">슈퍼딜</a></li>
+				<li><a href="smartdeli.html">스마트배송</a></li>
+				<li><a href="homeplus.html">홈플러스</a></li>
+			</ul>
+		</nav><!--main_menu-->
+		<div id="quick_menu">
+			<ul>
+				<li class="quick_menu1"><a href="login.html">로그인</a></li>
+				<li class="quick_menu2"><a href="member.html">회원가입</a></li>
+				<li class="quick_menu3"><a href="login.html">나의쇼핑</a></li>
+				<li class="quick_menu4"><a href="bag.html">장바구니</a></li>
+			</ul>
+		</div><!--quick_menu-->
+	</header><!--top-->
+</div><!--top_wrap-->
+
+<section id="content_wrap">
+    <div id="content">
+        <ul class="current_path">
+            <li><a href="#">홈</a></li>
+            <li><a href="#">유아용품</a></li>
+            <li><a href="#">유아화장품</a></li>
+			<li class="path4"><a href="#">크림</a></li>
+        </ul>
+		<p class="product_title" id="tab1">[세타필] 세타필 초대용량(1+1)+휴대용로션 118ml 선착순 증정</p>
+        <div id="content1">
+           <div id="content1_left">
+                <p class="product1"><img src="images/detailpage/big_img.jpg" alt="세타필 대용량2개+118ml더" width="400" height="400"></p>
+                <div class="pro_txt_box">
+                    <p class="pro_txt1">판매가<strong><span class="big_txt">24,900</span>원</strong><span class="box_txt">내쿠폰함</span></p>
+                    <p class="pro_txt2">G마켓제휴카드<strong>21,170원</strong><span class="blue_txt1">최대15%</span><span class="gray_txt1">청구할인</span><span class="blue_txt1">무이자</span><img src="images/detailpage/box_arrow_up.png" alt="box_arrow" width="10" height="8" class="box_arrow1"></p>
+                    <p class="pro_txt3">현대카드M사용가<strong>23,660원</strong><span class="blue_txt1">최대5%</span><span class="gray_txt1">차감할인</span><span class="blue_txt1">포인트</span></p>
+                    <p class="pro_txt4">스마일캐시<span class="blue_txt2">최대15% 적립</span><img src="images/detailpage/box_arrow_up.png" alt="box_arrow" width="10" height="8" class="box_arrow2"></p>
+                </div><!--pro_txt_box-->
+                <div class="pro_info_box">
+                    <p class="info_up">
+                        <span class="info_title">배송비</span>
+                        <span>2개 구매당<strong>배송비 2,500원</strong></span>
+                        <span>추가배송비 : 수량별/지역별 <img src="images/detailpage/box_arrow_up.png" alt="box_arrow" width="10" height="8" class="box_arrow3"></span>
+                    </p><!--info_up-->
+                    <p class="info_down">
+                        <span class="info_title">해외배송</span>
+                        <span>배송 가능한 국가 보기 <img src="images/detailpage/box_arrow_up.png" alt="box_arrow" width="10" height="8" class="box_arrow3"></span>
+                    </p><!--info_down-->
+                </div><!--pro_info_box-->
+            </div><!--content1_left-->
+        </div><!--content1-->
+        <div id="content1_right_wrap">
+            <div id="content1_right">
+                <div class="content1_right_txt">
+                    <p class="right_txt1">구매가<span><strong class="buy_price">&nbsp;</strong>원</span></p>
+                    <p class="right_txt2">1일 999개 구매가능</p>
+                    <p class="right_txt3">옵션선택</p>
+                    <div class="right_txt_wrap">
+                        <p class="right_txt4">(필수)선택하세요</p>
+                        <p class="right_txt5"><img src="images/detailpage/bg_btn.png" alt="option_btn" width="24" height="23" class="option_btn"></p>
+                    </div><!--right_txt_wrap-->
+                    <div class="option_box">
+                        <p class="opt_box_txt1">옵션포함상품가 : <span class="opt_box_txt2"></span><img src="images/detailpage/close_btn.png" alt="option_close" class="opt_close"></p>
+                        <div class="opt_txt_wrap">
+                            <p class="opt_txt_tit">필수선택:</p>
+                            <p class="opt_txt" data-price="27,400">01.세타필로션591ml2개+로션118ml</p>
+                            <p class="opt_txt" data-price="34,400">02.세타필크림566g2개+로션118ml (+7,000원)</p>
+                            <p class="opt_txt" data-price="27,400">03.세타필클렌져591ml2개+클렌져118ml</p>
+                        </div><!--opt_txt_wrap-->
+                    </div><!--option_box-->
+                </div><!--content1_right_txt-->
+                <div class="price_wrap">
+                    <p class="line1">주문상품<span>&nbsp;</span></p>
+                    <p class="line2">주문금액<span>&nbsp;</span></p>
+                </div><!--price_wrap-->
+                <div class="btn_wrap">
+                    <p class="bag_btn"><a href="bag.html">장바구니</a></p>
+                    <p class="buy_btn"><a href="bag.html">바로구매</a></p>
+                </div><!--btn_wrap-->
+            </div><!--content1_right-->
+        </div><!--content1_right_wrap-->
+		<div id="content2">
+			<div class="tab_menu">
+				<p><a href="#tab1">상품정보</a></p>
+				<p><a href="#tab2">구매만족도</a></p>
+				<p><a href="#tab3">반품/교환정보</a></p>
+			</div><!--tab_menun-->
+			<div id="tab_content">
+			    <article>
+                    <p class="tab_txt1">상품정보</p>
+			        <p><img src="images/detailpage/detail_page1.jpg" alt="detailpage1"></p>
+                    <p><img src="images/detailpage/detail_page2.jpg" alt="detailpage1"></p>
+                    <p><img src="images/detailpage/detail_page3.jpg" alt="detailpage1"></p>
+			    </article><!--tab1_content-->
+			    <article>
+                    <p class="tab_txt2" id="tab2">구매만족도</p>
+			        <p class="tab2_img1"><img src="images/detailpage/buy_satisfaction.jpg" alt="detailpage1">
+                    </p>
+			    </article><!--tab2_content-->
+			    <article>
+			        <p class="tab_txt3" id="tab3">반품/교환 정보</p>
+			        <table class="tab3_table">
+			            <tr>
+			                <th>판매자명</th>
+			                <td>지엑스몰</td>
+			            </tr>
+			            <tr>
+			                <th>연락처</th>
+			                <td>070-8666-1372</td>
+			            </tr>
+			            <tr>
+			                <th>반품/교환 배송비(</th>
+			                <td>구매자귀책) 2,500원/5,000원 / 초기배송비 무료시 반품배송비 부과방법 : 왕복(편도x2)</td>
+			            </tr>
+			            <tr>
+			                <th>반품/교환지 주소</th>
+			                <td>보내실 곳: 704820 대구광역시 달서구 송현2동 84-2</td>
+			            </tr>
+			            <tr>
+			                <th>반품/교환 안내</th>
+			                <td>070-8666-1373</td>
+			            </tr>
+			            <tr>
+			                <th>전세계배송 반품/교환</th>
+			                <td>전세계배송 주문 후 취소/반품/교환/ 처리가 상이함으로 확인 바랍니다.<span>자세히보기</span></td>
+			            </tr>
+			            <tr>
+			                <th>반품/교환 기준</th>
+			                <td>상품 수령 후 7일 이내에 신청하실 수 있습니다. 단, 제품이 표시광고 내용과 다르거나 불량 등 계약과 다르게 이행된 경우는 제품 수령일부터 3개월 이내, 그 사실을 안 날 또는 알 수 있었던 날부터 30일이내에 교환/반품이 가능합니다.
+                               <ul>
+                                   <li>추가적으로 다음의 경우 해당하는 반품/교환은 신청이 불가능할 수 있습니다.</li>
+                                   <li>소비자의 책임 있는 사유로 상품 등이 멸실 또는 훼손된 경우 (단지, 상품 확인을 위한 포장 훼손 제외)</li>
+                                   <li>소비자의 사용 또는 소비에 의해 상품 등의 가치가 현저히 감소한 경우</li>
+                                   <li>시간의 경과에 의해 재판매가 곤란할 정도로 상품 등의 가치가 현저히 감소한 경우</li>
+                                   <li>복제가 가능한 상품 등의 포장을 훼손한 경우</li>
+                                   <li>소비자의 주문에 따라 개별적으로 생산되는 상품이 제작에 들어간 경우</li>
+                               </ul> 
+                            </td>
+			            </tr>
+			        </table><!--tab3_table-->
+			    </article><!--tab3_content-->
+			</div><!--tab_content-->
+		</div><!--content2-->
+    </div><!--content-->
+</section><!--content_wrap-->
+
+<div id="bottom_outer_wrap">
+    <footer id="bottom_wrap">
+        <div id="bot1">
+            <div id="bot_left">
+                <h4>고객센터</h4>
+                <p>상담가능시간 : 오전 9시~오후 6시 (토요일 및 공휴일은 휴무)</p> 
+                <address>경기도 부천시 원미구 부일로 223 (상동) 투나빌딩 6층</address>
+                <p>Tel : 1566-5701 전화전 Click Fax : 02-589-8842</p> 
+                <p>Mail : gmarket@corp.gmarket.co.kr</p>
+            </div>
+            <div id="bot_center">
+                <h4>(주)이베이코리아</h4>
+                <address>서울시 강남구 테헤란로 152 (역삼동 강남파이낸스센터)</address>
+                <p>대표이사 : 변광윤</p>
+                <p>사업자등록번호 : 220-81-83676 <strong class="info_check">사업자정보확인</strong></p>
+                <p>통신판매업신고 : 강남 10630호 Fax : 02-589-8842</p>
+            </div><!--bot_center-->
+            <div id="bot_right">
+                <h4>전자금융분쟁처리</h4>
+                <p>Tel : 1566-5701 Fax : 02-589-8844</p>
+                <p>Mail : gmk_cs@corp.gmarket.co.kr</p>
+                <p><strong class="info_check">저작권침해 신고</strong></p>
+            </div><!--bot_right-->
+        </div><!--bot1-->
+        
+        <!--detailpage에서 bot2는 없앰-->
+        
+        <div id="bot3">
+            <p>(주) 이베이코리아의 사전 서면 동의 없이 G마켓사이트의 일체의 정보, 콘텐츠 및 UI등을 상업적 목적으로 전재, 전송, 스크래핑 등 무단 사용할 수 없습니다.<br>
+            <strong>G마켓은 통신판매중개자이며 통신판매의 당사자가 아닙니다. 따라서 G마켓은 상품·거래정보 및 거래에 대하여 책임을 지지 않습니다.</strong><br>
+            Copyright &copy; eBay Korea Co., Ltd. All rights reserved.
+            </p>
+        </div><!--bot3-->
+    </footer><!--bottom_wrap-->   
+</div><!--bottom_outer_wrap-->
+
+</body>
+</html>

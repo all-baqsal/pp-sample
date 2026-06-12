@@ -1,0 +1,729 @@
+<!DOCTYPE HTML>
+<html lang="ko">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, user-scalable=no" />
+<title>LOTTE_FloorGuide</title>
+<!--[if lt IE 9]>
+<script src="js/html5shiv.js"></script>
+<script src="js/css3-mediaqueries.js"></script>
+<![endif]-->
+
+<script src="js/jquery-1.8.3.min.js"></script>
+<script src="js/menu.js"></script>
+<script src="js/floor_guide.js"></script>
+<link rel="stylesheet" type="text/css" href="css/reset.css" media="all" />
+<link rel="stylesheet" type="text/css" href="css/menu.css" media="all" />
+<link rel="stylesheet" type="text/css" href="css/floor_guide.css" media="all" />
+</head>
+<body>
+<div id="wrap">
+	<header id="top">
+		<p class="all_menu"><img src="images/index/menu_img.png" alt="all_menu" width="23" height="29"></p>
+       <a class="home" href="main.html"><img src="images/news/home_icon.png" alt="tohome" width="35" height="36"></a>
+        <div id="menu_wrap">
+            <div class="search_wrap">
+                <div class="search1">
+                    <div class="search_left">
+                        <p class="search_txt1"><input type="text" class="s_input"></p>
+                        <p class="search_img"><img src="images/index/search_img.png" alt="search_img" width="17" height="17"></p>
+                    </div><!--search_left-->
+                    <p class="search_right"><img src="images/index/s_menu_img.png" alt="s_menu" width="14" height="13"></p>
+                </div><!--search1-->
+                <div class="search2">
+                    <ul>
+                        <li><a href="login.html">로그인</a></li>
+                        <li><a href="join.html">회원가입</a></li>
+                        <li><a href="floor_guide.html">층별안내</a></li>
+                    </ul>
+                    <p class="search2_img"><img src="images/index/search_img.png" alt="search_img" width="17" height="17"></p>
+                </div><!--search2-->
+            </div><!--search_wrap-->
+            
+            <div class="all_menu_wrap">
+                <ul class="menu_list">
+                    <li><a href="#all_menu1" class="selectd_m">지점메뉴</a></li>
+                    <li><a href="#all_menu2">서비스메뉴</a></li>
+                </ul><!--menu_list-->
+                <div id="all_menu1">
+                   <ul>
+                    <li><a href="news.html">쇼핑뉴스</a></li> 
+                    <li><a href="event.html">이벤트</a></li>
+                    <li><a href="floor_guide.html">층별안내</a></li>
+                    <li><a href="#">eco전단/DM쿠폰북</a></li>
+                    <li><a href="#">스페셜샵</a></li>
+                    <li><a href="#">쇼핑스토리</a></li>
+                    <li><a href="#">INSIDE 본점</a></li>
+                    </ul>
+                </div><!--all_menu1-->
+                <div id="all_menu2">
+                    <ul> 
+                        <li><a href="lpoint.html">L.POINT</a></li> 
+                        <li><a href="avenuel.html">매거진</a></li>
+                        <li><a href="#">스마트 롯데</a></li>
+                        <li><a href="#">고객서비스</a></li>
+                        <li><a href="#">롯데상품권</a></li>
+                        <li><a href="#">el LOTTE</a></li> 
+                    </ul>
+                </div><!--all_menu2-->
+            </div><!--all_menu_wrap-->
+        </div><!--menu_wrap-->
+        <h2>층별안내</h2>
+	</header><!--top-->
+
+	<div id="floor_guide"><!--층별안내-->
+		<ul class="floor_list">
+			<li><img src="images/floor/search_img.png" alt="search_img" width="44" height="34"/></li>
+			<li><a href="#" data-floor="#floor_14" class="selected">14F</a></li>
+			<li><a href="#" data-floor="#floor_13">13F</a></li>
+			<li><a href="#" data-floor="#floor_12">12F</a></li>
+			<li><a href="#" data-floor="#floor_11">11F</a></li>
+			<li><a href="#" data-floor="#floor_10">10F</a></li>
+			<li><a href="#" data-floor="#floor_9">9F</a></li>
+			<li><a href="#" data-floor="#floor_8">8F</a></li>
+			<li><a href="#" data-floor="#floor_7">7F</a></li>
+			<li><a href="#" data-floor="#floor_6">6F</a></li>
+			<li><a href="#" data-floor="#floor_5">5F</a></li>
+			<li><a href="#" data-floor="#floor_4">4F</a></li>
+			<li><a href="#" data-floor="#floor_3">3F</a></li>
+			<li><a href="#" data-floor="#floor_2">2F</a></li>
+			<li><a href="#" data-floor="#floor_1">1F</a></li>
+			<li><a href="#" data-floor="#floor_b1">B1F</a></li>
+			<li><a href="#" data-floor="#floor_b2">B2F</a></li>
+			<li><a href="#" data-floor="#floor_b3">B3F</a></li>
+		</ul><!--floor_list-->
+
+		<div class="right_wrap">
+			<div class="box_wrap">
+				<p class="box_txt"><input type="text"/><img src="images/floor/floor_img.png" alt="floor_img" width="20" height="20"/></p>
+			</div><!--box_wrap-->
+			<article id="floor_14">
+				<p class="con_txt1"><span>14F</span>식당가</p>
+				<div class="con_txt2">
+					<dl>
+						<dt title="루이(중식)">루이(중식)</dt>
+						<dd><a href="#" onclick="location.href='tel:02-726-4336'">02-726-4336</a></dd>
+					</dl>
+					<dl>
+						<dt title="서래헌(한식)">서래헌(한식)</dt>
+						<dd><a href="#" onclick="location.href='tel:02-726-4334'">02-726-4334</a></dd>
+					</dl>
+					<dl>
+						<dt title="스시초희(일식전문점)">스시초희(일식전문점)</dt>
+						<dd><a href="#" onclick="location.href='tel:02-771-2500'">02-771-2500</a></dd>
+                    </dl>
+                    <dl>
+						<dt title="일본더테이블(일식전문점/퓨전전문점)">일본더테이블(일식전문점/퓨전전문점)</dt>
+						<dd><a href="#" onclick="location.href='tel:02-771-2501'">02-771-2501</a></dd>
+                    </dl>
+				</div><!--con_txt2-->
+			</article><!--floor_14-->
+			
+			<article id="floor_13">
+				<p class="con_txt1"><span>13F</span>식당가</p>
+				<div class="con_txt2">
+					<dl>
+						<dt title="고구려삼계탕">고구려삼계탕</dt>
+						<dd><a href="#" onclick="location.href='tel:02-778-6309'">02-778-6309</a></dd>
+					</dl>
+					<dl>
+						<dt title="마가레트">마가레트</dt>
+						<dd><a href="#" onclick="location.href='tel:02-776-5925'">02-776-5925</a></dd>
+					</dl>
+					<dl>
+						<dt title="북촌">북촌</dt>
+						<dd><a href="#" onclick="location.href='tel:02-726-4072'">02-726-4072</a></dd>
+					</dl>
+					<dl>
+						<dt title="아쿠아(스시히스토리)">아쿠아(스시히스토리)</dt>
+						<dd><a href="#" onclick="location.href='tel:02-'">02-</a></dd>
+					</dl>
+					<dl>
+						<dt title="유원정">유원정</dt>
+						<dd><a href="#" onclick="location.href='tel:02-778-0225'">02-778-0225</a></dd>
+					</dl>
+					<dl>
+						<dt title="하나미">하나미</dt>
+						<dd><a href="#" onclick="location.href='tel:02-726-4073'">02-726-4073</a></dd>
+					</dl>
+				</div><!--con_txt2-->
+			</article><!--floor_13-->
+			
+			<article id="floor_12">
+				<p class="con_txt1"><span>12F</span>롯데면세점</p>
+				<div class="con_txt2">
+					<dl>
+						<dt title="롯데면세점">롯데면세점</dt>
+						<dd></dd>
+					</dl>
+				</div><!--con_txt2-->
+			</article><!--floor_12-->
+			
+			<article id="floor_11">
+				<p class="con_txt1"><span>11F</span>롯데면세점</p>
+				<div class="con_txt2">
+					<dl>
+						<dt title="롯데면세점">롯데면세점</dt>
+						<dd></dd>
+					</dl>
+				</div><!--con_txt2-->
+			</article><!--floor_11-->
+			
+			<article id="floor_10">
+				<p class="con_txt1"><span>10F</span>롯데면세점</p>
+				<div class="con_txt2">
+					<dl>
+						<dt title="롯데면세점">롯데면세점</dt>
+						<dd></dd>
+					</dl>
+				</div><!--con_txt2-->
+			</article><!--floor_10-->
+			
+			<article id="floor_9">
+				<p class="con_txt1"><span>9F</span>행사장/사은행사장/롯데면세점</p>
+				<div class="con_txt2">
+					<dl>
+						<dt title="9층맴버스데스크">9층 맴버스데스크</dt>
+						<dd><a href="#" onclick="location.href='tel:02-772-3973'">02-772-3973</a></dd>
+					</dl>
+					<dl>
+						<dt title="9층사은행사장">9층사은행사장</dt>
+						<dd><a href="#" onclick="location.href='tel:02-772-3070'">02-772-3070</a></dd>
+					</dl>
+					<dl>
+						<dt title="의무실">의무실</dt>
+						<dd><a href="#" onclick="location.href='tel:02-2118-2117'">02-2118-2117</a></dd>
+					</dl>
+					<dl>
+						<dt title="토탈아트">토탈아트</dt>
+						<dd><a href="#" onclick="location.href='tel:010-9665-1013'">010-9665-1013</a></dd>
+					</dl>
+					<dl>
+						<dt title="한국의미행사장">한국의 미 행사장</dt>
+						<dd><a href="#" onclick="location.href='tel:02-772-3924'">02-772-3924</a></dd>
+					</dl>
+					<dl>
+						<dt title="행사장3관계산대">행사장3관 계산대</dt>
+						<dd><a href="#" onclick="location.href='tel:02-772-3956'">02-772-3956</a></dd>
+					</dl>
+				</div><!--con_txt2-->
+				<p class="con_txt3">편의시설</p>
+                <div class="con_txt4">
+                    <dl>
+						<dt title="사은행사장">사은행사장</dt>
+						<dd><a href="#" onclick="location.href='tel:02-772-3070'">02-772-3070</a></dd>
+					</dl>
+                </div>
+			</article><!--floor_9-->
+			
+			<article id="floor_8">
+				<p class="con_txt1"><span>8F</span>가전/가구/생활</p>
+				<div class="con_txt2">
+					<dl>
+						<dt title="롯데면세점">8층계산대(가전/가구/생활)</dt>
+						<dd><a href="#" onclick="location.href='tel:02-772-3861'">02-772-3861</a></dd>
+					</dl>
+					<dl>
+						<dt title="8층계산대(가전/가구/생활)">8층계산대(가전/가구/생활)</dt>
+						<dd><a href="#" onclick="location.href='tel:02-772-3435'">02-772-3435</a></dd>
+					</dl>
+					<dl>
+						<dt title="B&O, 뱅앤올">B&amp;O, 뱅앤올</dt>
+						<dd><a href="#" onclick="location.href='tel:02-772-3435'">02-318-1380</a></dd>
+					</dl>
+					<dl>
+						<dt title="ELO(주방)">ELO(주방)</dt>
+						<dd><a href="#" onclick="location.href='tel:02-772-3435'">02-772-3905</a></dd>
+					</dl>
+					<dl>
+						<dt title="GE">GE</dt>
+						<dd><a href="#" onclick="location.href='tel:02-772-3435'">02-772-3756</a></dd>
+					</dl>
+					<dl>
+						<dt title="GE[지이]">GE[지이]</dt>
+						<dd><a href="#" onclick="location.href='tel:02-772-3435'">02-772-3756</a></dd>
+					</dl>
+					<dl>
+						<dt title="LAGO">LAGO</dt>
+						<dd><a href="#" onclick="location.href='tel:02-772-3435'">02-772-3813</a></dd>
+					</dl>
+					<dl>
+						<dt title="LG[엘지](가전/가구/생활)">LG[엘지](가전/가구/생활)</dt>
+						<dd><a href="#" onclick="location.href='tel:02-772-3435'">02-756-0980</a></dd>
+					</dl>
+					<dl>
+						<dt title="LG[엘지](컴퓨터/가전/가구/생활)">LG[엘지](컴퓨터/가전/가구/생활)</dt>
+						<dd><a href="#" onclick="location.href='tel:02-772-3435'">02-756-0980</a></dd>
+					</dl>
+					<dl>
+						<dt title="OXO, ANT">OXO, ANT</dt>
+						<dd><a href="#" onclick="location.href='tel:02-772-3435'">02-772-3833</a></dd>
+					</dl>
+				</div><!--con_txt2-->
+                <p class="con_txt3">편의시설</p>
+                <div class="con_txt4">
+                    <dl>
+						<dt title="가전A/S 1호점">가전A/S 1호점</dt>
+						<dd><a href="#" onclick="location.href='tel:02-772-3435'">02-772-3781</a></dd>
+					</dl>
+					<dl>
+						<dt title="가전A/S 2호점">가전A/S 2호점</dt>
+                        <dd><a href="#" onclick="location.href='tel:02-772-3435'">02-776-2652</a></dd>
+					</dl>
+                </div>
+			</article><!--floor_8-->
+			
+			<article id="floor_7">
+				<p class="con_txt1"><span>7F</span>스포츠/아동&amp;유아/ 진 캐주얼</p>
+				<div class="con_txt2">
+					<dl>
+						<dt title="A/X알마니">A/X알마니</dt>
+						<dd><a href="#" onclick="location.href='tel:02-772-3220'">02-772-3220</a></dd>
+					</dl>
+					<dl>
+						<dt title="CKjean캘빈클라인">CKjean캘빈클라인</dt>
+						<dd><a href="#" onclick="location.href='tel:02-319-5443'">02-319-5443</a></dd>
+					</dl>
+					<dl>
+						<dt title="FILA슈즈">FILA슈즈</dt>
+						<dd><a href="#" onclick="location.href='tel:02-772-3705'">02-772-3705</a></dd>
+					</dl>
+					<dl>
+						<dt title="FILA키즈">FILA키즈</dt>
+						<dd><a href="#" onclick="location.href='tel:02-772-3780'">02-772-3780</a></dd>
+					</dl>
+					<dl>
+						<dt title="FILA">FILA</dt>
+						<dd><a href="#" onclick="location.href='tel:02-772-3695'">02-772-3695</a></dd>
+					</dl>
+					<dl>
+						<dt title="MLB[엠엘비]">MLB[엠엘비]</dt>
+						<dd><a href="#" onclick="location.href='tel:02-772-3786'">02-772-3786</a></dd>
+					</dl>
+					<dl>
+						<dt title="게스">게스</dt>
+						<dd><a href="#" onclick="location.href='tel:02-772-3091'">02-772-3091</a></dd>
+					</dl>
+					<dl>
+						<dt title="게스키즈">게스키즈</dt>
+						<dd><a href="#" onclick="location.href='tel:02-772-3691'">02-772-3691</a></dd>
+					</dl>
+					<dl>
+						<dt title="닥터마틴">닥터마틴</dt>
+						<dd><a href="#" onclick="location.href='tel:02-772-3733'">02-772-3733</a></dd>
+					</dl>
+				</div><!--con_txt2-->
+				<p class="con_txt3">편의시설</p>
+                <div class="con_txt4">
+                    <dl>
+						<dt title="유아휴게실">유아휴게실</dt>
+						<dd><a href="#" onclick="location.href='tel:02-772-3716'">02-772-3716</a></dd>
+					</dl>
+               		<dl>
+						<dt title="의류 수선실">의류 수선실</dt>
+						<dd><a href="#" onclick="location.href='tel:02-772-3269'">02-772-3269</a></dd>
+					</dl>
+                </div>
+			</article><!--floor_7-->
+			
+			<article id="floor_6">
+				<p class="con_txt1"><span>6F</span>골프/아웃도어/남성캐주얼/수영복</p>
+				<div class="con_txt2">
+					<dl>
+						<dt title="6층계산대">6층계산대</dt>
+						<dd><a href="#" onclick="location.href='tel:02-772-3641'">02-772-3641</a></dd>
+					</dl>
+					<dl>
+						<dt title="J린드버그">J린드버그</dt>
+						<dd><a href="#" onclick="location.href='tel:02-772-3601'">02-772-3601</a></dd>
+					</dl>
+					<dl>
+						<dt title="MU스포츠">MU스포츠</dt>
+						<dd><a href="#" onclick="location.href='tel:02-772-3673'">02-772-3673</a></dd>
+					</dl>
+					<dl>
+						<dt title="골프샵">골프샵</dt>
+						<dd><a href="#" onclick="location.href='tel:02-726-4550'">02-726-4550</a></dd>
+					</dl>
+					<dl>
+						<dt title="그레고리">그레고리</dt>
+						<dd><a href="#" onclick="location.href='tel:02-772-3624'">02-772-3624</a></dd>
+					</dl>
+					<dl>
+						<dt title="까르뜨블랑슈">까르뜨블랑슈</dt>
+						<dd><a href="#" onclick="location.href='tel:02-772-3650'">02-772-3650</a></dd>
+					</dl>
+					<dl>
+						<dt title="나이키골프">나이키골프</dt>
+						<dd><a href="#" onclick="location.href='tel:02-772-3618'">02-772-3618</a></dd>
+					</dl>
+					<dl>
+						<dt title="노스페이스">노스페이스</dt>
+						<dd><a href="#" onclick="location.href='tel:02-772-3696'">02-772-3696</a></dd>
+					</dl>
+					<dl>
+						<dt title="닥스골프">닥스골프</dt>
+						<dd><a href="#" onclick="location.href='tel:02-772-3649'">02-772-3649</a></dd>
+					</dl>
+				</div><!--con_txt2-->
+			</article><!--floor_6-->
+			
+			<article id="floor_5">
+				<p class="con_txt1"><span>5F</span>남성정장/캐주얼/셔츠/넥타이/가방</p>
+				<div class="con_txt2">
+					<dl>
+						<dt title="5층계산대">5층계산대</dt>
+						<dd><a href="#" onclick="location.href='tel:02-772-3553'">02-772-3553</a></dd>
+					</dl>
+					<dl>
+						<dt title="A.테스토니">A.테스토니</dt>
+						<dd><a href="#" onclick="location.href='tel:02-2118-6088'">02-2118-6088</a></dd>
+					</dl>
+					<dl>
+						<dt title="DKNY">DKNY</dt>
+						<dd><a href="#" onclick="location.href='tel:02-772-3520'">02-772-3520</a></dd>
+					</dl>
+					<dl>
+						<dt title="갤럭시">갤럭시</dt>
+						<dd><a href="#" onclick="location.href='tel:02-772-3530'">02-772-3530</a></dd>
+					</dl>
+					<dl>
+						<dt title="까날리">까날리</dt>
+						<dd><a href="#" onclick="location.href='tel:02-772-3599'">02-772-3599</a></dd>
+					</dl>
+					<dl>
+						<dt title="꼬르넬리아니">꼬르넬리아니</dt>
+						<dd><a href="#" onclick="location.href='tel:02-772-3464'">02-772-3464</a></dd>
+					</dl>
+					<dl>
+						<dt title="다니엘에스떼">다니엘에스떼</dt>
+						<dd><a href="#" onclick="location.href='tel:02-772-3547'">02-772-3547</a></dd>
+					</dl>
+					<dl>
+						<dt title="다비드콜렉션">다비드콜렉션</dt>
+						<dd><a href="#" onclick="location.href='tel:02-772-3600'">02-772-3600</a></dd>
+					</dl>
+					<dl>
+						<dt title="닥스">닥스</dt>
+						<dd><a href="#" onclick="location.href='tel:02-752-7993'">02-752-7993</a></dd>
+					</dl>
+					<dl>
+						<dt title="닥스(셔츠)">닥스(셔츠)</dt>
+						<dd><a href="#" onclick="location.href='tel:02-772-3595'">02-772-3595</a></dd>
+					</dl>
+				</div><!--con_txt2-->					
+			</article><!--floor_5-->
+			
+			<article id="floor_4">
+				<p class="con_txt1"><span>4F</span>디자이너/모피/란제리</p>
+				<div class="con_txt2">
+					<dl>
+						<dt title="4층계산대">4층계산대</dt>
+						<dd><a href="#" onclick="location.href='tel:02-772-3422'">02-772-3422</a></dd>
+					</dl>
+					<dl>
+						<dt title="BCBG">BCBG</dt>
+						<dd><a href="#" onclick="location.href='tel:02-726-4549'">02-726-4549</a></dd>
+					</dl>
+					<dl>
+						<dt title="CK언더웨어">CK언더웨어</dt>
+						<dd><a href="#" onclick="location.href='tel:02-755-0941'">02-755-0941</a></dd>
+					</dl>
+					<dl>
+						<dt title="가이거">가이거</dt>
+						<dd><a href="#" onclick="location.href='tel:02-772-3503'">02-772-3503</a></dd>
+					</dl>
+					<dl>
+						<dt title="곤트란쉐리에">곤트란쉐리에</dt>
+						<dd><a href="#" onclick="location.href='tel:02-772-3459'">02-772-3459</a></dd>
+					</dl>
+					<dl>
+						<dt title="국제모피">국제모피</dt>
+						<dd><a href="#" onclick="location.href='tel:02-772-3380'">02-772-3380</a></dd>
+					</dl>
+					<dl>
+						<dt title="근화모피">근화모피</dt>
+						<dd><a href="#" onclick="location.href='tel:02-772-3378'">02-772-3378</a></dd>
+					</dl>
+					<dl>
+						<dt title="닥스여성">닥스여성</dt>
+						<dd><a href="#" onclick="location.href='tel:02-772-3344'">02-772-3344</a></dd>
+					</dl>
+					<dl>
+						<dt title="담연">담연</dt>
+						<dd><a href="#" onclick="location.href='tel:02-772-3491'">02-772-3491</a></dd>
+					</dl>
+				</div><!--con_txt2-->
+				<p class="con_txt3">편의시설</p>
+                <div class="con_txt4">
+                    <dl>
+						<dt title="고객상담실">고객상담실</dt>
+						<dd><a href="#" onclick="location.href='tel:02-772-3007'">02-772-3007</a></dd>
+					</dl>
+               		<dl>
+						<dt title="Prestige 라">Prestige 라</dt>
+						<dd><a href="#" onclick="location.href='tel:02-772-3463">02-772-3463</a></dd>
+					</dl>
+				</div><!--con_txt4-->
+			</article><!--floor_4-->
+			
+			<article id="floor_3">
+				<p class="con_txt1"><span>3F</span>여성정장/캐주얼</p>
+				<div class="con_txt2">
+					<dl>
+						<dt title="3층계산대">3층계산대</dt>
+						<dd><a href="#" onclick="location.href='tel:02-772-3322'">02-772-3322</a></dd>
+					</dl>
+					<dl>
+						<dt title="CK">CK</dt>
+						<dd><a href="#" onclick="location.href='tel:02-772-3446'">02-772-3446</a></dd>
+					</dl>
+					<dl>
+						<dt title="G.보티첼리">G.보티첼리</dt>
+						<dd><a href="#" onclick="location.href='tel:02-772-3304'">02-772-3304</a></dd>
+					</dl>
+					<dl>
+						<dt title="IRO">IRO</dt>
+						<dd><a href="#" onclick="location.href='tel:02-772-3371'">02-772-3371</a></dd>
+					</dl>
+					<dl>
+						<dt title="구호">구호</dt>
+						<dd><a href="#" onclick="location.href='tel:02-726-4950'">02-726-4950</a></dd>
+					</dl>
+					<dl>
+						<dt title="꼼데가르송포켓">꼼데가르송포켓</dt>
+						<dd><a href="#" onclick="location.href='tel:02-772-3376'">02-772-3376</a></dd>
+					</dl>
+					<dl>
+						<dt title="데무">데무</dt>
+						<dd><a href="#" onclick="location.href='tel:02-772-3326'">02-772-3326</a></dd>
+					</dl>
+					<dl>
+						<dt title="데코">데코</dt>
+						<dd><a href="#" onclick="location.href='tel:02-772-3207'">02-772-3207</a></dd>
+					</dl>
+					<dl>
+						<dt title="띠어리">띠어리</dt>
+						<dd><a href="#" onclick="location.href='tel:02-772-3453'">02-772-3453</a></dd>
+					</dl>
+				</div><!--con_txt2-->
+				<p class="con_txt3">편의시설</p>
+                <div class="con_txt4">
+                    <dl>
+						<dt title="영플라자사무실">영플라자사무실</dt>
+						<dd><a href="#" onclick="location.href='tel:02-2118-5001'">02-2118-5001</a></dd>
+					</dl>
+                </div>
+			</article><!--floor_3-->
+			
+			<article id="floor_2">
+				<p class="con_txt1"><span>2F</span>영 캐주얼</p>
+				<div class="con_txt2">
+					<dl>
+						<dt title="GGPX">GGPX</dt>
+						<dd><a href="#" onclick="location.href='tel:02-772-3754'">02-772-3754</a></dd>
+					</dl>
+					<dl>
+						<dt title="SJYP">SJYP</dt>
+						<dd><a href="#" onclick="location.href='tel:02-772-3244'">02-772-3244</a></dd>
+					</dl>
+					<dl>
+						<dt title="나이스클랍">나이스클랍</dt>
+						<dd><a href="#" onclick="location.href='tel:02-318-7824'">02-318-7824</a></dd>
+					</dl>
+					<dl>
+						<dt title="나인">나인</dt>
+						<dd><a href="#" onclick="location.href='tel:02-772-3221'">02-772-3221</a></dd>
+					</dl>
+					<dl>
+						<dt title="듀엘">듀엘</dt>
+						<dd><a href="#" onclick="location.href='tel:02-772-3963'">02-772-3963</a></dd>
+					</dl>
+					<dl>
+						<dt title="디데무">디데무</dt>
+						<dd><a href="#" onclick="location.href='tel:02-772-3299'">02-772-3299</a></dd>
+					</dl>
+					<dl>
+						<dt title="라움에디션">라움에디션</dt>
+						<dd><a href="#" onclick="location.href='tel:02-772-3027'">02-772-3027</a></dd>
+					</dl>
+					<dl>
+						<dt title="라인어디션">라인어디션</dt>
+						<dd><a href="#" onclick="location.href='tel:02-772-3208'">02-772-3208</a></dd>
+					</dl>
+					<dl>
+						<dt title="럭키슈에뜨">럭키슈에뜨</dt>
+						<dd><a href="#" onclick="location.href='tel:02-772-3211'">02-772-3211</a></dd>
+					</dl>
+				</div><!--con_txt2-->
+				<p class="con_txt3">편의시설</p>
+				<div class="con_txt4">
+                    <dl>
+						<dt title="루미가넷(네일샵)">루미가넷(네일샵)</dt>
+						<dd><a href="#" onclick="location.href='tel:070-7012-9260'">070-7012-9260</a></dd>
+					</dl>
+               		<dl>
+						<dt title="해외배송(EMS)">해외배송(EMS)</dt>
+						<dd><a href="#" onclick="location.href='tel:02-726-4118">02-726-4118</a></dd>
+					</dl>
+				</div><!--con_txt4-->
+			</article><!--floor_2-->
+			
+			<article id="floor_1">
+				<p class="con_txt1"><span>1F</span>명품잡화/화장품Ⅰ</p>
+				<div class="con_txt2">
+					<dl>
+						<dt title="CK향수">CK향수</dt>
+						<dd><a href="#" onclick="location.href='tel:02-772-3098'">02-772-3098</a></dd>
+					</dl>
+					<dl>
+						<dt title="MCM[엠씨엠]">MCM[엠씨엠]</dt>
+						<dd><a href="#" onclick="location.href='tel:02-772-3198'">02-772-3198</a></dd>
+					</dl>
+					<dl>
+						<dt title="MVG발렛파킹">MVG발렛파킹</dt>
+						<dd><a href="#" onclick="location.href='tel:02-726-4015'">02-726-4015</a></dd>
+					</dl>
+					<dl>
+						<dt title="SK-II">SK-II</dt>
+						<dd><a href="#" onclick="location.href='tel:02-772-3151'">02-772-3151</a></dd>
+					</dl>
+					<dl>
+						<dt title="eo퍼퓸">eo퍼퓸</dt>
+						<dd><a href="#" onclick="location.href='tel:02-772-3437'">02-772-3437</a></dd>
+					</dl>
+					<dl>
+						<dt title="겔랑">겔랑</dt>
+						<dd><a href="#" onclick="location.href='tel:02-772-3170'">02-772-3170</a></dd>
+					</dl>
+					<dl>
+						<dt title="구찌">구찌</dt>
+						<dd><a href="#" onclick="location.href='tel:02-777-9328'">02-777-9328</a></dd>
+					</dl>
+					<dl>
+						<dt title="끌레드뽀보떼">끌레드뽀보떼</dt>
+						<dd><a href="#" onclick="location.href='tel:02-772-3052'">02-772-3052</a></dd>
+					</dl>
+					<dl>
+						<dt title="나스">나스</dt>
+						<dd><a href="#" onclick="location.href='tel:02-7723-9145'">02-7723-9145</a></dd>
+					</dl>
+					<dl>
+						<dt title="닥터자르트">닥터자르트</dt>
+						<dd><a href="#" onclick="location.href='tel:02-772-3188'">02-772-3188</a></dd>
+					</dl>
+				</div><!--con_txt2-->
+				<p class="con_txt3">편의시설</p>
+				<div class="con_txt4">
+                    <dl>
+						<dt title="유모차 대여소">유모차 대여소</dt>
+						<dd><a href="#" onclick="location.href='tel:02-726-4116'">02-726-4116</a></dd>
+					</dl>
+               		<dl>
+						<dt title="통역데스크">통역데스크</dt>
+						<dd><a href="#" onclick="location.href='tel:02-2118-6500'">02-2118-6500</a></dd>
+					</dl>
+					<dl>
+						<dt title="택스리펀드">택스리펀드</dt>
+						<dd><a href="#" onclick="location.href='tel:02-726-4000'">02-726-4000</a></dd>
+					</dl>
+					<dl>
+						<dt title="안내데스크">안내데스크</dt>
+						<dd><a href="#" onclick="location.href='tel:02-772-3500'">02-772-3500</a></dd>
+					</dl>
+				</div><!--con_txt4-->
+			</article><!--floor_1-->
+			
+			<article id="floor_b1">
+				<p class="con_txt1"><span>B1F</span>문화센터/잡화(구두,주얼리 外)</p>
+				<div class="con_txt2">
+					<dl>
+						<dt title="DKNY">DKNY</dt>
+						<dd><a href="#" onclick="location.href='tel:02-772-3096'">02-772-3096</a></dd>
+					</dl>
+					<dl>
+						<dt title="HB스토리">HB스토리</dt>
+						<dd><a href="#" onclick="location.href='tel:02-772-3011'">02-772-3011</a></dd>
+					</dl>
+					<dl>
+						<dt title="MVG라운지">MVG라운지</dt>
+						<dd><a href="#" onclick="location.href='tel:02-772-3475'">02-772-3475</a></dd>
+					</dl>
+					<dl>
+						<dt title="VDL">VDL</dt>
+						<dd><a href="#" onclick="location.href='tel:02-726-4045'">02-726-4045</a></dd>
+					</dl>
+					<dl>
+						<dt title="[모자]닥스">[모자]닥스</dt>
+						<dd><a href="#" onclick="location.href='tel:02-772-3068'">02-772-3068</a></dd>
+					</dl>
+				</div><!--con_txt2-->
+				<p class="con_txt3">편의시설</p>
+				<div class="con_txt4">
+                    <dl>
+						<dt title="안내데스크">안내데스크</dt>
+						<dd><a href="#" onclick="location.href='tel:02-772-3500'">02-772-3500</a></dd>
+					</dl>
+					<dl>
+						<dt title="근거리배송/교환환불">근거리배송/교환환불</dt>
+						<dd><a href="#" onclick="location.href='tel:02-772-3018'">02-772-3018</a></dd>
+					</dl>
+					<dl>
+						<dt title="픽업데스크">픽업데스크</dt>
+						<dd><a href="#" onclick="location.href='tel:02-726-4220'">02-726-4220</a></dd>
+					</dl>
+					<dl>
+						<dt title="구두수선실">구두수선실</dt>
+						<dd><a href="#" onclick="location.href='tel:02-772-3049'">02-772-3049</a></dd>
+					</dl>
+					<dl>
+						<dt title="롯데웨딩">롯데웨딩</dt>
+						<dd><a href="#" onclick="location.href='tel:02-772-3983'">02-772-3983</a></dd>
+					</dl>
+					<dl>
+						<dt title="물품보관 서비스">물품보관 서비스</dt>
+						<dd><a href="#" onclick="location.href='tel:02-2118-5170'">02-2118-5170</a></dd>
+					</dl>
+				</div><!--con_txt4-->
+			</article><!--floor_b1-->
+			
+			<article id="floor_b2">
+				<p class="con_txt1"><span>B2F</span>주차장</p>
+				<div class="con_txt2">
+					<dl>
+						<dt title="주차장">주차장</dt>
+						<dd></dd>
+					</dl>
+				</div><!--con_txt2-->
+			</article><!--floor_b2-->
+			
+			<article id="floor_b3">
+				<p class="con_txt1"><span>B3F</span>주차장</p>
+				<div class="con_txt2">
+					<dl>
+						<dt title="주차장">주차장</dt>
+						<dd></dd>
+					</dl>
+				</div><!--con_txt2-->
+			</article><!--floor_b3-->
+			
+		</div><!--right_wrap-->
+	</div><!--floor_guide-->
+
+	<footer id="bottom">
+		<ul class="bot_menu">
+            <li><a href="#">롯데백화점홍보관</a></li>
+            <li><a href="#">개인정보처리방침</a></li>
+            <li><a href="#">회원약관</a></li>
+            <li><a href="#">윤리HotLine</a></li>
+        </ul><!--bot_menu-->
+        <div class="copyright">
+            <p class="copy_txt1">롯데쇼핑㈜ 대표이사 이원준, 서울시 중구 소공동 1번지 |</p>
+            <address class="copy_txt2">서울특별시 중구 남대문로 81</address>
+            <p class="copy_txt3">TEL : <span class="tel1" onclick="location.href='tel:02-771-2500'">02-771-2500</span> L.POINT 콜센터 : <span class="tel2" onclick="location.href='tel:1899-8900'">1899-8900</span></p>
+        </div><!--copyright-->
+        <a href="#wrap" class="top_btn"><img src="images/index/btn_top.jpg" alt="TOP" width="33" height="24"></a>
+	</footer><!--bottom-->
+</div><!--wrap-->
+</body>
+</html>

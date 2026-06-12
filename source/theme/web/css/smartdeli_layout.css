@@ -1,0 +1,90 @@
+@charset "utf-8";
+@import url('top.css');
+@import url('partner.css');
+@import url('bottom.css');
+
+a{text-decoration:none; color:#666;}
+body{font:normal 12px/1.5em "nanum",sans-serif; color:#666;}
+input{border:1px solid #999;}
+
+@font-face{
+	font-family:nanum;
+	src:url('../font/NanumGothic.eot');
+	src:url('../font/NanumGothic.eot?#iefix')format('embedded-opentype'),
+	    url('../font/NanumGothic.ttf')format('truetype'),
+		url('../font/NanumGothic.woff')format('woff');
+}
+
+/*content_wrap*/
+#content_wrap{width:100%; height:1050px; margin:0 auto 80px;}
+#title_wrap{width:100%; height:60px; background-color: #666;}
+.title{width:990px; height:40px;margin:3px auto 0; padding-top: 20px;}
+.title .title_txt1{float: left;font-size: 20px; color:#fff; line-height: 20px; margin-right: 10px;}
+.title .title_txt2{float: left;color:#fff;}
+.title .title_search{float: right;background-color:#fff;width: 300px; height: 25px;line-height: 25px;}
+.title_search .search_txt2{float:left; text-indent: 1em;}
+.title_search .search_img2{float: right; margin-top:3px; margin-right: 5px;}
+
+
+#smart_banner{clear: both; width:990px; height:55px;margin:35px auto 0;}
+.smart1,.smart2,.smart3,.smart4{float:left;}
+.smart2,.smart3,.smart4{width: 162px; height: 55px; margin-left:10px; color:#fff;padding: 7px 0 0 105px; font-weight: bold;}
+.smart1{width:159px; height: 55px; background: url(../images/smartdeli/smart_img1.png) no-repeat;font-size: 20px; color:#0068ff; font-weight: bold; text-align: center;line-height: 55px;}
+.smart2{background: url(../images/smartdeli/smart_img2.png) no-repeat;}
+.smart3{background: url(../images/smartdeli/smart_img3.png) no-repeat;}
+.smart4{background: url(../images/smartdeli/smart_img4.png) no-repeat;}
+.smart2 strong,.smart3 strong,.smart4 strong{display: block; font-size: 16px; font-weight: normal;margin-top: 3px;}
+
+
+#best_wrap{width:990px; height: 270px; margin: 50px auto 0;}
+.best_title{border-top: 1px solid #999;border-bottom: 1px solid #999; padding:8px 0; font-size: 16px; text-indent: 1em; font-weight: bold;}
+.best_gray{background-color: #eee; width:990px; height: 230px; padding-top: 15px; position: relative;}
+.best_arrow1,.best_arrow2{position: absolute; top:100px; z-index: 2; cursor: pointer;}
+.best_arrow1{left:10px;}
+.best_arrow2{right:10px;}
+.best_white_wrap{width: 910px; height:215px; margin-left: 40px; overflow: hidden;}
+.best_white{background-color: #fff; width:910px; height: 215px;}
+.best_pro1,.best_pro2,.best_pro3,.best_pro4,.best_pro5{float:left; width: 171px;padding: 5px;height: 205px;border-left: 1px dotted #ccc;}
+.best_txt1{width:20px; font:bold 16px "arial",sans-serif; border-top: 2px solid #666; text-align: center;padding-top: 2px;}
+.best_img{text-align: center;}
+.best_txt2{padding:5px 5px 0;text-align: center;line-height: 16px;}
+.best_txt3{text-align: center;margin-top: 5px; font-weight: bold;}
+.best_txt3 strong{color:#107aea; background: url(../images/smartdeli/bg_arrow2.png) no-repeat left center; padding-left: 15px; margin-right: 5px;}
+
+#hot_wrap{width:990px; height: 270px; margin: 50px auto 0;}
+.hot_title{border-top: 1px solid #999;border-bottom: 1px solid #999; padding:8px 0; font-size: 16px; text-indent: 1em; font-weight: bold;}
+ul.hot_list{float:left;width: 200px; height: 240px;}
+ul.hot_list li{width: 200px; height: 47px; border-bottom: 1px solid #fff; text-align: center; }
+ul.hot_list li a{background-color: #107aea; color: #fff; line-height: 47px; font-size: 14px; display:block;}
+ul.hot_list li a.over{background-color:#666;}
+div.hotitem_outer_wrap{float:right;width: 790px; height: 240px; position: relative;}
+div.hot_item_wrap{width: 790px; height: 240px; position:absolute;}
+div.hot_item_wrap div{float:left; width: 140px; height: 190px;padding: 25px; margin: 0 3px;text-align: center;}
+.hot_item1,.hot_item2{margin: 0 4px;}
+.hot_txt1{font-size: 11px;}
+.hot_txt2{margin:5px 0; font-weight: bold;}
+.hot_txt2 strong{color:#107aea; background: url(../images/smartdeli/bg_arrow2.png) no-repeat left center; padding-left: 15px; margin-right: 5px; font-size: 11px;}
+.hot_txt3{font-weight: bold; text-decoration: underline;}
+
+
+#smart_info{clear: both; width:990px; height: 270px; margin: 80px auto 0;}
+.info_title{padding:8px 0; font-size: 16px; font-weight: bold;}
+#smart_info div{float: left; padding: 15px; color:#333;}
+.info1,.info2{width: 240px; height: 110px;background-color:#e2ebf2; background-position: 28px 65px; background-repeat: no-repeat; margin-right: 15px; text-align:right;}
+.info1{background-image:url(../images/smartdeli/delivery_img1.png);}
+.info2{background-image:url(../images/smartdeli/delivery_img2.png);}
+.info3{width: 390px; height: 110px; background:#bdd3e8; position: relative;}
+p.info_txt1,p.info_txt2{font-size: 16px; line-height: 16px; font-weight: bold;}
+p.info_txt1{margin-top: 10px; color: #666; }
+p.info_txt2{margin-top: 15px; color: #0564d2; text-decoration: underline; letter-spacing: 3px;}
+p.info_txt3{margin-top: 25px;}
+p.info_txt3 a{font-size: 26px; line-height: 26px; font-weight: bold; color: #333;}
+p.info_txt3 a:hover{background-color: rgba(153,153,153,0.4)}
+.info3 p.info_txt4{position: absolute; top:65px; left:140px;}
+.info3 p.info_txt4 span.info_q{display: block; background: url(../images/smartdeli/question_img.png) no-repeat left center; padding-left: 22px; line-height: 22px;}
+
+
+
+
+
+

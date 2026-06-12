@@ -1,0 +1,9 @@
+@charset "utf-8";
+
+/*partner_warp*/
+#partner_warp{clear: both; width:1000px; height:155px; margin-top:25px; margin:0 auto;}
+#partner_warp h2.txt1{height:40px; line-height:40px; color:#666; font-size:16px; font-weight:bold;}
+.partner1{border-top:1px solid #c2c2c2; margin:10px auto 0;}
+.partner2{border-bottom:1px solid #c2c2c2; margin:0 auto;}
+.partner1,.partner2{clear:both; width:890px; height:50px; padding:0 50px;}
+.partner1 img,.partner2 img{float:left; margin:0 14px;}

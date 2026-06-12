@@ -1,0 +1,57 @@
+@charset "utf-8";
+
+@font-face {
+    font-family: 'jg';
+    src: url('../fonts/JejuGothic.eot');
+    src: local(※), url('../fonts/JejuGothic.woff') format('woff')
+}
+@font-face {
+    font-family: 'jhs';
+    src: url('../fonts/JejuHallasan.eot');
+    src: local(※), url('../fonts/JejuHallasan.woff') format('woff')
+}
+@font-face {
+    font-family: 'jmj';
+    src: url('../fonts/JejuMyeongjo.eot');
+    src: local(※), url('../fonts/JejuMyeongjo.woff') format('woff')
+}
+@font-face {
+    font-family: 'nbg';
+    src: url('../fonts/nanumbarungothic.eot');
+    src: local(※), url('../fonts/nanumbarungothic.woff') format('woff')
+}
+@font-face {
+    font-family: 'nb';
+    src: url('../fonts/NanumBrush.eot');
+    src: local(※), url('../fonts/NanumBrush.woff') format('woff')
+}
+@font-face {
+    font-family: 'ng';
+    src: url('../fonts/nanumgothic.eot');
+    src: local(※), url('../fonts/nanumgothic.woff') format('woff')
+}
+@font-face {
+    font-family: 'nmj';
+    src: url('../fonts/nanummyeongcho.eot');
+    src: local(※), url('../fonts/nanummyeongcho.woff') format('woff')
+}
+@font-face {
+    font-family: 'np';
+    src: url('../fonts/NanumPen.eot');
+    src: local(※), url('../fonts/NanumPen.woff') format('woff')
+}
+@font-face {
+    font-family: 'shg';
+    src: url('../fonts/SeoulHangang.eot');
+    src: local(※), url('../fonts/SeoulHangang.woff') format('woff')
+}
+@font-face {
+    font-family: 'sns';
+    src: url('../fonts/SeoulNamsan.eot');
+    src: local(※), url('../fonts/SeoulNamsan.woff') format('woff')
+}
+@font-face {
+    font-family: 'hn';
+    src: url('../fonts/HANNA.eot');
+    src: local(※), url('../fonts/HANNA.woff') format('woff')
+}

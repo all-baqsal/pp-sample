@@ -1,0 +1,126 @@
+@charset "utf-8";
+@import url("top.css");
+@import url("bottom.css");
+
+/* reset */
+a{text-decoration: none;}
+body{font: normal 12px/1.5em "nanum",sans-serif; color:#333;}
+
+/* font */
+@font-face{
+	font-family:nanum;
+	src:url('../font/NanumGothic.eot');
+	src:url('../font/NanumGothic.eot?#iefix')format('embedded-opentype'),
+	    url('../font/NanumGothic.ttf')format('truetype'),
+		url('../font/NanumGothic.woff')format('woff');
+
+}
+
+/* 960이상 */
+@media screen and ( min-width:960px ){
+	
+.main_img_wrap{clear: both; background: url(../images/lohas/lohas_main_img.jpg) no-repeat center top;}
+.main_img{width: 950px; height:252px; margin: 0 auto;}
+	
+/* wrap12_1 */
+.wrap12_1{border-bottom: 1px solid #ccc; padding-bottom: 30px;}
+h2.h_title{font-size: 20px; margin-top: 50px; width: 250px; text-indent: 1em; border-bottom: 2px solid #a7cf3b; line-height: 2em;}
+p.sub_txt{font-size: 18px; line-height: 2em; text-indent: 1em; margin-bottom: 40px;}
+
+.s01_list1{width: 50%; min-width: 580px; height: 250px; text-align: center; font-family: "바탕",batang,sans-serif; font-size: 24px; line-height: 1.7em; padding-top: 40px; background-color: #f9f9f9; margin: 0 auto; border: 1px solid #ddd; color:#555;}	
+.s01_list2{width: 90%; height: 160px; margin: 0 auto; text-align: center; padding-top: 50px; font-size: 18px; line-height: 1.7em; color:#666;}
+	
+/* s02_list1 */
+.wrap12_2{border-bottom: 1px solid #ccc; padding-bottom: 30px;}
+.s02_list1{margin-top: 50px;}	
+.s02_list1 img{width: 100%; min-width: 769x;}
+.s02_m_img{display: none;}
+	
+/* s03_list */
+.wrap12_3{border-bottom: 1px solid #ccc; padding-bottom: 30px;}
+.s03_list{width: 100%; margin: 0 auto;}
+.s03_txt{font-size: 20px; line-height: 1.7em; margin-top: 50px; color: #666; letter-spacing: -1px;}
+.s03_btn{margin-top: 20px;background-color: #7dad47; width: 320px; height: 45px; color: #fff; line-height: 45px; font-size: 20px; text-align: center; border:1px solid transparent; cursor: pointer;}
+.s03_btn:hover{color: #7dad47; border: 1px solid #7dad47; background-color: #fff;}
+	
+/* s04_list */
+.s04_list{width:100%; margin: 0 auto;}
+.s04_txt{font-size: 20px; line-height: 1.7em; margin-top: 50px; color: #666; letter-spacing: -1px;}
+.s04_btn{margin-top: 20px;background-color: #7dad47; width: 320px; height: 45px; color: #fff; line-height: 45px; font-size: 20px; text-align: center; border:1px solid transparent; cursor: pointer;}
+.s04_btn:hover{color: #7dad47; border: 1px solid #7dad47; background-color: #fff;}
+	
+	
+}
+
+
+/* 해상도 768 ~ 959 */
+@media screen and ( min-width:768px ) and ( max-width:959px ){
+
+
+.main_img_wrap{clear: both;  background: url(../images/lohas/lohas_main_img.jpg) no-repeat center top; border-bottom:1px solid #a6ce39; }
+.main_img{width: 768px; min-width:768px; height: 252px; margin: 0 auto;}
+	
+/* wrap12_1 */
+.wrap12_1{border-bottom: 1px solid #ccc; padding-bottom: 30px;}
+h2.h_title{font-size: 20px; margin-top: 60px; width: 220px; text-indent: 1em; border-bottom: 2px solid #a7cf3b; line-height: 2em; margin-left: 10px;}
+p.sub_txt{font-size: 16px; line-height: 2.5em; text-indent: 1em; margin-bottom: 30px;}
+	
+.s01_list1{width: 50%; min-width: 580px; height: 190px; text-align: center; font-family: "바탕",batang,sans-serif; font-size: 20px; line-height: 1.7em; padding-top: 25px; background-color: #f9f9f9; margin: 0 auto; border: 1px solid #ddd; color:#555;}	
+.s01_list2{width: 90%; height: 180px; margin: 0 auto; text-align: center; padding-top: 50px; font-size: 16px; line-height: 1.7em; color:#666;}
+	
+/* s02_list */
+.wrap12_2{border-bottom: 1px solid #ccc; padding-bottom: 30px;}
+.s02_list1{margin-top: 50px;}	
+.s02_list1 img{width: 100%; min-width: 769px;}	
+.s02_m_img{display: none;}
+	
+/* s03_list */
+.wrap12_3{border-bottom: 1px solid #ccc; padding-bottom: 50px;}
+.s03_list{width: 90%; margin: 0 auto;}
+.s03_txt{font-size: 16px; line-height: 1.7em; margin-top: 50px; color: #666; letter-spacing: -1px;}
+.s03_btn{margin-top: 20px;background-color: #7dad47; width: 250px; height: 40px; color: #fff; line-height: 40px; font-size: 16px; text-align: center; border:1px solid transparent; cursor: pointer;}
+.s03_btn:hover{color: #7dad47; border: 1px solid #7dad47; background-color: #fff;}
+	
+/* s04_list */
+.s04_list{width:90%; margin: 0 auto;}
+.s04_txt{font-size: 16px; line-height: 1.7em; margin-top: 50px; color: #666; letter-spacing: -1px;}
+.s04_btn{margin-top: 20px;background-color: #7dad47; width: 250px; height: 40px; color: #fff; line-height: 40px; font-size: 16px; text-align: center; border:1px solid transparent; cursor: pointer;}
+.s04_btn:hover{color: #7dad47; border: 1px solid #7dad47; background-color: #fff;}
+	
+}
+
+/* 해상도 767 이하 */
+@media screen and ( max-width:767px ){
+
+.main_img_wrap{clear: both; background: url(../images/index/mobile_main_img.jpg) no-repeat center top; border-bottom:1px solid #a6ce39; display: none;}
+.main_img{width: 768px; min-width:320px; height: 526px; margin: 0 auto;}
+.main_menu{display: none;}
+
+/* wrap12_1 */
+.wrap12_1{border-bottom: 1px solid #ccc; padding-bottom: 10px;}
+h2.h_title{font-size: 16px; margin-top: 40px; width: 170px; height: 40px; text-align: center; background-color: #a7cf3b; color: #fff; line-height: 40px; }
+p.sub_txt{font-size: 16px; line-height: 2.5em; text-indent: 1em; margin-bottom: 30px;}
+	
+.s01_list1{width: 50%; min-width: 420px; height: 190px; text-align: center; font-family: "바탕",batang,sans-serif; font-size: 20px; line-height: 1.7em; padding-top: 20px; background-color: #f9f9f9; margin: 0 auto; border: 1px solid #ddd; color:#555;}	
+.s01_list2{width: 90%; min-width: 420px; height: 180px; margin: 0 auto; text-align: center; padding-top: 30px; font-size: 14px; line-height: 1.7em; color:#666;}
+	
+/* s02_list */
+.wrap12_2{border-bottom: 1px solid #ccc; padding: 0 10px 0 ;}
+.s02_list1{margin-top: 50px;}	
+.s02_list1 img{width: 100%; min-width: 320px; height: auto;}	
+.s02_img{display: none;}
+	
+/* s03_list */
+.wrap12_3{border-bottom: 1px solid #ccc; padding-bottom: 50px;}
+.s03_list{width: 90%; margin: 0 auto;}
+.s03_txt{font-size: 16px; line-height: 1.7em; margin-top: 30px; color: #666; letter-spacing: -1px;}
+.s03_btn{margin-top: 30px; width: 205px; height: 30px; line-height: 30px; font-size: 14px; color:#666; font-weight: bold;border:1px solid transparent; cursor: pointer; background: url(../images/lohas/right_arrow.png) no-repeat right center;}
+.s03_btn:hover{color: #7dad47; background-color: #fff; background-image: url(../images/lohas/right_arrow_over.png);}
+	
+/* s04_list */
+.s04_list{width:90%; margin: 0 auto;}
+.s04_txt{font-size: 16px; line-height: 1.7em; margin-top: 50px; color: #666; letter-spacing: -1px;}
+.s04_btn{margin-top: 30px; width: 205px; height: 30px; line-height: 30px; font-size: 14px; color:#666; font-weight: bold;border:1px solid transparent; cursor: pointer; background: url(../images/lohas/right_arrow.png) no-repeat right center;}
+.s04_btn:hover{color: #7dad47; background-color: #fff; background-image: url(../images/lohas/right_arrow_over.png);}
+
+}

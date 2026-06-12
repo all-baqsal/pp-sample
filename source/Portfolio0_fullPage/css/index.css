@@ -1,0 +1,105 @@
+@charset "utf-8";
+
+/* reset */
+body { -webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale; font-family: 'Jost', sans-serif; }
+
+/* body */
+header { position: fixed; left: 0; right: 0; top: 0; z-index: 100; padding: 10px; color: #777; font-size: 14px; line-height: 1.4; font-weight: 500; letter-spacing: 0.12em; text-decoration: none; text-transform: uppercase; text-shadow: 1px 1px 3px #ccc; background-color: rgba(255,255,255,.6); }
+header nav ul { display: flex; }
+header nav ul li:first-child { color: #444; }
+header nav ul li { margin: 0 15px; }
+header nav ul li:hover { margin-top: -1px; }
+
+.bg { width: 100%; height: 100%; position: relative; }
+.intro_wrap { width: 100%;height: 100%; position: absolute; top: 50%;
+left: 50%; transform: translate(-50%, -50%);}
+
+.intro_media article { width: 100%; height: 100%; position: absolute; top: 0px; left: 0px; z-index: 1; }
+.intro_media article video{ width: 100%; height: 100%; object-fit: cover; }/* object-fit:cover적용시 화면에 꽉차게 나옴 */
+
+.scroll_txt { position: absolute; bottom: 2vh; left: 50%; z-index: 999; transform: translateX(-50%); display: block; text-align: center; letter-spacing: 0.28em; line-height: 2em; color: #999; font-weight: 900; text-shadow: 1px 1px 1px #fff; font-family: 'Spoqa Han Sans', sans-serif; }
+.section h2 { display: none; }
+.port_list { margin-left: 4%; width: 55vw; height: auto; overflow: hidden; }
+.port_list img { max-width: 100%; height: auto; display: block; }
+.port_list img:hover { transition: all 0.5s linear; transform: scale(1.2); }
+.port_txt { width: 30%; height: 70%; background-color: rgba(255,255,255,0.1); box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.3);
+position: absolute; top: 50%; left: 76%; transform: translate(-50%, -50%); }
+.title { font-weight: 600; letter-spacing: 0.12em; display: block; text-align: center; letter-spacing: .4em; font-size: 3vw; margin-top: 90px; }
+.sub_title, .content_title { display: block; }
+.sub_title { height: 35px; line-height: 35px; text-align: center; font-size: 1.1vw; letter-spacing: 0.12em; }
+.color { margin: 5px; display: inline-block; width: 25px; height: 25px; border-radius: 100%; box-shadow: 2px 1px 3px rgba(0,0,0,.3); }
+.content_title { font-family: 'Spoqa Han Sans', sans-serif; margin-top: 20px; padding-left: 4.5vw; margin-bottom: 30px; font-size: 1.8vw; font-weight: 600; letter-spacing: -0.5px; }
+.content { font-family: 'Spoqa Han Sans', sans-serif; height: 100px; display: block; padding-left: 4.5vw; line-height: 1.5em; font-size: 0.9vw; }
+button { display: block; }
+.port_btn { font-family: 'Spoqa Han Sans', sans-serif; width: 21vw; height: 50px; line-height: 50px; margin: 0 auto; border: transparent; text-align: center; font-size: 0.9vw; }
+.port_btn a { display: block; }
+.pn_btn:hover { background-color: rgba(237, 146, 130, .25); transition: all 0.5s ease-in-out; color: #cb7640; }
+.port_notice { position: absolute; top: 84vh; left: 4vw; font-family: 'Spoqa Han Sans', sans-serif; color: #fff; font-size: 0.8vw; }
+
+/* gmarket color */
+.gmarket_title { color: rgb(59,120,206); }
+.gmarket_sub_title { background-color: rgba(59, 120, 206, .25); color: rgb(59,120,206); }
+.gmarket_01 { margin-top: 30px; margin-left: 4.5vw; background: #3c78ce; }
+.gmarket_02 { background: #31942a; } 
+.gmarket_03 { background: #959595; }
+.gmarket_content_title { color: #3c78ce; }
+.gmarket_content { color: #3c78ce; }
+.gmarket_btn { background-color: #3c78ce; color: #fff; }
+.gmarket_btn:hover { background-color: rgba(59, 120, 206,.25); transition: all 0.5s ease-in-out; color: #3c78ce; }
+
+/* lotte color */
+.lotte_title { color: #aa8e55; }
+.lotte_sub_title { background-color: rgba(170, 142, 85,.25); color: #aa8e55; }
+.lotte_01 { margin-top: 30px; margin-left: 4.5vw; background: #666666; }
+.lotte_02 { background: #879fa6; }
+.lotte_03 { background: #e4e4e4; }
+.lotte_content_title { color: #aa8e55; }
+.lotte_content { color: #aa8e55; }
+.lotte_btn { background-color: #aa8e55; color: #fff; }
+.lotte_btn:hover { background-color:  rgba(170, 142, 85, .25); transition: all 0.5s ease-in-out; color: #aa8e55; }
+
+/* pulmuone color */
+.pul_title { color: #418a63; }
+.pul_sub_title { background-color: rgba(65, 138, 99, .25); color: #418a63; }
+.pul_content_title { color: #418a63; }
+.pul_01 { margin-top: 30px; margin-left: 4.5vw; background: #418a63; }
+.pul_02 { background: #a7cf3b; }
+.pul_03 { background: #fff; }
+.pul_content { color: #418a63; letter-spacing: -1.5px; }
+.pul_btn { background-color: #418a63; color: #fff; }
+.pul_btn:hover { background-color:rgba(65, 138, 99, .25); transition: all 0.5s ease-in-out; color: #418a63; }
+.port_notice_pul { top:89vh; }
+
+/* hpoint color */
+.hpoint_title { color: #b2708b; letter-spacing: 15px; }
+.hpoint_sub_title { background-color: rgba(178, 112, 139, .25); color: #b2708b; }
+.hpoint_content_title { color: #b2708b; letter-spacing: -4px; }
+.hpoint_01 { margin-top: 30px; margin-left: 4.5vw; background: #b2708b; }
+.hpoint_02 { background: #eceaed; }
+.hpoint_03 { background: #fff; }
+.hpoint_content { color: #b2708b;  }
+.hpoint_btn { background-color: #b2708b; color: #fff; }
+.hpoint_btn:hover { background-color: rgba(178, 112, 139, .25); transition: all 0.5s ease-in-out; color: #b2708b; }
+
+/* etude color */
+.etude_title { color: #ef426f; letter-spacing: 15px; }
+.etude_sub_title { background-color: rgba(234, 80, 149, .25); color: #ef426f; }
+.etude_content_title { color: #ef426f; letter-spacing: 1px;}
+.etude_01 { margin-top: 30px; margin-left: 4.5vw; background: #ef426f; }
+.etude_02 { background: rgb(234 80 149 /25%); }
+.etude_03 { background: #fff; }
+.etude_content { color: #ef426f;  }
+.etude_btn { background-color: #ef426f; color: #fff; }
+.etude_btn:hover { background-color: rgb(234 80 149 / 25%); transition: all 0.5s ease-in-out; color: #ef426f; }
+
+/* DESIGN */
+.design_wrap { width: 90%; height: 90%; margin: 0 auto; display:flex; flex-wrap: wrap; gap:1%;  }
+
+.design_list { display: flex; flex-direction:column; justify-content:space-between; flex-grow: 1; width:20%; gap:20px; border:1px solid #ebeaec; box-shadow:0px 2px 4px rgba(0,0,0,0.3); border-radius:16px; padding:20px; box-sizing: border-box; cursor: pointer; }
+.design_img { display: flex; flex-grow: 1; overflow: hidden; background-color: #fff; }
+.design_img img { opacity: 0.6; }
+.design_img:hover img { opacity: 1; }
+.design_notice { top: 97vh; }
+.design_txt { color: #474747; text-transform: capitalize; }
+
+footer address { color: #666; padding: 15px; font-style: normal; text-align: center; font-size: 12px; line-height: 14px; font-weight: 100; }
